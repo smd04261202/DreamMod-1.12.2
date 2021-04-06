@@ -1,1 +1,11 @@
-{}
+{
+  "dream_dragonfly": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "ppapdream:dream_dragonfly",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-Processing 31 files
+Processing 32 files
 Start Processing: jptv/seomoodi/ppapdream/ClientProxyPpapdreamMod.java
 Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
 Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -18,19 +18,19 @@ New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
 New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
 New Key: class net/minecraftforge/event/RegistryEvent
 New Key: class java/util/Map
-Rename field net/minecraft/world/World/provider[3689,3697]::provider->field_73011_w
-Rename field net/minecraft/entity/Entity/world[4078,4083]::world->field_70170_p
-Rename field net/minecraft/world/World/isRemote[4092,4100]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[3852,3860]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[4241,4246]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4255,4263]::isRemote->field_72995_K
 New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
-Rename field net/minecraft/entity/Entity/world[4190,4195]::world->field_70170_p
+Rename field net/minecraft/entity/Entity/world[4353,4358]::world->field_70170_p
 New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
-Rename field net/minecraft/entity/Entity/world[4291,4296]::world->field_70170_p
+Rename field net/minecraft/entity/Entity/world[4454,4459]::world->field_70170_p
 New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
 New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
-Rename field net/minecraft/entity/Entity/world[4813,4818]::world->field_70170_p
-Rename field net/minecraft/world/World/isRemote[4827,4835]::isRemote->field_72995_K
+Rename field net/minecraft/entity/Entity/world[4976,4981]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4990,4998]::isRemote->field_72995_K
 New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
-Rename field net/minecraft/entity/Entity/world[4929,4934]::world->field_70170_p
+Rename field net/minecraft/entity/Entity/world[5092,5097]::world->field_70170_p
 New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
 FOUND CONSTR method jptv/seomoodi/ppapdream/ElementsPpapdreamMod/ModElement/ModElement (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;I)V jptv/seomoodi/ppapdream/ElementsPpapdreamMod/ModElement
 Import: net.minecraftforge.fml.relauncher.Side
@@ -1312,108 +1312,254 @@ Adding 4 imports
         net.minecraft.item.ItemStack
 End  Processing: jptv/seomoodi/ppapdream/creativetab/TabDream.java
 
+Start Processing: jptv/seomoodi/ppapdream/entity/EntityDreamDragonFly.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamDragonFly/EntityDreamDragonFly (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/entity/EntityDreamDragonFly
+Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[2689,2705]::getEntityTexture->func_110775_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamDragonFly/EntityCustom/EntityCustom (Lnet/minecraft/world/World;)V jptv/seomoodi/ppapdream/entity/EntityDreamDragonFly/EntityCustom
+Rename method net/minecraft/entity/Entity/setSize (FF)V[2942,2949]::setSize->func_70105_a
+Rename field net/minecraft/entity/EntityLiving/experienceValue[2972,2987]::experienceValue->field_70728_aV
+Rename field net/minecraft/entity/Entity/isImmuneToFire[3001,3015]::isImmuneToFire->field_70178_ae
+Rename method net/minecraft/entity/EntityLiving/setNoAI (Z)V[3029,3036]::setNoAI->func_94061_f
+Rename method net/minecraft/entity/EntityLiving/enablePersistence ()V[3054,3071]::enablePersistence->func_110163_bv
+Rename field net/minecraft/entity/EntityLiving/navigator[3081,3090]::navigator->field_70699_by
+Rename field net/minecraft/entity/Entity/world[3132,3137]::world->field_70170_p
+Rename field net/minecraft/entity/EntityLiving/moveHelper[3157,3167]::moveHelper->field_70765_h
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[3238,3250]::initEntityAI->func_184651_r
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[3266,3278]::initEntityAI->func_184651_r
+Rename field net/minecraft/entity/EntityLiving/tasks[3292,3297]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[3307,3314]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[3361,3366]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[3376,3383]::addTask->func_75776_a
+Rename method net/minecraft/entity/ai/EntityAIWander/getPosition ()Lnet/minecraft/util/math/Vec3d;[3464,3475]::getPosition->func_190864_f
+Rename method net/minecraft/entity/EntityLivingBase/getRNG ()Ljava/util/Random;[3522,3528]::getRNG->func_70681_au
+Rename field net/minecraft/entity/Entity/posX[3578,3582]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[3670,3674]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[3762,3766]::posZ->field_70161_v
+Rename field net/minecraft/entity/EntityLiving/tasks[3884,3889]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[3899,3906]::addTask->func_75776_a
+Rename method net/minecraft/entity/EntityLivingBase/getCreatureAttribute ()Lnet/minecraft/entity/EnumCreatureAttribute;[4013,4033]::getCreatureAttribute->func_70668_bt
+Rename method net/minecraft/entity/EntityLiving/canDespawn ()Z[4116,4126]::canDespawn->func_70692_ba
+Rename method net/minecraft/entity/EntityLiving/getDropItem ()Lnet/minecraft/item/Item;[4190,4201]::getDropItem->func_146068_u
+Rename method net/minecraft/entity/EntityLiving/getAmbientSound ()Lnet/minecraft/util/SoundEvent;[4285,4300]::getAmbientSound->func_184639_G
+Rename field net/minecraft/util/SoundEvent/REGISTRY[4376,4384]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[4398,4407]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getHurtSound (Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;[4523,4535]::getHurtSound->func_184601_bQ
+Rename field net/minecraft/util/SoundEvent/REGISTRY[4630,4638]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[4645,4654]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getDeathSound ()Lnet/minecraft/util/SoundEvent;[4745,4758]::getDeathSound->func_184615_bR
+Rename field net/minecraft/util/SoundEvent/REGISTRY[4837,4845]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[4852,4861]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getSoundVolume ()F[4931,4945]::getSoundVolume->func_70599_aP
+Rename method net/minecraft/entity/Entity/fall (FF)V[5001,5005]::fall->func_180430_e
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[5073,5089]::attackEntityFrom->func_70097_a
+Rename field net/minecraft/util/DamageSource/FALL[5154,5158]::FALL->field_76379_h
+Rename field net/minecraft/util/DamageSource/LIGHTNING_BOLT[5219,5233]::LIGHTNING_BOLT->field_180137_b
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[5271,5287]::attackEntityFrom->func_70097_a
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[5339,5360]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[5368,5389]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5399,5417]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[5437,5442]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5472,5490]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[5510,5515]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[5526,5538]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5558,5576]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[5596,5610]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5631,5649]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[5669,5683]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[5685,5697]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5719,5737]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[5757,5767]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5792,5810]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[5830,5840]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[5846,5858]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5878,5896]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[5916,5929]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5951,5969]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[5989,6002]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[6005,6017]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getAttributeMap ()Lnet/minecraft/entity/ai/attributes/AbstractAttributeMap;[6033,6048]::getAttributeMap->func_110140_aT
+Rename method net/minecraft/entity/ai/attributes/AbstractAttributeMap/registerAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[6050,6067]::registerAttribute->func_111150_b
+Rename field net/minecraft/entity/SharedMonsterAttributes/FLYING_SPEED[6088,6100]::FLYING_SPEED->field_193334_e
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[6114,6132]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/FLYING_SPEED[6152,6164]::FLYING_SPEED->field_193334_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[6168,6180]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/Entity/onUpdate ()V[6223,6231]::onUpdate->func_70071_h_
+Rename method net/minecraft/entity/Entity/onUpdate ()V[6251,6259]::onUpdate->func_70071_h_
+Rename method net/minecraft/entity/Entity/setNoGravity (Z)V[6277,6289]::setNoGravity->func_189654_d
+Rename method net/minecraft/entity/Entity/updateFallState (DZLnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;)V[6336,6351]::updateFallState->func_184231_a
+Rename method net/minecraft/entity/Entity/setNoGravity (Z)V[6450,6462]::setNoGravity->func_189654_d
+Rename method net/minecraft/entity/Entity/setNoGravity (Z)V[6493,6505]::setNoGravity->func_189654_d
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamDragonFly/Modeldream_dragonfly/Modeldream_dragonfly ()V jptv/seomoodi/ppapdream/entity/EntityDreamDragonFly/Modeldream_dragonfly
+Rename field net/minecraft/client/model/ModelBase/textureWidth[6873,6885]::textureWidth->field_78090_t
+Rename field net/minecraft/client/model/ModelBase/textureHeight[6897,6910]::textureHeight->field_78089_u
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6962,6978]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7005,7013]::cubeList->field_78804_l
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7101,7109]::cubeList->field_78804_l
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7196,7204]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7340,7356]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7485,7501]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7534,7542]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7628,7636]::cubeList->field_78804_l
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7740,7748]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7893,7909]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7983,7999]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[8032,8040]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[8126,8134]::cubeList->field_78804_l
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[8239,8247]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[8387,8403]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[8432,8440]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[8560,8566]::render->func_78088_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8658,8664]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8691,8697]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8723,8729]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8753,8759]::render->func_78785_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[8886,8898]::rotateAngleX->field_78795_f
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8923,8935]::rotateAngleY->field_78796_g
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[8960,8972]::rotateAngleZ->field_78808_h
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[9001,9018]::setRotationAngles->func_78087_a
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[9095,9112]::setRotationAngles->func_78087_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[9154,9166]::rotateAngleZ->field_78808_h
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[9181,9184]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[9233,9245]::rotateAngleZ->field_78808_h
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[9260,9263]::cos->func_76134_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntryBuilder
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.client.registry.RenderingRegistry
+Adding 26 imports
+        java.util.ArrayList
+        java.util.Iterator
+        java.util.Random
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.model.ModelBase
+        net.minecraft.client.model.ModelBox
+        net.minecraft.client.model.ModelRenderer
+        net.minecraft.client.renderer.entity.RenderLiving
+        net.minecraft.entity.Entity
+        net.minecraft.entity.EntityCreature
+        net.minecraft.entity.EnumCreatureAttribute
+        net.minecraft.entity.SharedMonsterAttributes
+        net.minecraft.entity.ai.EntityAILeapAtTarget
+        net.minecraft.entity.ai.EntityAILookIdle
+        net.minecraft.entity.ai.EntityAIWander
+        net.minecraft.entity.ai.EntityFlyHelper
+        net.minecraft.item.Item
+        net.minecraft.pathfinding.PathNavigateFlying
+        net.minecraft.util.DamageSource
+        net.minecraft.util.ResourceLocation
+        net.minecraft.util.math.BlockPos
+        net.minecraft.util.math.MathHelper
+        net.minecraft.util.math.Vec3d
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+End  Processing: jptv/seomoodi/ppapdream/entity/EntityDreamDragonFly.java
+
 Start Processing: jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen.java
 New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
 New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
 FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/EntityDreamFishGreen (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen
-Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[2281,2297]::getEntityTexture->func_110775_a
+Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[2279,2295]::getEntityTexture->func_110775_a
 FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/EntityCustom/EntityCustom (Lnet/minecraft/world/World;)V jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/EntityCustom
-Rename method net/minecraft/entity/Entity/setSize (FF)V[2532,2539]::setSize->func_70105_a
-Rename field net/minecraft/entity/EntityLiving/experienceValue[2562,2577]::experienceValue->field_70728_aV
-Rename field net/minecraft/entity/Entity/isImmuneToFire[2591,2605]::isImmuneToFire->field_70178_ae
-Rename method net/minecraft/entity/EntityLiving/setNoAI (Z)V[2619,2626]::setNoAI->func_94061_f
-Rename method net/minecraft/entity/EntityLiving/enablePersistence ()V[2644,2661]::enablePersistence->func_110163_bv
-Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2700,2712]::initEntityAI->func_184651_r
-Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2728,2740]::initEntityAI->func_184651_r
-Rename method net/minecraft/entity/EntityLivingBase/getCreatureAttribute ()Lnet/minecraft/entity/EnumCreatureAttribute;[2797,2817]::getCreatureAttribute->func_70668_bt
-Rename method net/minecraft/entity/EntityLiving/canDespawn ()Z[2900,2910]::canDespawn->func_70692_ba
-Rename method net/minecraft/entity/EntityLiving/getDropItem ()Lnet/minecraft/item/Item;[2974,2985]::getDropItem->func_146068_u
-Rename method net/minecraft/entity/EntityLiving/getAmbientSound ()Lnet/minecraft/util/SoundEvent;[3069,3084]::getAmbientSound->func_184639_G
-Rename field net/minecraft/util/SoundEvent/REGISTRY[3160,3168]::REGISTRY->field_187505_a
-Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3175,3184]::getObject->func_82594_a
-Rename method net/minecraft/entity/EntityLivingBase/getHurtSound (Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;[3275,3287]::getHurtSound->func_184601_bQ
-Rename field net/minecraft/util/SoundEvent/REGISTRY[3382,3390]::REGISTRY->field_187505_a
-Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3397,3406]::getObject->func_82594_a
-Rename method net/minecraft/entity/EntityLivingBase/getDeathSound ()Lnet/minecraft/util/SoundEvent;[3497,3510]::getDeathSound->func_184615_bR
-Rename field net/minecraft/util/SoundEvent/REGISTRY[3589,3597]::REGISTRY->field_187505_a
-Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3604,3613]::getObject->func_82594_a
-Rename method net/minecraft/entity/EntityLivingBase/getSoundVolume ()F[3683,3697]::getSoundVolume->func_70599_aP
-Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3756,3772]::attackEntityFrom->func_70097_a
-Rename field net/minecraft/util/DamageSource/FALL[3837,3841]::FALL->field_76379_h
-Rename field net/minecraft/util/DamageSource/DROWN[3902,3907]::DROWN->field_76369_e
-Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3953,3969]::attackEntityFrom->func_70097_a
-Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4021,4042]::applyEntityAttributes->func_110147_ax
-Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4050,4071]::applyEntityAttributes->func_110147_ax
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4081,4099]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4119,4124]::ARMOR->field_188791_g
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4154,4172]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4192,4197]::ARMOR->field_188791_g
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4208,4220]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4240,4258]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4278,4292]::MOVEMENT_SPEED->field_111263_d
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4313,4331]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4351,4365]::MOVEMENT_SPEED->field_111263_d
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4367,4379]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4401,4419]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4439,4449]::MAX_HEALTH->field_111267_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4474,4492]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4512,4522]::MAX_HEALTH->field_111267_a
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4528,4540]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4560,4578]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4598,4611]::ATTACK_DAMAGE->field_111264_e
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4633,4651]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4671,4684]::ATTACK_DAMAGE->field_111264_e
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4687,4699]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/canBreatheUnderwater ()Z[4744,4764]::canBreatheUnderwater->func_70648_aU
-Rename method net/minecraft/entity/EntityLiving/getCanSpawnHere ()Z[4817,4832]::getCanSpawnHere->func_70601_bi
-Rename method net/minecraft/entity/EntityLiving/isNotColliding ()Z[4890,4904]::isNotColliding->func_70058_J
-Rename field net/minecraft/entity/Entity/world[4923,4928]::world->field_70170_p
-Rename method net/minecraft/world/World/checkNoEntityCollision (Lnet/minecraft/util/math/AxisAlignedBB;Lnet/minecraft/entity/Entity;)Z[4937,4959]::checkNoEntityCollision->func_72917_a
-Rename method net/minecraft/entity/Entity/getEntityBoundingBox ()Lnet/minecraft/util/math/AxisAlignedBB;[4955,4975]::getEntityBoundingBox->func_174813_aQ
-Rename method net/minecraft/entity/Entity/isPushedByWater ()Z[5018,5033]::isPushedByWater->func_96092_aw
-FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/Modelcustom_model/Modelcustom_model ()V jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/Modelcustom_model
-Rename field net/minecraft/client/model/ModelBase/textureWidth[5662,5674]::textureWidth->field_78090_t
-Rename field net/minecraft/client/model/ModelBase/textureHeight[5686,5699]::textureHeight->field_78089_u
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5755,5771]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5847,5863]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[5890,5898]::addChild->func_78792_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[5984,5992]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6137,6153]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6299,6315]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6348,6356]::addChild->func_78792_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[6460,6468]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6609,6625]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6702,6718]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6747,6755]::addChild->func_78792_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[6844,6852]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7008,7024]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7116,7132]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7170,7178]::addChild->func_78792_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[7294,7302]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7471,7487]::setRotationPoint->func_78793_a
+Rename method net/minecraft/entity/Entity/setSize (FF)V[2530,2537]::setSize->func_70105_a
+Rename field net/minecraft/entity/EntityLiving/experienceValue[2560,2575]::experienceValue->field_70728_aV
+Rename field net/minecraft/entity/Entity/isImmuneToFire[2589,2603]::isImmuneToFire->field_70178_ae
+Rename method net/minecraft/entity/EntityLiving/setNoAI (Z)V[2617,2624]::setNoAI->func_94061_f
+Rename method net/minecraft/entity/EntityLiving/enablePersistence ()V[2642,2659]::enablePersistence->func_110163_bv
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2698,2710]::initEntityAI->func_184651_r
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2726,2738]::initEntityAI->func_184651_r
+Rename method net/minecraft/entity/EntityLivingBase/getCreatureAttribute ()Lnet/minecraft/entity/EnumCreatureAttribute;[2795,2815]::getCreatureAttribute->func_70668_bt
+Rename method net/minecraft/entity/EntityLiving/canDespawn ()Z[2898,2908]::canDespawn->func_70692_ba
+Rename method net/minecraft/entity/EntityLiving/getDropItem ()Lnet/minecraft/item/Item;[2972,2983]::getDropItem->func_146068_u
+Rename method net/minecraft/entity/EntityLiving/getAmbientSound ()Lnet/minecraft/util/SoundEvent;[3067,3082]::getAmbientSound->func_184639_G
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3158,3166]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3173,3182]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getHurtSound (Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;[3273,3285]::getHurtSound->func_184601_bQ
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3380,3388]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3395,3404]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getDeathSound ()Lnet/minecraft/util/SoundEvent;[3495,3508]::getDeathSound->func_184615_bR
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3587,3595]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3602,3611]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getSoundVolume ()F[3681,3695]::getSoundVolume->func_70599_aP
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3754,3770]::attackEntityFrom->func_70097_a
+Rename field net/minecraft/util/DamageSource/FALL[3835,3839]::FALL->field_76379_h
+Rename field net/minecraft/util/DamageSource/DROWN[3900,3905]::DROWN->field_76369_e
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3951,3967]::attackEntityFrom->func_70097_a
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4019,4040]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4048,4069]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4079,4097]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4117,4122]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4152,4170]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4190,4195]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4206,4218]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4238,4256]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4276,4290]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4311,4329]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4349,4363]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4365,4377]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4399,4417]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4437,4447]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4472,4490]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4510,4520]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4526,4538]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4558,4576]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4596,4609]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4631,4649]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4669,4682]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4685,4697]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/canBreatheUnderwater ()Z[4742,4762]::canBreatheUnderwater->func_70648_aU
+Rename method net/minecraft/entity/EntityLiving/getCanSpawnHere ()Z[4815,4830]::getCanSpawnHere->func_70601_bi
+Rename method net/minecraft/entity/EntityLiving/isNotColliding ()Z[4888,4902]::isNotColliding->func_70058_J
+Rename field net/minecraft/entity/Entity/world[4921,4926]::world->field_70170_p
+Rename method net/minecraft/world/World/checkNoEntityCollision (Lnet/minecraft/util/math/AxisAlignedBB;Lnet/minecraft/entity/Entity;)Z[4935,4957]::checkNoEntityCollision->func_72917_a
+Rename method net/minecraft/entity/Entity/getEntityBoundingBox ()Lnet/minecraft/util/math/AxisAlignedBB;[4953,4973]::getEntityBoundingBox->func_174813_aQ
+Rename method net/minecraft/entity/Entity/isPushedByWater ()Z[5016,5031]::isPushedByWater->func_96092_aw
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/Modeldream_fish/Modeldream_fish ()V jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/Modeldream_fish
+Rename field net/minecraft/client/model/ModelBase/textureWidth[5656,5668]::textureWidth->field_78090_t
+Rename field net/minecraft/client/model/ModelBase/textureHeight[5680,5693]::textureHeight->field_78089_u
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5749,5765]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5841,5857]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[5884,5892]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[5978,5986]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6131,6147]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6293,6309]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6342,6350]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[6454,6462]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6603,6619]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6696,6712]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6741,6749]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[6838,6846]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7002,7018]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7113,7129]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7168,7176]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7292,7300]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7469,7485]::setRotationPoint->func_78793_a
 Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7581,7597]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7637,7645]::addChild->func_78792_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[7764,7772]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7921,7937]::setRotationPoint->func_78793_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[7966,7974]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[8092,8098]::render->func_78088_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8192,8198]::render->func_78785_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8227,8233]::render->func_78785_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8257,8263]::render->func_78785_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8296,8302]::render->func_78785_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8336,8342]::render->func_78785_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8366,8372]::render->func_78785_a
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[8499,8511]::rotateAngleX->field_78795_f
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8536,8548]::rotateAngleY->field_78796_g
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[8573,8585]::rotateAngleZ->field_78808_h
-Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8614,8631]::setRotationAngles->func_78087_a
-Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8708,8725]::setRotationAngles->func_78087_a
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8765,8777]::rotateAngleY->field_78796_g
-Rename method net/minecraft/util/math/MathHelper/cos (F)F[8792,8795]::cos->func_76134_b
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8854,8866]::rotateAngleY->field_78796_g
-Rename method net/minecraft/util/math/MathHelper/cos (F)F[8881,8884]::cos->func_76134_b
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8940,8952]::rotateAngleY->field_78796_g
-Rename method net/minecraft/util/math/MathHelper/cos (F)F[8967,8970]::cos->func_76134_b
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7636,7644]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7763,7771]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7920,7936]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7965,7973]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[8091,8097]::render->func_78088_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8191,8197]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8226,8232]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8256,8262]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8295,8301]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8335,8341]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8365,8371]::render->func_78785_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[8498,8510]::rotateAngleX->field_78795_f
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8535,8547]::rotateAngleY->field_78796_g
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[8572,8584]::rotateAngleZ->field_78808_h
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8613,8630]::setRotationAngles->func_78087_a
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8707,8724]::setRotationAngles->func_78087_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8764,8776]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8791,8794]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8849,8861]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8876,8879]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8935,8947]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8962,8965]::cos->func_76134_b
 Import: net.minecraftforge.fml.relauncher.SideOnly
 Import: net.minecraftforge.fml.relauncher.Side
 Import: net.minecraftforge.fml.common.registry.EntityEntryBuilder
@@ -1443,104 +1589,104 @@ Start Processing: jptv/seomoodi/ppapdream/entity/EntityDreamFishPink.java
 New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
 New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
 FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/EntityDreamFishPink (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/entity/EntityDreamFishPink
-Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[2272,2288]::getEntityTexture->func_110775_a
+Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[2270,2286]::getEntityTexture->func_110775_a
 FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/EntityCustom/EntityCustom (Lnet/minecraft/world/World;)V jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/EntityCustom
-Rename method net/minecraft/entity/Entity/setSize (FF)V[2522,2529]::setSize->func_70105_a
-Rename field net/minecraft/entity/EntityLiving/experienceValue[2552,2567]::experienceValue->field_70728_aV
-Rename field net/minecraft/entity/Entity/isImmuneToFire[2581,2595]::isImmuneToFire->field_70178_ae
-Rename method net/minecraft/entity/EntityLiving/setNoAI (Z)V[2609,2616]::setNoAI->func_94061_f
-Rename method net/minecraft/entity/EntityLiving/enablePersistence ()V[2634,2651]::enablePersistence->func_110163_bv
-Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2690,2702]::initEntityAI->func_184651_r
-Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2718,2730]::initEntityAI->func_184651_r
-Rename method net/minecraft/entity/EntityLivingBase/getCreatureAttribute ()Lnet/minecraft/entity/EnumCreatureAttribute;[2787,2807]::getCreatureAttribute->func_70668_bt
-Rename method net/minecraft/entity/EntityLiving/canDespawn ()Z[2890,2900]::canDespawn->func_70692_ba
-Rename method net/minecraft/entity/EntityLiving/getDropItem ()Lnet/minecraft/item/Item;[2964,2975]::getDropItem->func_146068_u
-Rename method net/minecraft/entity/EntityLiving/getAmbientSound ()Lnet/minecraft/util/SoundEvent;[3059,3074]::getAmbientSound->func_184639_G
-Rename field net/minecraft/util/SoundEvent/REGISTRY[3150,3158]::REGISTRY->field_187505_a
-Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3165,3174]::getObject->func_82594_a
-Rename method net/minecraft/entity/EntityLivingBase/getHurtSound (Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;[3265,3277]::getHurtSound->func_184601_bQ
-Rename field net/minecraft/util/SoundEvent/REGISTRY[3372,3380]::REGISTRY->field_187505_a
-Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3387,3396]::getObject->func_82594_a
-Rename method net/minecraft/entity/EntityLivingBase/getDeathSound ()Lnet/minecraft/util/SoundEvent;[3487,3500]::getDeathSound->func_184615_bR
-Rename field net/minecraft/util/SoundEvent/REGISTRY[3579,3587]::REGISTRY->field_187505_a
-Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3594,3603]::getObject->func_82594_a
-Rename method net/minecraft/entity/EntityLivingBase/getSoundVolume ()F[3673,3687]::getSoundVolume->func_70599_aP
-Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3746,3762]::attackEntityFrom->func_70097_a
-Rename field net/minecraft/util/DamageSource/FALL[3827,3831]::FALL->field_76379_h
-Rename field net/minecraft/util/DamageSource/DROWN[3892,3897]::DROWN->field_76369_e
-Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3943,3959]::attackEntityFrom->func_70097_a
-Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4011,4032]::applyEntityAttributes->func_110147_ax
-Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4040,4061]::applyEntityAttributes->func_110147_ax
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4071,4089]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4109,4114]::ARMOR->field_188791_g
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4144,4162]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4182,4187]::ARMOR->field_188791_g
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4198,4210]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4230,4248]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4268,4282]::MOVEMENT_SPEED->field_111263_d
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4303,4321]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4341,4355]::MOVEMENT_SPEED->field_111263_d
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4357,4369]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4391,4409]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4429,4439]::MAX_HEALTH->field_111267_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4464,4482]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4502,4512]::MAX_HEALTH->field_111267_a
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4518,4530]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4550,4568]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4588,4601]::ATTACK_DAMAGE->field_111264_e
-Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4623,4641]::getEntityAttribute->func_110148_a
-Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4661,4674]::ATTACK_DAMAGE->field_111264_e
-Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4677,4689]::setBaseValue->func_111128_a
-Rename method net/minecraft/entity/EntityLivingBase/canBreatheUnderwater ()Z[4734,4754]::canBreatheUnderwater->func_70648_aU
-Rename method net/minecraft/entity/EntityLiving/getCanSpawnHere ()Z[4807,4822]::getCanSpawnHere->func_70601_bi
-Rename method net/minecraft/entity/EntityLiving/isNotColliding ()Z[4880,4894]::isNotColliding->func_70058_J
-Rename field net/minecraft/entity/Entity/world[4913,4918]::world->field_70170_p
-Rename method net/minecraft/world/World/checkNoEntityCollision (Lnet/minecraft/util/math/AxisAlignedBB;Lnet/minecraft/entity/Entity;)Z[4927,4949]::checkNoEntityCollision->func_72917_a
-Rename method net/minecraft/entity/Entity/getEntityBoundingBox ()Lnet/minecraft/util/math/AxisAlignedBB;[4945,4965]::getEntityBoundingBox->func_174813_aQ
-Rename method net/minecraft/entity/Entity/isPushedByWater ()Z[5008,5023]::isPushedByWater->func_96092_aw
-FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/Modelcustom_model/Modelcustom_model ()V jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/Modelcustom_model
-Rename field net/minecraft/client/model/ModelBase/textureWidth[5652,5664]::textureWidth->field_78090_t
-Rename field net/minecraft/client/model/ModelBase/textureHeight[5676,5689]::textureHeight->field_78089_u
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5745,5761]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5837,5853]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[5880,5888]::addChild->func_78792_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[5974,5982]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6127,6143]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6289,6305]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6338,6346]::addChild->func_78792_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[6450,6458]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6599,6615]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6692,6708]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6737,6745]::addChild->func_78792_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[6834,6842]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6998,7014]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7106,7122]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7160,7168]::addChild->func_78792_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[7284,7292]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7461,7477]::setRotationPoint->func_78793_a
+Rename method net/minecraft/entity/Entity/setSize (FF)V[2520,2527]::setSize->func_70105_a
+Rename field net/minecraft/entity/EntityLiving/experienceValue[2550,2565]::experienceValue->field_70728_aV
+Rename field net/minecraft/entity/Entity/isImmuneToFire[2579,2593]::isImmuneToFire->field_70178_ae
+Rename method net/minecraft/entity/EntityLiving/setNoAI (Z)V[2607,2614]::setNoAI->func_94061_f
+Rename method net/minecraft/entity/EntityLiving/enablePersistence ()V[2632,2649]::enablePersistence->func_110163_bv
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2688,2700]::initEntityAI->func_184651_r
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2716,2728]::initEntityAI->func_184651_r
+Rename method net/minecraft/entity/EntityLivingBase/getCreatureAttribute ()Lnet/minecraft/entity/EnumCreatureAttribute;[2785,2805]::getCreatureAttribute->func_70668_bt
+Rename method net/minecraft/entity/EntityLiving/canDespawn ()Z[2888,2898]::canDespawn->func_70692_ba
+Rename method net/minecraft/entity/EntityLiving/getDropItem ()Lnet/minecraft/item/Item;[2962,2973]::getDropItem->func_146068_u
+Rename method net/minecraft/entity/EntityLiving/getAmbientSound ()Lnet/minecraft/util/SoundEvent;[3057,3072]::getAmbientSound->func_184639_G
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3148,3156]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3163,3172]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getHurtSound (Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;[3263,3275]::getHurtSound->func_184601_bQ
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3370,3378]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3385,3394]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getDeathSound ()Lnet/minecraft/util/SoundEvent;[3485,3498]::getDeathSound->func_184615_bR
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3577,3585]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3592,3601]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getSoundVolume ()F[3671,3685]::getSoundVolume->func_70599_aP
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3744,3760]::attackEntityFrom->func_70097_a
+Rename field net/minecraft/util/DamageSource/FALL[3825,3829]::FALL->field_76379_h
+Rename field net/minecraft/util/DamageSource/DROWN[3890,3895]::DROWN->field_76369_e
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3941,3957]::attackEntityFrom->func_70097_a
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4009,4030]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4038,4059]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4069,4087]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4107,4112]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4142,4160]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4180,4185]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4196,4208]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4228,4246]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4266,4280]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4301,4319]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4339,4353]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4355,4367]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4389,4407]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4427,4437]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4462,4480]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4500,4510]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4516,4528]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4548,4566]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4586,4599]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4621,4639]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4659,4672]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4675,4687]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/canBreatheUnderwater ()Z[4732,4752]::canBreatheUnderwater->func_70648_aU
+Rename method net/minecraft/entity/EntityLiving/getCanSpawnHere ()Z[4805,4820]::getCanSpawnHere->func_70601_bi
+Rename method net/minecraft/entity/EntityLiving/isNotColliding ()Z[4878,4892]::isNotColliding->func_70058_J
+Rename field net/minecraft/entity/Entity/world[4911,4916]::world->field_70170_p
+Rename method net/minecraft/world/World/checkNoEntityCollision (Lnet/minecraft/util/math/AxisAlignedBB;Lnet/minecraft/entity/Entity;)Z[4925,4947]::checkNoEntityCollision->func_72917_a
+Rename method net/minecraft/entity/Entity/getEntityBoundingBox ()Lnet/minecraft/util/math/AxisAlignedBB;[4943,4963]::getEntityBoundingBox->func_174813_aQ
+Rename method net/minecraft/entity/Entity/isPushedByWater ()Z[5006,5021]::isPushedByWater->func_96092_aw
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/Modeldream_fish/Modeldream_fish ()V jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/Modeldream_fish
+Rename field net/minecraft/client/model/ModelBase/textureWidth[5646,5658]::textureWidth->field_78090_t
+Rename field net/minecraft/client/model/ModelBase/textureHeight[5670,5683]::textureHeight->field_78089_u
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5739,5755]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5831,5847]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[5874,5882]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[5968,5976]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6121,6137]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6283,6299]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6332,6340]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[6444,6452]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6593,6609]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6686,6702]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6731,6739]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[6828,6836]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6992,7008]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7103,7119]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7158,7166]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7282,7290]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7459,7475]::setRotationPoint->func_78793_a
 Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7571,7587]::setRotationPoint->func_78793_a
-Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7627,7635]::addChild->func_78792_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[7754,7762]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7911,7927]::setRotationPoint->func_78793_a
-Rename field net/minecraft/client/model/ModelRenderer/cubeList[7956,7964]::cubeList->field_78804_l
-Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[8082,8088]::render->func_78088_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8182,8188]::render->func_78785_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8217,8223]::render->func_78785_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8247,8253]::render->func_78785_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8286,8292]::render->func_78785_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8326,8332]::render->func_78785_a
-Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8356,8362]::render->func_78785_a
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[8489,8501]::rotateAngleX->field_78795_f
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8526,8538]::rotateAngleY->field_78796_g
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[8563,8575]::rotateAngleZ->field_78808_h
-Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8604,8621]::setRotationAngles->func_78087_a
-Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8698,8715]::setRotationAngles->func_78087_a
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8755,8767]::rotateAngleY->field_78796_g
-Rename method net/minecraft/util/math/MathHelper/cos (F)F[8782,8785]::cos->func_76134_b
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8844,8856]::rotateAngleY->field_78796_g
-Rename method net/minecraft/util/math/MathHelper/cos (F)F[8871,8874]::cos->func_76134_b
-Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8930,8942]::rotateAngleY->field_78796_g
-Rename method net/minecraft/util/math/MathHelper/cos (F)F[8957,8960]::cos->func_76134_b
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7626,7634]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7753,7761]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7910,7926]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7955,7963]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[8081,8087]::render->func_78088_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8181,8187]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8216,8222]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8246,8252]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8285,8291]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8325,8331]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8355,8361]::render->func_78785_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[8488,8500]::rotateAngleX->field_78795_f
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8525,8537]::rotateAngleY->field_78796_g
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[8562,8574]::rotateAngleZ->field_78808_h
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8603,8620]::setRotationAngles->func_78087_a
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8697,8714]::setRotationAngles->func_78087_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8754,8766]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8781,8784]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8839,8851]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8866,8869]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8925,8937]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8952,8955]::cos->func_76134_b
 Import: net.minecraftforge.fml.relauncher.SideOnly
 Import: net.minecraftforge.fml.relauncher.Side
 Import: net.minecraftforge.fml.common.registry.EntityEntryBuilder

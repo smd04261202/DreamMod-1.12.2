@@ -54,6 +54,8 @@ public class ElementsPpapdreamMod implements IFuelHandler, IWorldGenerator {
 	public final List<Supplier<Potion>> potions = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ElementsPpapdreamMod() {
+		sounds.put(new ResourceLocation("ppapdream", "dream_dragonfly"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("ppapdream", "dream_dragonfly")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {

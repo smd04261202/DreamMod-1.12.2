@@ -54,7 +54,7 @@ public class EntityDreamFishPink extends ElementsPpapdreamMod.ModElement {
 	@Override
 	public void preInit(FMLPreInitializationEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(EntityCustom.class, renderManager -> {
-			return new RenderLiving(renderManager, new Modelcustom_model(), 0.4f) {
+			return new RenderLiving(renderManager, new Modeldream_fish(), 0.4f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("ppapdream:textures/dream_fish_pink.png");
 				}
@@ -154,7 +154,7 @@ public class EntityDreamFishPink extends ElementsPpapdreamMod.ModElement {
 		}
 	}
 
-	public static class Modelcustom_model extends ModelBase {
+	public static class Modeldream_fish extends ModelBase {
 		private final ModelRenderer dorsal;
 		private final ModelRenderer dorsal_r1;
 		private final ModelRenderer abdominalfin;
@@ -166,7 +166,7 @@ public class EntityDreamFishPink extends ElementsPpapdreamMod.ModElement {
 		private final ModelRenderer Pectoralfin_right;
 		private final ModelRenderer Pectoralfin_right_r1;
 		private final ModelRenderer bb_main;
-		public Modelcustom_model() {
+		public Modeldream_fish() {
 			textureWidth = 16;
 			textureHeight = 16;
 			dorsal = new ModelRenderer(this);
@@ -192,16 +192,16 @@ public class EntityDreamFishPink extends ElementsPpapdreamMod.ModElement {
 			setRotationAngle(tailfin_r1, -0.7418F, 0.0F, 0.0F);
 			tailfin_r1.cubeList.add(new ModelBox(tailfin_r1, 0, 0, 0.0F, -2.75F, -0.25F, 0, 2, 2, 0.0F, false));
 			Pectoralfin_left = new ModelRenderer(this);
-			Pectoralfin_left.setRotationPoint(0.0F, 21.0F, 0.0F);
+			Pectoralfin_left.setRotationPoint(-0.15F, 20.8F, -0.2F);
 			Pectoralfin_left_r1 = new ModelRenderer(this);
-			Pectoralfin_left_r1.setRotationPoint(-0.5F, 0.0F, 0.5F);
+			Pectoralfin_left_r1.setRotationPoint(-0.35F, 0.2F, 0.7F);
 			Pectoralfin_left.addChild(Pectoralfin_left_r1);
 			setRotationAngle(Pectoralfin_left_r1, 0.0F, -0.7854F, 0.0F);
 			Pectoralfin_left_r1.cubeList.add(new ModelBox(Pectoralfin_left_r1, 6, 6, -0.25F, -1.25F, -0.75F, 2, 2, 0, 0.0F, false));
 			Pectoralfin_right = new ModelRenderer(this);
-			Pectoralfin_right.setRotationPoint(0.0F, 24.0F, 0.0F);
+			Pectoralfin_right.setRotationPoint(-0.8F, 20.8F, -0.4F);
 			Pectoralfin_right_r1 = new ModelRenderer(this);
-			Pectoralfin_right_r1.setRotationPoint(-4.5F, -3.0F, 0.5F);
+			Pectoralfin_right_r1.setRotationPoint(-3.7F, 0.2F, 0.9F);
 			Pectoralfin_right.addChild(Pectoralfin_right_r1);
 			setRotationAngle(Pectoralfin_right_r1, 0.0F, -2.3562F, 0.0F);
 			Pectoralfin_right_r1.cubeList.add(new ModelBox(Pectoralfin_right_r1, 0, 0, -3.25F, -1.25F, -2.0F, 2, 2, 0, 0.0F, false));
@@ -228,7 +228,7 @@ public class EntityDreamFishPink extends ElementsPpapdreamMod.ModElement {
 
 		public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity e) {
 			super.setRotationAngles(f, f1, f2, f3, f4, f5, e);
-			this.tailfin.rotateAngleY = MathHelper.cos(f * 1.0F) * 1.0F * f1;
+			this.tailfin.rotateAngleY = MathHelper.cos(f * 0.6662F) * f1;
 			this.Pectoralfin_left.rotateAngleY = MathHelper.cos(f * 0.6662F) * f1;
 			this.Pectoralfin_right.rotateAngleY = MathHelper.cos(f * 0.6662F + (float) Math.PI) * f1;
 		}

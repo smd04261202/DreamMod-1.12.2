@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Dream Fish Green",
     "mobLabel": "",
-    "mobModelName": "Modelcustom_model",
+    "mobModelName": "Modeldream_fish",
     "mobModelTexture": "dream_fish_green.png",
     "mobModelGlowTexture": "dream_fish_green.png",
     "modelWidth": 0.4,
