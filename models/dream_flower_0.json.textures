@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "small": "dream_flower",
+        "end": "dream_flower_end"
+      },
+      "name": "default"
+    }
+  }
+}

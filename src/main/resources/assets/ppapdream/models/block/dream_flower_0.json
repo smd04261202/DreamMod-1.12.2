@@ -1,0 +1,9 @@
+{
+  "parent": "ppapdream:custom/dream_flower_0",
+  "textures": {
+    "all": "ppapdream:blocks/dream_flower",
+    "particle": "ppapdream:blocks/dream_flower",
+    "small": "ppapdream:blocks/dream_flower",
+    "end": "ppapdream:blocks/dream_flower_end"
+  }
+}

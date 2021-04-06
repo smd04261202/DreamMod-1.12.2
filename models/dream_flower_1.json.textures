@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "small": "dream_flower",
+        "texture": "dream_flower_up",
+        "end": "dream_flower_end",
+        "spore": "dream_flower_sporophyte"
+      },
+      "name": "default"
+    }
+  }
+}

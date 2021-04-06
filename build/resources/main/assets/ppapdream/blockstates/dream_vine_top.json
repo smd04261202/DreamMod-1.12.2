@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:dream_vine_top"
+    },
+    "facing=north": {
+      "model": "ppapdream:dream_vine_top"
+    },
+    "facing=east": {
+      "model": "ppapdream:dream_vine_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:dream_vine_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:dream_vine_top",
+      "y": 270
+    }
+  }
+}

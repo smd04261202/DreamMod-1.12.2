@@ -1,0 +1,11 @@
+{
+  "parent": "ppapdream:custom/dream_flower_1",
+  "textures": {
+    "all": "ppapdream:blocks/dream_flower",
+    "particle": "ppapdream:blocks/dream_flower",
+    "small": "ppapdream:blocks/dream_flower",
+    "texture": "ppapdream:blocks/dream_flower_up",
+    "end": "ppapdream:blocks/dream_flower_end",
+    "spore": "ppapdream:blocks/dream_flower_sporophyte"
+  }
+}

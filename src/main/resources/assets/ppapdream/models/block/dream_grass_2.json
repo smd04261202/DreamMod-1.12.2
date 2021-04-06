@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "ppapdream:blocks/dream_grass_2",
+    "particle": "ppapdream:blocks/dream_grass_2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ppapdream:custom/dream_outer_leaves",
+  "textures": {
+    "all": "ppapdream:blocks/dream_outer_leaves",
+    "particle": "ppapdream:blocks/dream_outer_leaves",
+    "texture": "ppapdream:blocks/dream_outer_leaves",
+    "spore": "ppapdream:blocks/dream_outer_leaves"
+  }
+}

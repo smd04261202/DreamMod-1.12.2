@@ -1,0 +1,8 @@
+{
+  "parent": "ppapdream:custom/dream_vine_middle",
+  "textures": {
+    "all": "ppapdream:blocks/dream_vine_middle",
+    "particle": "ppapdream:blocks/dream_vine_middle",
+    "texture": "ppapdream:blocks/dream_vine_middle"
+  }
+}

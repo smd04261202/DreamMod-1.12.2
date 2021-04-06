@@ -1,0 +1,97 @@
+Unsupposrted library path: D:\teamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\build\classes\java\api
+Unsupposrted library path: D:\teamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\build\resources\api
+Symbol range map extraction starting
+Processing 31 files
+startProcessing "jptv/seomoodi/ppapdream/ClientProxyPpapdreamMod.java" md5: 13a7d11b20f78b5209dc84e875353eee
+endProcessing "jptv/seomoodi/ppapdream/ClientProxyPpapdreamMod.java"
+
+startProcessing "jptv/seomoodi/ppapdream/ElementsPpapdreamMod.java" md5: cf9778f7f7abea3b7f107a194ccc564d
+endProcessing "jptv/seomoodi/ppapdream/ElementsPpapdreamMod.java"
+
+startProcessing "jptv/seomoodi/ppapdream/IProxyPpapdreamMod.java" md5: 7d0161bfff71cc6078a735525216441e
+endProcessing "jptv/seomoodi/ppapdream/IProxyPpapdreamMod.java"
+
+startProcessing "jptv/seomoodi/ppapdream/PpapdreamMod.java" md5: 932b000b632257b456707a0ab1e809f7
+endProcessing "jptv/seomoodi/ppapdream/PpapdreamMod.java"
+
+startProcessing "jptv/seomoodi/ppapdream/PpapdreamModVariables.java" md5: a013680fc37ebb90091465020c8d301d
+endProcessing "jptv/seomoodi/ppapdream/PpapdreamModVariables.java"
+
+startProcessing "jptv/seomoodi/ppapdream/ServerProxyPpapdreamMod.java" md5: ff476c2a54155a028ce96db304f57117
+endProcessing "jptv/seomoodi/ppapdream/ServerProxyPpapdreamMod.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamCrystal.java" md5: eb3fed0eb9764e26bdbc95233c9c1b14
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamCrystal.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlower0.java" md5: 47e38e7a5ea4505def90fa9bc96e21ba
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlower0.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlower1.java" md5: 7c925a8422043878d5ba7bcef888288c
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlower1.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlower2.java" md5: 5a64ab0928729f783b9a7975a1a45bff
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlower2.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkBottom.java" md5: dde6f928717abd7d9cca48d5540ef3ff
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkBottom.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkMiddle.java" md5: a39b77b5a3baaa544abee4a4d8f5ab95
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkMiddle.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleBottom.java" md5: 3593eb3968781baa23c11feb8ed51843
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleBottom.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleMiddle.java" md5: c9cebc7a6a82d8a8a9db45fb5aac4c23
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleMiddle.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteBottom.java" md5: 742d9a845f4f6c6586c23d38b0214fa2
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteBottom.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteMiddle.java" md5: 0adc63950813ebd68ec907e1b6071b83
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteMiddle.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamGrass1.java" md5: 3fdccec9dd1018be7a7a6a3a8d9e0e9f
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamGrass1.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamGrass2.java" md5: a42541367da94eb8bc3e1d0a8ee2ca41
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamGrass2.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamMoss1.java" md5: eb7614606258fa8f17cbfe2f182e8a93
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamMoss1.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamOuterLeaves.java" md5: a771d5e138ce1aa755dbac38f6f7f4f3
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamOuterLeaves.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamVineBottom.java" md5: 4081032432eae05900bfce00820e6c13
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamVineBottom.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamVineMiddle.java" md5: ac9e30940dedac9d75d0e772730b57b0
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamVineMiddle.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockDreamVineTop.java" md5: f9c100804822f1b4edd5e6079970fdf5
+endProcessing "jptv/seomoodi/ppapdream/block/BlockDreamVineTop.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockTransperantLightFull.java" md5: a968d3ef67e639e872879655f95bd1b1
+endProcessing "jptv/seomoodi/ppapdream/block/BlockTransperantLightFull.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockTransperantLightHalf.java" md5: 16f523b95b347fa7a96084e71c0517fe
+endProcessing "jptv/seomoodi/ppapdream/block/BlockTransperantLightHalf.java"
+
+startProcessing "jptv/seomoodi/ppapdream/creativetab/TabDream.java" md5: 436bdbceb4cf17186769841ac38bc901
+endProcessing "jptv/seomoodi/ppapdream/creativetab/TabDream.java"
+
+startProcessing "jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen.java" md5: 0b44f49e2bc9aa12abb0f923bedefe8c
+endProcessing "jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen.java"
+
+startProcessing "jptv/seomoodi/ppapdream/entity/EntityDreamFishPink.java" md5: 934a0674ff88c493d0771e14ca1d17c2
+endProcessing "jptv/seomoodi/ppapdream/entity/EntityDreamFishPink.java"
+
+startProcessing "jptv/seomoodi/ppapdream/item/ItemRevolver.java" md5: d7780d20e9552442c9ae6e0468f43219
+endProcessing "jptv/seomoodi/ppapdream/item/ItemRevolver.java"
+
+startProcessing "jptv/seomoodi/ppapdream/item/ItemUnknownstone.java" md5: 8edb3aae235ae93250d07143168b35aa
+endProcessing "jptv/seomoodi/ppapdream/item/ItemUnknownstone.java"
+
+startProcessing "jptv/seomoodi/ppapdream/procedure/ProcedureDreamCrystalBlockDestroyedByPlayer.java" md5: f6a61b82e5cb9e5175510174a11c2d13
+endProcessing "jptv/seomoodi/ppapdream/procedure/ProcedureDreamCrystalBlockDestroyedByPlayer.java"
+

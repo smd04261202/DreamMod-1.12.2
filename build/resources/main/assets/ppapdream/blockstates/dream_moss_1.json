@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:dream_moss_1"
+    },
+    "facing=north": {
+      "model": "ppapdream:dream_moss_1"
+    },
+    "facing=east": {
+      "model": "ppapdream:dream_moss_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:dream_moss_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:dream_moss_1",
+      "y": 270
+    }
+  }
+}

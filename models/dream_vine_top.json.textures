@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "dream_vine_middle",
+        "roots": "dream_vine_roots"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "ppapdream:custom/dream_flowers_purple",
+  "textures": {
+    "all": "ppapdream:blocks/dream_flowers_purple_bottom",
+    "particle": "ppapdream:blocks/dream_flowers_purple_bottom",
+    "flowers": "ppapdream:blocks/dream_flowers_purple_bottom",
+    "vine": "ppapdream:blocks/dream_flowers_stem_bottom"
+  }
+}

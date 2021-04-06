@@ -1,0 +1,1730 @@
+Processing 31 files
+Start Processing: jptv/seomoodi/ppapdream/ClientProxyPpapdreamMod.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: jptv/seomoodi/ppapdream/ClientProxyPpapdreamMod.java
+
+Start Processing: jptv/seomoodi/ppapdream/ElementsPpapdreamMod.java
+FOUND CONSTR method jptv/seomoodi/ppapdream/ElementsPpapdreamMod/ElementsPpapdreamMod ()V jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod/ModElement
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
+New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class java/util/Map
+Rename field net/minecraft/world/World/provider[3689,3697]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[4078,4083]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4092,4100]::isRemote->field_72995_K
+New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
+Rename field net/minecraft/entity/Entity/world[4190,4195]::world->field_70170_p
+New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
+Rename field net/minecraft/entity/Entity/world[4291,4296]::world->field_70170_p
+New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
+New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
+Rename field net/minecraft/entity/Entity/world[4813,4818]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4827,4835]::isRemote->field_72995_K
+New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
+Rename field net/minecraft/entity/Entity/world[4929,4934]::world->field_70170_p
+New Key: class jptv/seomoodi/ppapdream/PpapdreamModVariables
+FOUND CONSTR method jptv/seomoodi/ppapdream/ElementsPpapdreamMod/ModElement/ModElement (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;I)V jptv/seomoodi/ppapdream/ElementsPpapdreamMod/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 19 imports
+        java.util.ArrayList
+        java.util.Collections
+        java.util.HashMap
+        java.util.List
+        java.util.Map
+        java.util.Random
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.entity.player.EntityPlayerMP
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.potion.Potion
+        net.minecraft.util.ResourceLocation
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+        net.minecraft.world.chunk.IChunkProvider
+        net.minecraft.world.gen.IChunkGenerator
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: jptv/seomoodi/ppapdream/ElementsPpapdreamMod.java
+
+Start Processing: jptv/seomoodi/ppapdream/IProxyPpapdreamMod.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: jptv/seomoodi/ppapdream/IProxyPpapdreamMod.java
+
+Start Processing: jptv/seomoodi/ppapdream/PpapdreamMod.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 5 imports
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.item.Item
+        net.minecraft.potion.Potion
+        net.minecraft.world.biome.Biome
+End  Processing: jptv/seomoodi/ppapdream/PpapdreamMod.java
+
+Start Processing: jptv/seomoodi/ppapdream/PpapdreamModVariables.java
+FOUND CONSTR method jptv/seomoodi/ppapdream/PpapdreamModVariables/MapVariables/MapVariables ()V jptv/seomoodi/ppapdream/PpapdreamModVariables/MapVariables
+FOUND CONSTR method jptv/seomoodi/ppapdream/PpapdreamModVariables/MapVariables/MapVariables (Ljava/lang/String;)V jptv/seomoodi/ppapdream/PpapdreamModVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[831,842]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[911,921]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1018,1027]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1048,1056]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1360,1373]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1376,1389]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1496,1509]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1512,1519]::setData->func_75745_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/PpapdreamModVariables/WorldVariables/WorldVariables ()V jptv/seomoodi/ppapdream/PpapdreamModVariables/WorldVariables
+FOUND CONSTR method jptv/seomoodi/ppapdream/PpapdreamModVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V jptv/seomoodi/ppapdream/PpapdreamModVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1856,1867]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1936,1946]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2043,2052]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2073,2081]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2285,2293]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2454,2467]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2599,2606]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2965,2971]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[2980,2994]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3003,3019]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3077,3083]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3092,3097]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3133,3145]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3148,3164]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3205,3217]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3220,3226]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3234,3239]::world->field_70170_p
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[3431,3440]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/provider[3604,3612]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3681,3694]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3697,3704]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3794,3801]::setData->func_75745_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/PpapdreamModVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V jptv/seomoodi/ppapdream/PpapdreamModVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method jptv/seomoodi/ppapdream/PpapdreamModVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V jptv/seomoodi/ppapdream/PpapdreamModVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4290,4300]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4558,4569]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Adding 4 imports
+        net.minecraft.client.Minecraft
+        net.minecraft.nbt.NBTTagCompound
+        net.minecraft.world.World
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: jptv/seomoodi/ppapdream/PpapdreamModVariables.java
+
+Start Processing: jptv/seomoodi/ppapdream/ServerProxyPpapdreamMod.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: jptv/seomoodi/ppapdream/ServerProxyPpapdreamMod.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamCrystal.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamCrystal/BlockDreamCrystal (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamCrystal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1873,1889]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamCrystal/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamCrystal/BlockCustom
+Rename field net/minecraft/block/material/Material/GLASS[2070,2075]::GLASS->field_151592_s
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2091,2109]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2127,2139]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/GLASS[2151,2156]::GLASS->field_185853_f
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2207,2218]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2230,2243]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2253,2266]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2278,2293]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2302,2316]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2438,2451]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2535,2547]::isOpaqueCube->func_149662_c
+Rename method net/minecraft/block/Block/quantityDropped (Ljava/util/Random;)I[2622,2637]::quantityDropped->func_149745_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2911,2915]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2944,2948]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2977,2981]::getZ->func_177952_p
+Rename method net/minecraft/block/Block/shouldSideBeRendered (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z[3412,3432]::shouldSideBeRendered->func_176225_a
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3584,3597]::getBlockState->func_180495_p
+Rename method net/minecraft/util/math/BlockPos/offset (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/math/BlockPos;[3602,3608]::offset->func_177972_a
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3659,3667]::getBlock->func_177230_c
+Rename method net/minecraft/block/Block/shouldSideBeRendered (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z[3797,3817]::shouldSideBeRendered->func_176225_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 19 imports
+        java.util.HashMap
+        java.util.Map
+        java.util.Random
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        jptv.seomoodi.ppapdream.procedure.ProcedureDreamCrystalBlockDestroyedByPlayer
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamCrystal.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlower0.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlower0/BlockDreamFlower0 (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamFlower0
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1935,1951]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockHorizontal/FACING[2154,2160]::FACING->field_185512_D
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlower0/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamFlower0/BlockCustom
+Rename field net/minecraft/block/material/Material/PLANTS[2215,2221]::PLANTS->field_151585_k
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2236,2254]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2273,2285]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[2297,2302]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2318,2329]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2343,2356]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2366,2379]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2389,2404]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2411,2425]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2449,2464]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2468,2478]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2483,2495]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2499,2511]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2614,2627]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2747,2770]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2834,2843]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2888,2898]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2995,3005]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[3092,3106]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3193,3201]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockHorizontal/FACING[3223,3229]::FACING->field_185512_D
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3724,3740]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3877,3889]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3943,3955]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[3969,3975]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4002,4010]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[4069,4079]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[4138,4150]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[4161,4171]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4194,4202]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[4261,4277]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4303,4318]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4319,4331]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[4352,4360]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4407,4423]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4473,4481]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[4496,4504]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[4555,4575]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4711,4726]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4727,4739]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[4756,4775]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[4773,4784]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4829,4841]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 21 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.BlockHorizontal
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.properties.IProperty
+        net.minecraft.block.properties.PropertyDirection
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.Mirror
+        net.minecraft.util.Rotation
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlower0.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlower1.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlower1/BlockDreamFlower1 (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamFlower1
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1935,1951]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockHorizontal/FACING[2154,2160]::FACING->field_185512_D
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlower1/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamFlower1/BlockCustom
+Rename field net/minecraft/block/material/Material/PLANTS[2215,2221]::PLANTS->field_151585_k
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2236,2254]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2273,2285]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[2297,2302]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2318,2329]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2343,2356]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2366,2379]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2391,2406]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2413,2427]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2451,2466]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2470,2480]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2485,2497]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2501,2513]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2616,2629]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2749,2772]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2836,2845]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2890,2900]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2997,3007]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[3094,3108]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3195,3203]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockHorizontal/FACING[3225,3231]::FACING->field_185512_D
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3726,3742]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3879,3891]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3945,3957]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[3971,3977]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4004,4012]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[4071,4081]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[4140,4152]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[4163,4173]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4196,4204]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[4263,4279]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4305,4320]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4321,4333]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[4354,4362]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4409,4425]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4475,4483]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[4498,4506]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[4557,4577]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4713,4728]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4729,4741]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[4758,4777]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[4775,4786]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4831,4843]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 21 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.BlockHorizontal
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.properties.IProperty
+        net.minecraft.block.properties.PropertyDirection
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.Mirror
+        net.minecraft.util.Rotation
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlower1.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlower2.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlower2/BlockDreamFlower2 (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamFlower2
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1935,1951]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockHorizontal/FACING[2154,2160]::FACING->field_185512_D
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlower2/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamFlower2/BlockCustom
+Rename field net/minecraft/block/material/Material/PLANTS[2215,2221]::PLANTS->field_151585_k
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2236,2254]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2273,2285]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[2297,2302]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2318,2329]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2343,2356]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2366,2379]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2391,2406]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2413,2427]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2451,2466]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2470,2480]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2485,2497]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2501,2513]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2616,2629]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2749,2772]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2836,2845]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2890,2900]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2997,3007]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[3094,3108]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3195,3203]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockHorizontal/FACING[3225,3231]::FACING->field_185512_D
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3726,3742]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3879,3891]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3945,3957]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[3971,3977]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4004,4012]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[4071,4081]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[4140,4152]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[4163,4173]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4196,4204]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[4263,4279]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4305,4320]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4321,4333]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[4354,4362]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4409,4425]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4475,4483]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[4498,4506]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[4557,4577]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4713,4728]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4729,4741]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[4758,4777]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[4775,4786]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4831,4843]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 21 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.BlockHorizontal
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.properties.IProperty
+        net.minecraft.block.properties.PropertyDirection
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.Mirror
+        net.minecraft.util.Rotation
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlower2.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkBottom.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkBottom/BlockDreamFlowersPinkBottom (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkBottom
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1631,1647]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkBottom/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkBottom/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[1840,1846]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1861,1879]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1909,1921]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[1933,1938]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1954,1965]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1979,1992]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2002,2015]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2025,2040]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2047,2061]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2149,2162]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2282,2305]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2369,2378]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2423,2433]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2530,2540]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2627,2641]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2801,2813]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 13 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkBottom.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkMiddle.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkMiddle/BlockDreamFlowersPinkMiddle (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkMiddle
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1631,1647]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkMiddle/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkMiddle/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[1840,1846]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1861,1879]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1909,1921]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[1933,1938]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1954,1965]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1979,1992]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2002,2015]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2025,2040]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2047,2061]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2149,2162]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2282,2305]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2369,2378]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2423,2433]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2530,2540]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2627,2641]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2801,2813]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 13 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersPinkMiddle.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleBottom.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleBottom/BlockDreamFlowersPurpleBottom (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleBottom
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1639,1655]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleBottom/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleBottom/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[1850,1856]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1871,1889]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1921,1933]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[1945,1950]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1966,1977]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1991,2004]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2014,2027]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2037,2052]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2059,2073]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2161,2174]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2294,2317]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2381,2390]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2435,2445]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2542,2552]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2639,2653]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2813,2825]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 13 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleBottom.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleMiddle.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleMiddle/BlockDreamFlowersPurpleMiddle (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleMiddle
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1639,1655]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleMiddle/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleMiddle/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[1850,1856]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1871,1889]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1921,1933]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[1945,1950]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1966,1977]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1991,2004]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2014,2027]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2037,2052]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2059,2073]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2161,2174]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2294,2317]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2381,2390]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2435,2445]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2542,2552]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2639,2653]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2813,2825]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 13 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersPurpleMiddle.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteBottom.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteBottom/BlockDreamFlowersWhiteBottom (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteBottom
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1635,1651]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteBottom/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteBottom/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[1845,1851]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1866,1884]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1915,1927]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[1939,1944]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1960,1971]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1985,1998]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2008,2021]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2031,2046]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2053,2067]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2155,2168]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2288,2311]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2375,2384]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2429,2439]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2536,2546]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2633,2647]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2807,2819]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 13 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteBottom.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteMiddle.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteMiddle/BlockDreamFlowersWhiteMiddle (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteMiddle
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1635,1651]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteMiddle/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteMiddle/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[1845,1851]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1866,1884]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1915,1927]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[1939,1944]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1960,1971]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1985,1998]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2008,2021]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2031,2046]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2053,2067]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2155,2168]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2288,2311]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2375,2384]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2429,2439]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2536,2546]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2633,2647]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2807,2819]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 13 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamFlowersWhiteMiddle.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamGrass1.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamGrass1/BlockDreamGrass1 (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamGrass1
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1696,1712]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamGrass1/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamGrass1/BlockCustom
+Rename field net/minecraft/block/material/Material/PLANTS[1893,1899]::PLANTS->field_151585_k
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1914,1932]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1950,1962]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[1974,1979]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1995,2006]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2018,2031]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2041,2054]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2066,2081]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2088,2102]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2190,2203]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2323,2346]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2410,2419]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2464,2474]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2571,2581]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2668,2682]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2844,2856]::isOpaqueCube->func_149662_c
+Rename field net/minecraft/init/Items/NETHER_STAR[3073,3084]::NETHER_STAR->field_151156_bN
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 16 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.init.Items
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.item.ItemStack
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.NonNullList
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamGrass1.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamGrass2.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamGrass2/BlockDreamGrass2 (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamGrass2
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1697,1713]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamGrass2/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamGrass2/BlockCustom
+Rename field net/minecraft/block/material/Material/PLANTS[1894,1900]::PLANTS->field_151585_k
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1915,1933]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1951,1963]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[1975,1980]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1996,2007]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2019,2032]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2042,2055]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2067,2082]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2089,2103]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2191,2204]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2324,2347]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2411,2420]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2465,2475]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2572,2582]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2669,2683]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2845,2857]::isOpaqueCube->func_149662_c
+Rename field net/minecraft/init/Items/NETHER_STAR[3074,3085]::NETHER_STAR->field_151156_bN
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 16 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.init.Items
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.item.ItemStack
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.NonNullList
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamGrass2.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamMoss1.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamMoss1/BlockDreamMoss1 (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamMoss1
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1927,1943]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockHorizontal/FACING[2139,2145]::FACING->field_185512_D
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamMoss1/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamMoss1/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[2200,2206]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2221,2239]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2256,2268]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[2280,2285]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2301,2312]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2326,2339]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2349,2362]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2372,2387]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2394,2408]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2432,2447]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2451,2461]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2466,2478]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2482,2494]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2597,2610]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2732,2755]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2819,2828]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2873,2883]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2980,2990]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[3077,3091]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3178,3186]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockHorizontal/FACING[3208,3214]::FACING->field_185512_D
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3661,3677]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3814,3826]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3880,3892]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[3906,3912]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3939,3947]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[4006,4016]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[4075,4087]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[4098,4108]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4131,4139]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[4198,4214]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4240,4255]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4256,4268]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[4289,4297]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4344,4360]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4410,4418]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[4433,4441]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[4492,4512]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4711,4726]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4727,4739]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4784,4799]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4800,4812]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4869,4881]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 21 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.BlockHorizontal
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.properties.IProperty
+        net.minecraft.block.properties.PropertyDirection
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.Mirror
+        net.minecraft.util.Rotation
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamMoss1.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamOuterLeaves.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamOuterLeaves/BlockDreamOuterLeaves (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamOuterLeaves
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1952,1968]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockDirectional/FACING[2176,2182]::FACING->field_176387_N
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamOuterLeaves/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamOuterLeaves/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[2237,2243]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2258,2276]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2299,2311]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[2323,2328]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2344,2355]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2367,2380]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2390,2403]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2413,2428]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2435,2449]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2473,2488]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2492,2502]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2507,2519]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2523,2535]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2638,2651]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2771,2794]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2858,2867]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2912,2922]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[3019,3029]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[3116,3130]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3217,3225]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockDirectional/FACING[3248,3254]::FACING->field_176387_N
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3817,3833]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3970,3982]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4036,4048]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[4062,4068]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4095,4103]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[4162,4172]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[4231,4243]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[4254,4264]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4287,4295]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[4354,4370]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4396,4411]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4412,4424]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[4445,4453]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4500,4516]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4566,4574]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[4589,4597]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[4648,4668]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4804,4819]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4820,4832]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4889,4901]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 21 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.BlockDirectional
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.properties.IProperty
+        net.minecraft.block.properties.PropertyDirection
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.Mirror
+        net.minecraft.util.Rotation
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamOuterLeaves.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamVineBottom.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamVineBottom/BlockDreamVineBottom (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamVineBottom
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1947,1963]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockHorizontal/FACING[2169,2175]::FACING->field_185512_D
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamVineBottom/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamVineBottom/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[2230,2236]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2251,2269]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2291,2303]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[2315,2320]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2336,2347]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2361,2374]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2384,2397]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2407,2422]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2429,2443]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2467,2482]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2486,2496]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2501,2513]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2517,2529]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2632,2645]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2765,2788]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2852,2861]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2906,2916]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[3013,3023]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[3110,3124]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3211,3219]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockHorizontal/FACING[3241,3247]::FACING->field_185512_D
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3726,3742]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3879,3891]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3945,3957]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[3971,3977]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4004,4012]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[4071,4081]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[4140,4152]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[4163,4173]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4196,4204]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[4263,4279]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4305,4320]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4321,4333]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[4354,4362]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4409,4425]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4475,4483]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[4498,4506]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[4557,4577]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4713,4728]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4729,4741]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[4758,4777]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[4775,4786]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4831,4843]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 21 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.BlockHorizontal
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.properties.IProperty
+        net.minecraft.block.properties.PropertyDirection
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.Mirror
+        net.minecraft.util.Rotation
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamVineBottom.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamVineMiddle.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamVineMiddle/BlockDreamVineMiddle (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamVineMiddle
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1947,1963]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockHorizontal/FACING[2169,2175]::FACING->field_185512_D
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamVineMiddle/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamVineMiddle/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[2230,2236]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2251,2269]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2291,2303]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/PLANT[2315,2320]::PLANT->field_185850_c
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2336,2347]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2361,2374]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2384,2397]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2407,2422]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2429,2443]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2467,2482]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2486,2496]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2501,2513]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2517,2529]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2632,2645]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2765,2788]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2852,2861]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2906,2916]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[3013,3023]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[3110,3124]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3211,3219]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockHorizontal/FACING[3241,3247]::FACING->field_185512_D
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3718,3734]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3871,3883]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3937,3949]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[3963,3969]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3996,4004]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[4063,4073]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[4132,4144]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[4155,4165]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4188,4196]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[4255,4271]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4297,4312]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4313,4325]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[4346,4354]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4401,4417]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4467,4475]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[4490,4498]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[4549,4569]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4705,4720]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4721,4733]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[4750,4769]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[4767,4778]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4823,4835]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 21 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.BlockHorizontal
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.properties.IProperty
+        net.minecraft.block.properties.PropertyDirection
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.Mirror
+        net.minecraft.util.Rotation
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamVineMiddle.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockDreamVineTop.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamVineTop/BlockDreamVineTop (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockDreamVineTop
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1935,1951]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockHorizontal/FACING[2154,2160]::FACING->field_185512_D
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockDreamVineTop/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockDreamVineTop/BlockCustom
+Rename field net/minecraft/block/material/Material/LEAVES[2215,2221]::LEAVES->field_151584_j
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2236,2254]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2273,2285]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/GLASS[2297,2302]::GLASS->field_185853_f
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2318,2329]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2343,2356]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2366,2379]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2389,2404]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2411,2425]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2449,2464]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2468,2478]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2483,2495]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2499,2511]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2614,2627]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/getCollisionBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2747,2770]::getCollisionBoundingBox->func_180646_a
+Rename field net/minecraft/block/Block/NULL_AABB[2834,2843]::NULL_AABB->field_185506_k
+Rename method net/minecraft/block/Block/isPassable (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Z[2888,2898]::isPassable->func_176205_b
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2995,3005]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[3092,3106]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3193,3201]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockHorizontal/FACING[3223,3229]::FACING->field_185512_D
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3700,3716]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3853,3865]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3919,3931]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[3945,3951]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3978,3986]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[4045,4055]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[4114,4126]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[4137,4147]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4170,4178]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[4237,4253]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4279,4294]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4295,4307]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[4328,4336]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4383,4399]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4449,4457]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[4472,4480]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[4531,4551]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4687,4702]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4703,4715]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[4732,4751]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[4749,4760]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4805,4817]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 21 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.BlockHorizontal
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.properties.IProperty
+        net.minecraft.block.properties.PropertyDirection
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+        net.minecraft.util.EnumFacing
+        net.minecraft.util.Mirror
+        net.minecraft.util.Rotation
+        net.minecraft.util.math.AxisAlignedBB
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.IBlockAccess
+        net.minecraft.world.World
+End  Processing: jptv/seomoodi/ppapdream/block/BlockDreamVineTop.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockTransperantLightFull.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockTransperantLightFull/BlockTransperantLightFull (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockTransperantLightFull
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1489,1505]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockTransperantLightFull/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockTransperantLightFull/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1695,1699]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1716,1734]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1761,1773]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1785,1790]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1806,1817]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1829,1842]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1853,1866]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1876,1891]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1900,1914]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2002,2015]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2099,2111]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 10 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+End  Processing: jptv/seomoodi/ppapdream/block/BlockTransperantLightFull.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockTransperantLightHalf.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockTransperantLightHalf/BlockTransperantLightHalf (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockTransperantLightHalf
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1489,1505]::getItemFromBlock->func_150898_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockTransperantLightHalf/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockTransperantLightHalf/BlockCustom
+Rename field net/minecraft/block/material/Material/ROCK[1695,1699]::ROCK->field_151576_e
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[1716,1734]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[1761,1773]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/STONE[1785,1790]::STONE->field_185851_d
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[1806,1817]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[1829,1842]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[1853,1866]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[1878,1893]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[1902,1916]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2004,2017]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[2101,2113]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 10 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.Block
+        net.minecraft.block.SoundType
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.util.BlockRenderLayer
+End  Processing: jptv/seomoodi/ppapdream/block/BlockTransperantLightHalf.java
+
+Start Processing: jptv/seomoodi/ppapdream/creativetab/TabDream.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+FOUND CONSTR method jptv/seomoodi/ppapdream/creativetab/TabDream/TabDream (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/creativetab/TabDream
+Rename method net/minecraft/creativetab/CreativeTabs/getTabIconItem ()Lnet/minecraft/item/ItemStack;[657,671]::getTabIconItem->func_78016_d
+Rename field net/minecraft/init/Items/NETHER_STAR[706,717]::NETHER_STAR->field_151156_bN
+Rename method net/minecraft/creativetab/CreativeTabs/setBackgroundImageName (Ljava/lang/String;)Lnet/minecraft/creativetab/CreativeTabs;[835,857]::setBackgroundImageName->func_78025_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Adding 4 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        net.minecraft.creativetab.CreativeTabs
+        net.minecraft.init.Items
+        net.minecraft.item.ItemStack
+End  Processing: jptv/seomoodi/ppapdream/creativetab/TabDream.java
+
+Start Processing: jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/EntityDreamFishGreen (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen
+Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[2281,2297]::getEntityTexture->func_110775_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/EntityCustom/EntityCustom (Lnet/minecraft/world/World;)V jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/EntityCustom
+Rename method net/minecraft/entity/Entity/setSize (FF)V[2532,2539]::setSize->func_70105_a
+Rename field net/minecraft/entity/EntityLiving/experienceValue[2562,2577]::experienceValue->field_70728_aV
+Rename field net/minecraft/entity/Entity/isImmuneToFire[2591,2605]::isImmuneToFire->field_70178_ae
+Rename method net/minecraft/entity/EntityLiving/setNoAI (Z)V[2619,2626]::setNoAI->func_94061_f
+Rename method net/minecraft/entity/EntityLiving/enablePersistence ()V[2644,2661]::enablePersistence->func_110163_bv
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2700,2712]::initEntityAI->func_184651_r
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2728,2740]::initEntityAI->func_184651_r
+Rename method net/minecraft/entity/EntityLivingBase/getCreatureAttribute ()Lnet/minecraft/entity/EnumCreatureAttribute;[2797,2817]::getCreatureAttribute->func_70668_bt
+Rename method net/minecraft/entity/EntityLiving/canDespawn ()Z[2900,2910]::canDespawn->func_70692_ba
+Rename method net/minecraft/entity/EntityLiving/getDropItem ()Lnet/minecraft/item/Item;[2974,2985]::getDropItem->func_146068_u
+Rename method net/minecraft/entity/EntityLiving/getAmbientSound ()Lnet/minecraft/util/SoundEvent;[3069,3084]::getAmbientSound->func_184639_G
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3160,3168]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3175,3184]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getHurtSound (Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;[3275,3287]::getHurtSound->func_184601_bQ
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3382,3390]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3397,3406]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getDeathSound ()Lnet/minecraft/util/SoundEvent;[3497,3510]::getDeathSound->func_184615_bR
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3589,3597]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3604,3613]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getSoundVolume ()F[3683,3697]::getSoundVolume->func_70599_aP
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3756,3772]::attackEntityFrom->func_70097_a
+Rename field net/minecraft/util/DamageSource/FALL[3837,3841]::FALL->field_76379_h
+Rename field net/minecraft/util/DamageSource/DROWN[3902,3907]::DROWN->field_76369_e
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3953,3969]::attackEntityFrom->func_70097_a
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4021,4042]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4050,4071]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4081,4099]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4119,4124]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4154,4172]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4192,4197]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4208,4220]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4240,4258]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4278,4292]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4313,4331]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4351,4365]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4367,4379]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4401,4419]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4439,4449]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4474,4492]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4512,4522]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4528,4540]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4560,4578]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4598,4611]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4633,4651]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4671,4684]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4687,4699]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/canBreatheUnderwater ()Z[4744,4764]::canBreatheUnderwater->func_70648_aU
+Rename method net/minecraft/entity/EntityLiving/getCanSpawnHere ()Z[4817,4832]::getCanSpawnHere->func_70601_bi
+Rename method net/minecraft/entity/EntityLiving/isNotColliding ()Z[4890,4904]::isNotColliding->func_70058_J
+Rename field net/minecraft/entity/Entity/world[4923,4928]::world->field_70170_p
+Rename method net/minecraft/world/World/checkNoEntityCollision (Lnet/minecraft/util/math/AxisAlignedBB;Lnet/minecraft/entity/Entity;)Z[4937,4959]::checkNoEntityCollision->func_72917_a
+Rename method net/minecraft/entity/Entity/getEntityBoundingBox ()Lnet/minecraft/util/math/AxisAlignedBB;[4955,4975]::getEntityBoundingBox->func_174813_aQ
+Rename method net/minecraft/entity/Entity/isPushedByWater ()Z[5018,5033]::isPushedByWater->func_96092_aw
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/Modelcustom_model/Modelcustom_model ()V jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen/Modelcustom_model
+Rename field net/minecraft/client/model/ModelBase/textureWidth[5662,5674]::textureWidth->field_78090_t
+Rename field net/minecraft/client/model/ModelBase/textureHeight[5686,5699]::textureHeight->field_78089_u
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5755,5771]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5847,5863]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[5890,5898]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[5984,5992]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6137,6153]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6299,6315]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6348,6356]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[6460,6468]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6609,6625]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6702,6718]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6747,6755]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[6844,6852]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7008,7024]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7116,7132]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7170,7178]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7294,7302]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7471,7487]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7581,7597]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7637,7645]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7764,7772]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7921,7937]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7966,7974]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[8092,8098]::render->func_78088_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8192,8198]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8227,8233]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8257,8263]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8296,8302]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8336,8342]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8366,8372]::render->func_78785_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[8499,8511]::rotateAngleX->field_78795_f
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8536,8548]::rotateAngleY->field_78796_g
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[8573,8585]::rotateAngleZ->field_78808_h
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8614,8631]::setRotationAngles->func_78087_a
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8708,8725]::setRotationAngles->func_78087_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8765,8777]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8792,8795]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8854,8866]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8881,8884]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8940,8952]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8967,8970]::cos->func_76134_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntryBuilder
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.client.registry.RenderingRegistry
+Adding 17 imports
+        java.util.ArrayList
+        java.util.Iterator
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        net.minecraft.client.model.ModelBase
+        net.minecraft.client.model.ModelBox
+        net.minecraft.client.model.ModelRenderer
+        net.minecraft.client.renderer.entity.RenderLiving
+        net.minecraft.entity.Entity
+        net.minecraft.entity.EnumCreatureAttribute
+        net.minecraft.entity.SharedMonsterAttributes
+        net.minecraft.entity.passive.EntitySquid
+        net.minecraft.item.Item
+        net.minecraft.util.DamageSource
+        net.minecraft.util.ResourceLocation
+        net.minecraft.util.math.MathHelper
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+End  Processing: jptv/seomoodi/ppapdream/entity/EntityDreamFishGreen.java
+
+Start Processing: jptv/seomoodi/ppapdream/entity/EntityDreamFishPink.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/EntityDreamFishPink (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/entity/EntityDreamFishPink
+Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[2272,2288]::getEntityTexture->func_110775_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/EntityCustom/EntityCustom (Lnet/minecraft/world/World;)V jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/EntityCustom
+Rename method net/minecraft/entity/Entity/setSize (FF)V[2522,2529]::setSize->func_70105_a
+Rename field net/minecraft/entity/EntityLiving/experienceValue[2552,2567]::experienceValue->field_70728_aV
+Rename field net/minecraft/entity/Entity/isImmuneToFire[2581,2595]::isImmuneToFire->field_70178_ae
+Rename method net/minecraft/entity/EntityLiving/setNoAI (Z)V[2609,2616]::setNoAI->func_94061_f
+Rename method net/minecraft/entity/EntityLiving/enablePersistence ()V[2634,2651]::enablePersistence->func_110163_bv
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2690,2702]::initEntityAI->func_184651_r
+Rename method net/minecraft/entity/EntityLiving/initEntityAI ()V[2718,2730]::initEntityAI->func_184651_r
+Rename method net/minecraft/entity/EntityLivingBase/getCreatureAttribute ()Lnet/minecraft/entity/EnumCreatureAttribute;[2787,2807]::getCreatureAttribute->func_70668_bt
+Rename method net/minecraft/entity/EntityLiving/canDespawn ()Z[2890,2900]::canDespawn->func_70692_ba
+Rename method net/minecraft/entity/EntityLiving/getDropItem ()Lnet/minecraft/item/Item;[2964,2975]::getDropItem->func_146068_u
+Rename method net/minecraft/entity/EntityLiving/getAmbientSound ()Lnet/minecraft/util/SoundEvent;[3059,3074]::getAmbientSound->func_184639_G
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3150,3158]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3165,3174]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getHurtSound (Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;[3265,3277]::getHurtSound->func_184601_bQ
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3372,3380]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3387,3396]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getDeathSound ()Lnet/minecraft/util/SoundEvent;[3487,3500]::getDeathSound->func_184615_bR
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3579,3587]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3594,3603]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getSoundVolume ()F[3673,3687]::getSoundVolume->func_70599_aP
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3746,3762]::attackEntityFrom->func_70097_a
+Rename field net/minecraft/util/DamageSource/FALL[3827,3831]::FALL->field_76379_h
+Rename field net/minecraft/util/DamageSource/DROWN[3892,3897]::DROWN->field_76369_e
+Rename method net/minecraft/entity/Entity/attackEntityFrom (Lnet/minecraft/util/DamageSource;F)Z[3943,3959]::attackEntityFrom->func_70097_a
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4011,4032]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4040,4061]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4071,4089]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4109,4114]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4144,4162]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4182,4187]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4198,4210]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4230,4248]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4268,4282]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4303,4321]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[4341,4355]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4357,4369]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4391,4409]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4429,4439]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4464,4482]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[4502,4512]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4518,4530]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4550,4568]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4588,4601]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4623,4641]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[4661,4674]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4677,4689]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/canBreatheUnderwater ()Z[4734,4754]::canBreatheUnderwater->func_70648_aU
+Rename method net/minecraft/entity/EntityLiving/getCanSpawnHere ()Z[4807,4822]::getCanSpawnHere->func_70601_bi
+Rename method net/minecraft/entity/EntityLiving/isNotColliding ()Z[4880,4894]::isNotColliding->func_70058_J
+Rename field net/minecraft/entity/Entity/world[4913,4918]::world->field_70170_p
+Rename method net/minecraft/world/World/checkNoEntityCollision (Lnet/minecraft/util/math/AxisAlignedBB;Lnet/minecraft/entity/Entity;)Z[4927,4949]::checkNoEntityCollision->func_72917_a
+Rename method net/minecraft/entity/Entity/getEntityBoundingBox ()Lnet/minecraft/util/math/AxisAlignedBB;[4945,4965]::getEntityBoundingBox->func_174813_aQ
+Rename method net/minecraft/entity/Entity/isPushedByWater ()Z[5008,5023]::isPushedByWater->func_96092_aw
+FOUND CONSTR method jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/Modelcustom_model/Modelcustom_model ()V jptv/seomoodi/ppapdream/entity/EntityDreamFishPink/Modelcustom_model
+Rename field net/minecraft/client/model/ModelBase/textureWidth[5652,5664]::textureWidth->field_78090_t
+Rename field net/minecraft/client/model/ModelBase/textureHeight[5676,5689]::textureHeight->field_78089_u
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5745,5761]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[5837,5853]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[5880,5888]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[5974,5982]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6127,6143]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6289,6305]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6338,6346]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[6450,6458]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6599,6615]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6692,6708]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[6737,6745]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[6834,6842]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[6998,7014]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7106,7122]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7160,7168]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7284,7292]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7461,7477]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7571,7587]::setRotationPoint->func_78793_a
+Rename method net/minecraft/client/model/ModelRenderer/addChild (Lnet/minecraft/client/model/ModelRenderer;)V[7627,7635]::addChild->func_78792_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7754,7762]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelRenderer/setRotationPoint (FFF)V[7911,7927]::setRotationPoint->func_78793_a
+Rename field net/minecraft/client/model/ModelRenderer/cubeList[7956,7964]::cubeList->field_78804_l
+Rename method net/minecraft/client/model/ModelBase/render (Lnet/minecraft/entity/Entity;FFFFFF)V[8082,8088]::render->func_78088_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8182,8188]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8217,8223]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8247,8253]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8286,8292]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8326,8332]::render->func_78785_a
+Rename method net/minecraft/client/model/ModelRenderer/render (F)V[8356,8362]::render->func_78785_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleX[8489,8501]::rotateAngleX->field_78795_f
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8526,8538]::rotateAngleY->field_78796_g
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleZ[8563,8575]::rotateAngleZ->field_78808_h
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8604,8621]::setRotationAngles->func_78087_a
+Rename method net/minecraft/client/model/ModelBase/setRotationAngles (FFFFFFLnet/minecraft/entity/Entity;)V[8698,8715]::setRotationAngles->func_78087_a
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8755,8767]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8782,8785]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8844,8856]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8871,8874]::cos->func_76134_b
+Rename field net/minecraft/client/model/ModelRenderer/rotateAngleY[8930,8942]::rotateAngleY->field_78796_g
+Rename method net/minecraft/util/math/MathHelper/cos (F)F[8957,8960]::cos->func_76134_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntryBuilder
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.client.registry.RenderingRegistry
+Adding 17 imports
+        java.util.ArrayList
+        java.util.Iterator
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        net.minecraft.client.model.ModelBase
+        net.minecraft.client.model.ModelBox
+        net.minecraft.client.model.ModelRenderer
+        net.minecraft.client.renderer.entity.RenderLiving
+        net.minecraft.entity.Entity
+        net.minecraft.entity.EnumCreatureAttribute
+        net.minecraft.entity.SharedMonsterAttributes
+        net.minecraft.entity.passive.EntitySquid
+        net.minecraft.item.Item
+        net.minecraft.util.DamageSource
+        net.minecraft.util.ResourceLocation
+        net.minecraft.util.math.MathHelper
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+End  Processing: jptv/seomoodi/ppapdream/entity/EntityDreamFishPink.java
+
+Start Processing: jptv/seomoodi/ppapdream/item/ItemRevolver.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/item/ItemRevolver/ItemRevolver (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/item/ItemRevolver
+Rename field net/minecraft/init/Blocks/WOODEN_BUTTON[2621,2634]::WOODEN_BUTTON->field_150471_bO
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2649,2656]::getItem->func_77973_b
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[2681,2693]::getMinecraft->func_71410_x
+Rename method net/minecraft/client/Minecraft/getRenderItem ()Lnet/minecraft/client/renderer/RenderItem;[2696,2709]::getRenderItem->func_175599_af
+FOUND CONSTR method jptv/seomoodi/ppapdream/item/ItemRevolver/RangedItem/RangedItem ()V jptv/seomoodi/ppapdream/item/ItemRevolver/RangedItem
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[2816,2828]::setMaxDamage->func_77656_e
+Rename method net/minecraft/item/Item/setFull3D ()Lnet/minecraft/item/Item;[2839,2848]::setFull3D->func_77664_n
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[2859,2877]::setUnlocalizedName->func_77655_b
+Rename field net/minecraft/item/Item/maxStackSize[2922,2934]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2946,2960]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/onPlayerStoppedUsing (Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;I)V[3009,3029]::onPlayerStoppedUsing->func_77615_a
+Rename field net/minecraft/world/World/isRemote[3122,3130]::isRemote->field_72995_K
+Rename method net/minecraft/entity/IProjectile/shoot (DDDFF)V[3365,3370]::shoot->func_70186_c
+Rename method net/minecraft/entity/Entity/getLookVec ()Lnet/minecraft/util/math/Vec3d;[3385,3395]::getLookVec->func_70040_Z
+Rename field net/minecraft/util/math/Vec3d/x[3400,3401]::x->field_72450_a
+Rename method net/minecraft/entity/Entity/getLookVec ()Lnet/minecraft/util/math/Vec3d;[3422,3432]::getLookVec->func_70040_Z
+Rename field net/minecraft/util/math/Vec3d/y[3437,3438]::y->field_72448_b
+Rename method net/minecraft/entity/Entity/getLookVec ()Lnet/minecraft/util/math/Vec3d;[3459,3469]::getLookVec->func_70040_Z
+Rename field net/minecraft/util/math/Vec3d/z[3474,3475]::z->field_72449_c
+Rename method net/minecraft/entity/Entity/setSilent (Z)V[3521,3530]::setSilent->func_174810_b
+Rename method net/minecraft/entity/projectile/EntityArrow/setIsCritical (Z)V[3559,3572]::setIsCritical->func_70243_d
+Rename method net/minecraft/entity/projectile/EntityArrow/setDamage (D)V[3597,3606]::setDamage->func_70239_b
+Rename method net/minecraft/entity/projectile/EntityArrow/setKnockbackStrength (I)V[3632,3652]::setKnockbackStrength->func_70240_a
+Rename method net/minecraft/item/ItemStack/damageItem (ILnet/minecraft/entity/EntityLivingBase;)V[3664,3674]::damageItem->func_77972_a
+Rename field net/minecraft/entity/Entity/posX[3715,3719]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[3756,3760]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[3797,3801]::posZ->field_70161_v
+Rename method net/minecraft/world/World/playSound (Lnet/minecraft/entity/player/EntityPlayer;DDDLnet/minecraft/util/SoundEvent;Lnet/minecraft/util/SoundCategory;FF)V[3823,3832]::playSound->func_184148_a
+Rename field net/minecraft/util/SoundEvent/REGISTRY[3963,3971]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[3978,3987]::getObject->func_82594_a
+Rename field net/minecraft/item/Item/itemRand[4059,4067]::itemRand->field_77697_d
+Rename field net/minecraft/entity/projectile/EntityArrow/pickupStatus[4131,4143]::pickupStatus->field_70251_a
+New Key: class net/minecraft/entity/projectile/EntityArrow
+Rename field net/minecraft/world/World/isRemote[4200,4208]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[4227,4238]::spawnEntity->func_72838_d
+Rename method net/minecraft/item/Item/onItemRightClick (Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;[4314,4330]::onItemRightClick->func_77659_a
+Rename method net/minecraft/entity/EntityLivingBase/setActiveHand (Lnet/minecraft/util/EnumHand;)V[4389,4402]::setActiveHand->func_184598_c
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItem (Lnet/minecraft/util/EnumHand;)Lnet/minecraft/item/ItemStack;[4471,4482]::getHeldItem->func_184586_b
+Rename method net/minecraft/item/Item/getItemUseAction (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/item/EnumAction;[4534,4550]::getItemUseAction->func_77661_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[4631,4652]::getMaxItemUseDuration->func_77626_a
+FOUND CONSTR method jptv/seomoodi/ppapdream/item/ItemRevolver/EntityArrowCustom/EntityArrowCustom (Lnet/minecraft/world/World;)V jptv/seomoodi/ppapdream/item/ItemRevolver/EntityArrowCustom
+FOUND CONSTR method jptv/seomoodi/ppapdream/item/ItemRevolver/EntityArrowCustom/EntityArrowCustom (Lnet/minecraft/world/World;DDD)V jptv/seomoodi/ppapdream/item/ItemRevolver/EntityArrowCustom
+FOUND CONSTR method jptv/seomoodi/ppapdream/item/ItemRevolver/EntityArrowCustom/EntityArrowCustom (Lnet/minecraft/world/World;Lnet/minecraft/entity/EntityLivingBase;)V jptv/seomoodi/ppapdream/item/ItemRevolver/EntityArrowCustom
+Rename method net/minecraft/entity/projectile/EntityArrow/arrowHit (Lnet/minecraft/entity/EntityLivingBase;)V[5073,5081]::arrowHit->func_184548_a
+Rename method net/minecraft/entity/projectile/EntityArrow/arrowHit (Lnet/minecraft/entity/EntityLivingBase;)V[5124,5132]::arrowHit->func_184548_a
+Rename method net/minecraft/entity/EntityLivingBase/setArrowCountInEntity (I)V[5158,5179]::setArrowCountInEntity->func_85034_r
+Rename method net/minecraft/entity/EntityLivingBase/getArrowCountInEntity ()I[5178,5199]::getArrowCountInEntity->func_85035_bI
+Rename method net/minecraft/entity/Entity/onUpdate ()V[5235,5243]::onUpdate->func_70071_h_
+Rename method net/minecraft/entity/Entity/onUpdate ()V[5263,5271]::onUpdate->func_70071_h_
+Rename field net/minecraft/entity/Entity/posX[5303,5307]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[5341,5345]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[5379,5383]::posZ->field_70161_v
+Rename field net/minecraft/entity/Entity/world[5417,5422]::world->field_70170_p
+Rename field net/minecraft/entity/projectile/EntityArrow/shootingEntity[5461,5475]::shootingEntity->field_70250_c
+Rename field net/minecraft/entity/projectile/EntityArrow/inGround[5489,5497]::inGround->field_70254_i
+Rename field net/minecraft/entity/Entity/world[5516,5521]::world->field_70170_p
+Rename method net/minecraft/world/World/removeEntity (Lnet/minecraft/entity/Entity;)V[5530,5542]::removeEntity->func_72900_e
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntryBuilder
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.client.registry.RenderingRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 21 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.client.Minecraft
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.client.renderer.entity.RenderSnowball
+        net.minecraft.entity.Entity
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.entity.player.EntityPlayerMP
+        net.minecraft.entity.projectile.EntityArrow
+        net.minecraft.entity.projectile.EntityTippedArrow
+        net.minecraft.init.Blocks
+        net.minecraft.item.EnumAction
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.util.ActionResult
+        net.minecraft.util.EnumActionResult
+        net.minecraft.util.EnumHand
+        net.minecraft.util.ResourceLocation
+        net.minecraft.util.SoundCategory
+        net.minecraft.world.World
+End  Processing: jptv/seomoodi/ppapdream/item/ItemRevolver.java
+
+Start Processing: jptv/seomoodi/ppapdream/item/ItemUnknownstone.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/item/ItemUnknownstone/ItemUnknownstone (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/item/ItemUnknownstone
+FOUND CONSTR method jptv/seomoodi/ppapdream/item/ItemUnknownstone/ItemCustom/ItemCustom ()V jptv/seomoodi/ppapdream/item/ItemUnknownstone/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1311,1323]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1332,1344]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1357,1375]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1428,1442]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1490,1511]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1555,1576]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1641,1656]::getDestroySpeed->func_150893_a
+Rename method net/minecraft/item/Item/hasEffect (Lnet/minecraft/item/ItemStack;)Z[1784,1793]::hasEffect->func_77636_d
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.creativetab.TabDream
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: jptv/seomoodi/ppapdream/item/ItemUnknownstone.java
+
+Start Processing: jptv/seomoodi/ppapdream/procedure/ProcedureDreamCrystalBlockDestroyedByPlayer.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+FOUND CONSTR method jptv/seomoodi/ppapdream/procedure/ProcedureDreamCrystalBlockDestroyedByPlayer/ProcedureDreamCrystalBlockDestroyedByPlayer (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/procedure/ProcedureDreamCrystalBlockDestroyedByPlayer
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[1880,1899]::getHeldItemMainhand->func_184614_ca
+Rename field net/minecraft/item/ItemStack/EMPTY[1909,1914]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1931,1938]::getItem->func_77973_b
+Rename field net/minecraft/init/Items/STONE_PICKAXE[1969,1982]::STONE_PICKAXE->field_151050_s
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1996,2003]::getItem->func_77973_b
+Rename field net/minecraft/world/World/isRemote[2030,2038]::isRemote->field_72995_K
+Rename method net/minecraft/entity/item/EntityItem/setPickupDelay (I)V[2180,2194]::setPickupDelay->func_174867_a
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[2210,2221]::spawnEntity->func_72838_d
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[2334,2353]::getHeldItemMainhand->func_184614_ca
+Rename field net/minecraft/item/ItemStack/EMPTY[2363,2368]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2386,2393]::getItem->func_77973_b
+Rename field net/minecraft/init/Items/IRON_PICKAXE[2424,2436]::IRON_PICKAXE->field_151035_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2451,2458]::getItem->func_77973_b
+Rename field net/minecraft/world/World/isRemote[2486,2494]::isRemote->field_72995_K
+Rename method net/minecraft/entity/item/EntityItem/setPickupDelay (I)V[2638,2652]::setPickupDelay->func_174867_a
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[2669,2680]::spawnEntity->func_72838_d
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[2789,2808]::getHeldItemMainhand->func_184614_ca
+Rename field net/minecraft/item/ItemStack/EMPTY[2818,2823]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2841,2848]::getItem->func_77973_b
+Rename field net/minecraft/init/Items/DIAMOND_PICKAXE[2879,2894]::DIAMOND_PICKAXE->field_151046_w
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[2906,2913]::getItem->func_77973_b
+Rename field net/minecraft/world/World/isRemote[2941,2949]::isRemote->field_72995_K
+Rename method net/minecraft/entity/item/EntityItem/setPickupDelay (I)V[3093,3107]::setPickupDelay->func_174867_a
+Rename method net/minecraft/world/World/spawnEntity (Lnet/minecraft/entity/Entity;)Z[3124,3135]::spawnEntity->func_72838_d
+Import: net.minecraft.world.World
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.init.Items
+Import: net.minecraft.entity.item.EntityItem
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.entity.Entity
+Adding 3 imports
+        java.util.Map
+        jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+        jptv.seomoodi.ppapdream.item.ItemUnknownstone
+End  Processing: jptv/seomoodi/ppapdream/procedure/ProcedureDreamCrystalBlockDestroyedByPlayer.java
+

@@ -1,0 +1,9 @@
+{
+  "parent": "ppapdream:custom/dream_moss_1",
+  "textures": {
+    "all": "ppapdream:blocks/dream_moss_1",
+    "particle": "ppapdream:blocks/dream_moss_1",
+    "texture": "ppapdream:blocks/dream_moss_1",
+    "texture2": "ppapdream:blocks/dream_moss_2"
+  }
+}

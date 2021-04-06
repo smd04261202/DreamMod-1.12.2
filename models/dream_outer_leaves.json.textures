@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "dream_outer_leaves",
+        "spore": "dream_outer_leaves"
+      },
+      "name": "default"
+    }
+  }
+}

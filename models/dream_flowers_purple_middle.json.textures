@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "flowers": "dream_flowers_purple_middle",
+        "vine": "dream_flowers_stem"
+      },
+      "name": "default"
+    }
+  }
+}

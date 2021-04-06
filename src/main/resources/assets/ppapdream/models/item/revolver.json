@@ -1,0 +1,6 @@
+{
+  "parent": "ppapdream:custom/revolver",
+  "textures": {
+    "revolver": "ppapdream:blocks/revolver"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ppapdream:blocks/transparent",
+    "up": "ppapdream:blocks/transparent",
+    "north": "ppapdream:blocks/transparent",
+    "east": "ppapdream:blocks/transparent",
+    "south": "ppapdream:blocks/transparent",
+    "west": "ppapdream:blocks/transparent",
+    "particle": "ppapdream:blocks/transparent"
+  }
+}
