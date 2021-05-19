@@ -1,0 +1,36 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "mine_manual01.png",
+          "name": "mine_manual01.png",
+          "x": 174,
+          "y": -12
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "\\ub2e4\\uc74c",
+          "onClick": {
+            "name": "MineManual02page"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "\\ub2e4\\uc74c",
+          "x": 606,
+          "y": 384
+        }
+      }
+    ]
+  }
+}

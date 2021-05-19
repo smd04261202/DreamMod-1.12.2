@@ -30,6 +30,8 @@ import net.minecraft.block.Block;
 import jptv.seomoodi.ppapdream.creativetab.TabDream;
 import jptv.seomoodi.ppapdream.ElementsPpapdreamMod;
 
+import java.util.Random;
+
 @ElementsPpapdreamMod.ModElement.Tag
 public class BlockDreamOuterLeaves extends ElementsPpapdreamMod.ModElement {
 	@GameRegistry.ObjectHolder("ppapdream:dream_outer_leaves")
@@ -139,6 +141,16 @@ public class BlockDreamOuterLeaves extends ElementsPpapdreamMod.ModElement {
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public boolean isReplaceable(IBlockAccess blockAccess, BlockPos pos) {
+			return true;
+		}
+
+		@Override
+		public int quantityDropped(Random random) {
+			return 0;
 		}
 	}
 }

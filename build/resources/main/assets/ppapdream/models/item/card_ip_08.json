@@ -1,0 +1,7 @@
+{
+  "parent": "ppapdream:custom/card_ip08",
+  "textures": {
+    "1": "ppapdream:blocks/card08",
+    "2": "ppapdream:blocks/card00"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "peng_diary1.png",
+          "name": "peng_diary1.png",
+          "x": 174,
+          "y": -12
+        }
+      }
+    ]
+  }
+}

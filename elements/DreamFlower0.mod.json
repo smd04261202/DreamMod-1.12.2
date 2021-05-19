@@ -34,7 +34,7 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -62,7 +62,7 @@
       "value": "PLANT"
     },
     "luminance": 0.0,
-    "unbreakable": false,
+    "unbreakable": true,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {

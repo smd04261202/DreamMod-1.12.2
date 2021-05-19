@@ -30,10 +30,13 @@ import net.minecraft.client.model.ModelBox;
 import net.minecraft.client.model.ModelBase;
 import net.minecraft.block.state.IBlockState;
 
+import jptv.seomoodi.ppapdream.procedure.ProcedureDreamDragonFlyEntityDies;
 import jptv.seomoodi.ppapdream.ElementsPpapdreamMod;
 
 import java.util.Random;
+import java.util.Map;
 import java.util.Iterator;
+import java.util.HashMap;
 import java.util.ArrayList;
 
 @ElementsPpapdreamMod.ModElement.Tag
@@ -149,18 +152,35 @@ public class EntityDreamDragonFly extends ElementsPpapdreamMod.ModElement {
 		}
 
 		@Override
+		public void onDeath(DamageSource source) {
+			super.onDeath(source);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			Entity entity = this;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureDreamDragonFlyEntityDies.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
 		protected void applyEntityAttributes() {
 			super.applyEntityAttributes();
 			if (this.getEntityAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.8D);
+				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(1D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(3D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(0D);
 			this.getAttributeMap().registerAttribute(SharedMonsterAttributes.FLYING_SPEED);
-			this.getEntityAttribute(SharedMonsterAttributes.FLYING_SPEED).setBaseValue(0.8);
+			this.getEntityAttribute(SharedMonsterAttributes.FLYING_SPEED).setBaseValue(1);
 		}
 
 		@Override

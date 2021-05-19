@@ -1,0 +1,9 @@
+{
+  "parent": "ppapdream:custom/bakha_doll",
+  "textures": {
+    "all": "ppapdream:blocks/bakha_doll",
+    "particle": "ppapdream:blocks/bakha_doll",
+    "0": "ppapdream:blocks/bakha_doll",
+    "1": "ppapdream:blocks/bakho_doll_suit"
+  }
+}

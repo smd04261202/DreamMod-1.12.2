@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bakha_doll",
+        "1": "bakho_doll_suit"
+      },
+      "name": "default"
+    }
+  }
+}

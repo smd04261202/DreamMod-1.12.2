@@ -1,0 +1,9 @@
+{
+  "parent": "ppapdream:custom/mirror02",
+  "textures": {
+    "all": "ppapdream:blocks/transparent",
+    "particle": "ppapdream:blocks/transparent",
+    "0": "ppapdream:blocks/planks_seadrift",
+    "1": "ppapdream:blocks/mirror"
+  }
+}

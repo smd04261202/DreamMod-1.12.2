@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:heartmonitor"
+    },
+    "facing=north": {
+      "model": "ppapdream:heartmonitor"
+    },
+    "facing=east": {
+      "model": "ppapdream:heartmonitor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:heartmonitor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:heartmonitor",
+      "y": 270
+    }
+  }
+}

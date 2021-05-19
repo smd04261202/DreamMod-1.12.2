@@ -1,0 +1,36 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "fan_post3.png",
+          "name": "fan_post3.png",
+          "x": 174,
+          "y": -12
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "prev",
+          "onClick": {
+            "name": "OpenGuiFanMypad02"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "prev",
+          "x": 174,
+          "y": 384
+        }
+      }
+    ]
+  }
+}

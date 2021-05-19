@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:lucydpatch"
+    },
+    "facing=north": {
+      "model": "ppapdream:lucydpatch"
+    },
+    "facing=east": {
+      "model": "ppapdream:lucydpatch",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:lucydpatch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:lucydpatch",
+      "y": 270
+    }
+  }
+}

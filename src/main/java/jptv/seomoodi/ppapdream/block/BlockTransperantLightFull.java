@@ -7,6 +7,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
+import net.minecraft.world.IBlockAccess;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
@@ -18,6 +20,8 @@ import net.minecraft.block.Block;
 
 import jptv.seomoodi.ppapdream.creativetab.TabDream;
 import jptv.seomoodi.ppapdream.ElementsPpapdreamMod;
+
+import java.util.Random;
 
 @ElementsPpapdreamMod.ModElement.Tag
 public class BlockTransperantLightFull extends ElementsPpapdreamMod.ModElement {
@@ -49,6 +53,7 @@ public class BlockTransperantLightFull extends ElementsPpapdreamMod.ModElement {
 			setLightLevel(1F);
 			setLightOpacity(255);
 			setCreativeTab(TabDream.tab);
+			setBlockUnbreakable();
 		}
 
 		@SideOnly(Side.CLIENT)
@@ -60,6 +65,16 @@ public class BlockTransperantLightFull extends ElementsPpapdreamMod.ModElement {
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public boolean isReplaceable(IBlockAccess blockAccess, BlockPos pos) {
+			return true;
+		}
+
+		@Override
+		public int quantityDropped(Random random) {
+			return 0;
 		}
 	}
 }

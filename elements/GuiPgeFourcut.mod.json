@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pge_4cut.png",
+          "name": "pge_4cut.png",
+          "x": 176,
+          "y": -23
+        }
+      }
+    ]
+  }
+}

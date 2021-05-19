@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "abh_photocard.png",
+          "name": "abh_photocard.png",
+          "x": 176,
+          "y": -9
+        }
+      }
+    ]
+  }
+}

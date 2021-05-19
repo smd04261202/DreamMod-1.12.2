@@ -1,0 +1,8 @@
+{
+  "parent": "ppapdream:custom/heartmonitor",
+  "textures": {
+    "all": "ppapdream:blocks/heartmonitor",
+    "particle": "ppapdream:blocks/heartmonitor",
+    "2": "ppapdream:blocks/heartmonitor"
+  }
+}

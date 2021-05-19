@@ -30,8 +30,12 @@ import net.minecraft.client.renderer.entity.RenderSnowball;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.client.Minecraft;
 
+import jptv.seomoodi.ppapdream.procedure.ProcedureRevolverBulletHitsPlayer;
 import jptv.seomoodi.ppapdream.creativetab.TabDream;
 import jptv.seomoodi.ppapdream.ElementsPpapdreamMod;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @ElementsPpapdreamMod.ModElement.Tag
 public class ItemRevolver extends ElementsPpapdreamMod.ModElement {
@@ -132,6 +136,19 @@ public class ItemRevolver extends ElementsPpapdreamMod.ModElement {
 		protected void arrowHit(EntityLivingBase entity) {
 			super.arrowHit(entity);
 			entity.setArrowCountInEntity(entity.getArrowCountInEntity() - 1);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			World world = this.world;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				ProcedureRevolverBulletHitsPlayer.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override

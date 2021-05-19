@@ -12,11 +12,14 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.Rotation;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
+import net.minecraft.init.Items;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
@@ -58,7 +61,7 @@ public class BlockDreamFlower2 extends ElementsPpapdreamMod.ModElement {
 			setSoundType(SoundType.PLANT);
 			setHardness(0.5F);
 			setResistance(5F);
-			setLightLevel(0.7F);
+			setLightLevel(0.8F);
 			setLightOpacity(0);
 			setCreativeTab(TabDream.tab);
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
@@ -137,6 +140,16 @@ public class BlockDreamFlower2 extends ElementsPpapdreamMod.ModElement {
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public boolean isReplaceable(IBlockAccess blockAccess, BlockPos pos) {
+			return true;
+		}
+
+		@Override
+		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
+			drops.add(new ItemStack(Items.SUGAR, (int) (1)));
 		}
 	}
 }

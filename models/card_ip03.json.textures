@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "card03",
+        "2": "card00"
+      },
+      "name": "default"
+    }
+  }
+}

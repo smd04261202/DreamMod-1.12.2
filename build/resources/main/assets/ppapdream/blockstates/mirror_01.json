@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:mirror_01"
+    },
+    "facing=north": {
+      "model": "ppapdream:mirror_01"
+    },
+    "facing=east": {
+      "model": "ppapdream:mirror_01",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:mirror_01",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:mirror_01",
+      "y": 270
+    }
+  }
+}

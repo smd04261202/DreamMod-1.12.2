@@ -32,7 +32,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "Items.SUGAR"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -45,7 +45,7 @@
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -61,7 +61,7 @@
     "soundOnStep": {
       "value": "PLANT"
     },
-    "luminance": 0.7,
+    "luminance": 0.8,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,

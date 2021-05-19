@@ -1,4 +1,16 @@
 {
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-05-13 08:07:20 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2021-04-20 05:38:10 +0900"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "plains": "2021-03-31 03:00:56 +0900"

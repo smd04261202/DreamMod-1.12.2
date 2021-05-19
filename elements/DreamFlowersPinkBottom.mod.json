@@ -32,7 +32,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "Items.FERMENTED_SPIDER_EYE"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -61,7 +61,7 @@
     "soundOnStep": {
       "value": "PLANT"
     },
-    "luminance": 1.0,
+    "luminance": 0.95,
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,

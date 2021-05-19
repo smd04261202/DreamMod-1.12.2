@@ -10,9 +10,12 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
+import net.minecraft.init.Items;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
@@ -49,7 +52,7 @@ public class BlockDreamFlowersWhiteBottom extends ElementsPpapdreamMod.ModElemen
 			setSoundType(SoundType.PLANT);
 			setHardness(0.5F);
 			setResistance(5F);
-			setLightLevel(1F);
+			setLightLevel(0.95F);
 			setLightOpacity(0);
 			setCreativeTab(TabDream.tab);
 		}
@@ -84,6 +87,11 @@ public class BlockDreamFlowersWhiteBottom extends ElementsPpapdreamMod.ModElemen
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
+			drops.add(new ItemStack(Items.FERMENTED_SPIDER_EYE, (int) (1)));
 		}
 	}
 }

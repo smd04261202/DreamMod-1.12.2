@@ -1,0 +1,9 @@
+{
+  "parent": "ppapdream:custom/ringer",
+  "textures": {
+    "all": "ppapdream:blocks/patch",
+    "particle": "ppapdream:blocks/patch",
+    "0": "ppapdream:blocks/patch",
+    "1": "ppapdream:blocks/ringer"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "dlc_abh_poster.png",
+          "name": "dlc_abh_poster.png",
+          "x": 175,
+          "y": -18
+        }
+      }
+    ]
+  }
+}

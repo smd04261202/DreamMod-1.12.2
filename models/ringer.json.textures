@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "patch",
+        "1": "ringer"
+      },
+      "name": "default"
+    }
+  }
+}

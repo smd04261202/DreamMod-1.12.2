@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "hardened_clay_stained_black": "hardened_clay_stained_blue",
+        "emerald_block": "hardened_clay_stained_purple",
+        "purpur_block": "lightpurple"
+      },
+      "name": "default"
+    }
+  }
+}

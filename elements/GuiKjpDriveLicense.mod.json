@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "kjp_drivelicense.png",
+          "name": "kjp_drivelicense.png",
+          "x": 172,
+          "y": -18
+        }
+      }
+    ]
+  }
+}

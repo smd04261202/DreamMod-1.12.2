@@ -1,4 +1,10 @@
 {
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-05-12 04:13:42 +0900"
+    },
+    "done": true
+  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2021-04-07 03:54:54 +0900"

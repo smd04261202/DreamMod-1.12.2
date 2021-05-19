@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "ogr_application.png",
+          "name": "ogr_application.png",
+          "x": 174,
+          "y": -12
+        }
+      }
+    ]
+  }
+}

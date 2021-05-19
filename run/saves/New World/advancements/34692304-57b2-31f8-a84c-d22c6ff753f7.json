@@ -1,10 +1,4 @@
 {
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "entered_water": "2021-04-05 04:47:37 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "entered_water": "2021-04-05 04:47:37 +0900"
@@ -17,9 +11,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
+    "criteria": {
+      "has_black_dye": "2021-04-05 04:47:39 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
+    "criteria": {
+      "has_black_dye": "2021-04-05 04:47:39 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2021-04-05 04:47:37 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-04-22 11:00:09 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "entered_water": "2021-04-05 04:47:37 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2021-04-22 10:58:24 +0900"
     },
     "done": true
   },
@@ -35,21 +59,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/cauldron": {
-    "criteria": {
-      "has_water_bucket": "2021-04-05 04:49:13 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/gray_dye": {
     "criteria": {
       "has_black_dye": "2021-04-05 04:47:39 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "has_black_dye": "2021-04-05 04:47:39 +0900"
+      "has_water_bucket": "2021-04-05 04:49:13 +0900"
     },
     "done": true
   },
@@ -58,11 +76,5 @@
       "plains": "2021-04-05 04:47:33 +0900"
     },
     "done": false
-  },
-  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
-    "criteria": {
-      "has_black_dye": "2021-04-05 04:47:39 +0900"
-    },
-    "done": true
   }
 }

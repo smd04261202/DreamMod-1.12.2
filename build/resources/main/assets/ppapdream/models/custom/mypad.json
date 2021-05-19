@@ -1,0 +1,967 @@
+{
+  "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+  "display": {
+    "gui": {
+      "rotation": [
+        85,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9,
+        0.9
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        269,
+        208,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -7
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        -0.4,
+        8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        315,
+        0
+      ],
+      "translation": [
+        0,
+        3.5,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        315,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        3
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
+  },
+  "elements": [
+    {
+      "name": "Screen",
+      "from": [
+        3.5,
+        0,
+        3.5
+      ],
+      "to": [
+        11.5,
+        1,
+        13.5
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": -22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#purpur_block",
+          "uv": [
+            0,
+            0,
+            8,
+            10
+          ]
+        },
+        "down": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pen",
+      "from": [
+        6,
+        1,
+        4
+      ],
+      "to": [
+        6.5,
+        1.5,
+        11
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            0.5,
+            0.5
+          ]
+        },
+        "east": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            7,
+            0.5
+          ]
+        },
+        "south": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            0.5,
+            0.5
+          ]
+        },
+        "west": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            7,
+            0.5
+          ]
+        },
+        "up": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            0.5,
+            7
+          ]
+        },
+        "down": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            0.5,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bezzel-top",
+      "from": [
+        3.5,
+        0,
+        3
+      ],
+      "to": [
+        11.5,
+        1,
+        3.5
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": -22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            0.5
+          ]
+        },
+        "down": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            0.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bezzel-bottom",
+      "from": [
+        3.5,
+        0,
+        13.5
+      ],
+      "to": [
+        11.5,
+        1,
+        14
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": -22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            0.5
+          ]
+        },
+        "down": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            8,
+            0.5
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bezzel-left",
+      "from": [
+        3,
+        0,
+        3.5
+      ],
+      "to": [
+        3.5,
+        1,
+        13.5
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": -22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            10
+          ]
+        },
+        "down": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bezzel-right",
+      "from": [
+        11.5,
+        0,
+        3.5
+      ],
+      "to": [
+        12,
+        1,
+        13.5
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": -22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            10,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            10
+          ]
+        },
+        "down": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.5,
+            10
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bezzel-righttop",
+      "from": [
+        13.63,
+        0,
+        6.94
+      ],
+      "to": [
+        14.01,
+        1,
+        7.645
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            0.705
+          ]
+        },
+        "down": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            0.705
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bezzel-lefttop",
+      "from": [
+        3.936,
+        0,
+        1.437
+      ],
+      "to": [
+        4.641,
+        1,
+        1.817
+      ],
+      "rotation": {
+        "origin": [
+          5.75,
+          1,
+          -1.25
+        ],
+        "axis": "y",
+        "angle": 22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            0.38
+          ]
+        },
+        "down": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            0.38
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bezzel-righttop",
+      "from": [
+        0.576,
+        0,
+        8.35
+      ],
+      "to": [
+        0.956,
+        1,
+        9.055
+      ],
+      "rotation": {
+        "origin": [
+          8,
+          8,
+          8
+        ],
+        "axis": "y",
+        "angle": 22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            0.705
+          ]
+        },
+        "down": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            0.705
+          ]
+        }
+      }
+    },
+    {
+      "name": "Bezzel-rightbottom",
+      "from": [
+        2.522,
+        0,
+        14.495
+      ],
+      "to": [
+        3.227,
+        1,
+        14.875
+      ],
+      "rotation": {
+        "origin": [
+          5.75,
+          1,
+          -1.25
+        ],
+        "axis": "y",
+        "angle": 22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            1
+          ]
+        },
+        "east": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            1
+          ]
+        },
+        "south": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            1
+          ]
+        },
+        "west": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.38,
+            1
+          ]
+        },
+        "up": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            0.38
+          ]
+        },
+        "down": {
+          "texture": "#hardened_clay_stained_black",
+          "uv": [
+            0,
+            0,
+            0.705,
+            0.38
+          ]
+        }
+      }
+    },
+    {
+      "name": "Pen-lead",
+      "from": [
+        7.331,
+        1,
+        10.76
+      ],
+      "to": [
+        7.684,
+        1.5,
+        11.113
+      ],
+      "rotation": {
+        "origin": [
+          6.25,
+          1.25,
+          11.25
+        ],
+        "axis": "y",
+        "angle": -22.5
+      },
+      "faces": {
+        "north": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            0.353,
+            0.5
+          ]
+        },
+        "east": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            0.353,
+            0.5
+          ]
+        },
+        "south": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            0.353,
+            0.5
+          ]
+        },
+        "west": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            0.353,
+            0.5
+          ]
+        },
+        "up": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            0.353,
+            0.353
+          ]
+        },
+        "down": {
+          "texture": "#emerald_block",
+          "uv": [
+            0,
+            0,
+            0.353,
+            0.353
+          ]
+        }
+      }
+    }
+  ]
+}

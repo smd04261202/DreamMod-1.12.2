@@ -1,4 +1,40 @@
 {
+  "bakha_demo_song": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "ppapdream:bakha_demo_song",
+        "stream": false
+      }
+    ]
+  },
+  "voice_alak01": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "ppapdream:alak_voice",
+        "stream": false
+      }
+    ]
+  },
+  "voice_ppap01": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "ppapdream:ppap_voice",
+        "stream": false
+      }
+    ]
+  },
+  "revolver_shot": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "ppapdream:revolver_shot",
+        "stream": false
+      }
+    ]
+  },
   "dream_dragonfly": {
     "category": "master",
     "sounds": [

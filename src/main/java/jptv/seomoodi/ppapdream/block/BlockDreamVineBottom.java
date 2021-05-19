@@ -12,11 +12,14 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.Rotation;
+import net.minecraft.util.NonNullList;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.BlockRenderLayer;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
+import net.minecraft.init.Items;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
@@ -137,6 +140,11 @@ public class BlockDreamVineBottom extends ElementsPpapdreamMod.ModElement {
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
+			drops.add(new ItemStack(Items.RABBIT_FOOT, (int) (1)));
 		}
 	}
 }

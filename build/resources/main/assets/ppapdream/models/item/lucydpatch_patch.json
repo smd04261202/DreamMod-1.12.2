@@ -1,0 +1,6 @@
+{
+  "parent": "ppapdream:custom/lucydpatch_patch",
+  "textures": {
+    "0": "ppapdream:blocks/lucydpatch"
+  }
+}

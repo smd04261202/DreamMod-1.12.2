@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:hotel_light"
+    },
+    "facing=north": {
+      "model": "ppapdream:hotel_light"
+    },
+    "facing=east": {
+      "model": "ppapdream:hotel_light",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:hotel_light",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:hotel_light",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "ppapdream:hotel_light",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "ppapdream:hotel_light",
+      "x": 90
+    }
+  }
+}

@@ -30,6 +30,8 @@ import net.minecraft.block.Block;
 import jptv.seomoodi.ppapdream.creativetab.TabDream;
 import jptv.seomoodi.ppapdream.ElementsPpapdreamMod;
 
+import java.util.Random;
+
 @ElementsPpapdreamMod.ModElement.Tag
 public class BlockDreamFlower0 extends ElementsPpapdreamMod.ModElement {
 	@GameRegistry.ObjectHolder("ppapdream:dream_flower_0")
@@ -61,6 +63,7 @@ public class BlockDreamFlower0 extends ElementsPpapdreamMod.ModElement {
 			setLightLevel(0F);
 			setLightOpacity(0);
 			setCreativeTab(TabDream.tab);
+			setBlockUnbreakable();
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		}
 
@@ -137,6 +140,11 @@ public class BlockDreamFlower0 extends ElementsPpapdreamMod.ModElement {
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public int quantityDropped(Random random) {
+			return 0;
 		}
 	}
 }

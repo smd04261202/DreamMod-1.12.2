@@ -1,0 +1,8 @@
+{
+  "parent": "ppapdream:custom/lucydpatch_box",
+  "textures": {
+    "all": "ppapdream:blocks/lucydpatch",
+    "particle": "ppapdream:blocks/lucydpatch",
+    "0": "ppapdream:blocks/lucydpatch"
+  }
+}

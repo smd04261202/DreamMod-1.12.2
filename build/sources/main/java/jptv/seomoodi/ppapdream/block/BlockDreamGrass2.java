@@ -90,8 +90,13 @@ public class BlockDreamGrass2 extends ElementsPpapdreamMod.ModElement {
 		}
 
 		@Override
+		public boolean isReplaceable(IBlockAccess blockAccess, BlockPos pos) {
+			return true;
+		}
+
+		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(Items.NETHER_STAR, (int) (0)));
+			drops.add(new ItemStack(Items.NETHER_WART, (int) (1)));
 		}
 	}
 }

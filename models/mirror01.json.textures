@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "planks_brown",
+        "1": "mirror"
+      },
+      "name": "default"
+    }
+  }
+}

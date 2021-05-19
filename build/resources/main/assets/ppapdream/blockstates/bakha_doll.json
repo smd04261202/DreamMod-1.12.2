@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:bakha_doll"
+    },
+    "facing=north": {
+      "model": "ppapdream:bakha_doll"
+    },
+    "facing=east": {
+      "model": "ppapdream:bakha_doll",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:bakha_doll",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:bakha_doll",
+      "y": 270
+    }
+  }
+}

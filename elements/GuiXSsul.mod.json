@@ -1,0 +1,36 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "x_ssul.png",
+          "name": "x_ssul.png",
+          "x": 174,
+          "y": -12
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "XSsulNextButtonClicked"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "Next",
+          "x": 588,
+          "y": 384
+        }
+      }
+    ]
+  }
+}

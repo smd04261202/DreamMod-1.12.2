@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:abh_sister_photo"
+    },
+    "facing=north": {
+      "model": "ppapdream:abh_sister_photo"
+    },
+    "facing=east": {
+      "model": "ppapdream:abh_sister_photo",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:abh_sister_photo",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:abh_sister_photo",
+      "y": 270
+    }
+  }
+}

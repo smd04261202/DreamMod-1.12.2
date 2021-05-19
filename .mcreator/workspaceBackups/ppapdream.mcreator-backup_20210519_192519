@@ -1,0 +1,2873 @@
+{
+  "id_map": {
+    "GUI": 50,
+    "ENTITY": 15
+  },
+  "mod_elements": [
+    {
+      "name": "Dream",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream"
+    },
+    {
+      "name": "TransperantLightFull",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "transperant_light_full"
+    },
+    {
+      "name": "TransperantLightHalf",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "transperant_light_half"
+    },
+    {
+      "name": "DreamGrass1",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_grass_1"
+    },
+    {
+      "name": "DreamGrass2",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_grass_2"
+    },
+    {
+      "name": "DreamMoss1",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_moss_1"
+    },
+    {
+      "name": "DreamFlower0",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flower_0"
+    },
+    {
+      "name": "DreamFlower1",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flower_1"
+    },
+    {
+      "name": "DreamFlower2",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flower_2"
+    },
+    {
+      "name": "DreamOuterLeaves",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_outer_leaves"
+    },
+    {
+      "name": "DreamVineMiddle",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_vine_middle"
+    },
+    {
+      "name": "DreamVineTop",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_vine_top"
+    },
+    {
+      "name": "DreamVineBottom",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_vine_bottom"
+    },
+    {
+      "name": "DreamFlowersWhiteBottom",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_white_bottom"
+    },
+    {
+      "name": "DreamFlowersPurpleBottom",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_purple_bottom"
+    },
+    {
+      "name": "DreamFlowersPinkBottom",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_pink_bottom"
+    },
+    {
+      "name": "DreamFlowersWhiteMiddle",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_white_middle"
+    },
+    {
+      "name": "DreamFlowersPurpleMiddle",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_purple_middle"
+    },
+    {
+      "name": "DreamFlowersPinkMiddle",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_pink_middle"
+    },
+    {
+      "name": "DreamFishGreen",
+      "type": "mob",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 9,
+        "1": 10
+      },
+      "registry_name": "dream_fish_green"
+    },
+    {
+      "name": "DreamFishPink",
+      "type": "mob",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 11,
+        "1": 12
+      },
+      "registry_name": "dream_fish_pink"
+    },
+    {
+      "name": "Revolver",
+      "type": "gun",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 13
+      },
+      "registry_name": "revolver"
+    },
+    {
+      "name": "DreamDragonFly",
+      "type": "mob",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 14,
+        "1": 15
+      },
+      "registry_name": "dream_dragon_fly"
+    },
+    {
+      "name": "Lucydpatch",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch"
+    },
+    {
+      "name": "LucydpatchPatch",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_patch"
+    },
+    {
+      "name": "Penguin",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin"
+    },
+    {
+      "name": "Heartmonitor",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heartmonitor"
+    },
+    {
+      "name": "PenguinOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamWood",
+      "type": "fuel",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_wood"
+    },
+    {
+      "name": "ProcessedCrystal",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "processed_crystal"
+    },
+    {
+      "name": "CardIP01",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_01"
+    },
+    {
+      "name": "CardIP02",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_02"
+    },
+    {
+      "name": "CardIP03",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_03"
+    },
+    {
+      "name": "CardIP04",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_04"
+    },
+    {
+      "name": "CardIP05",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_05"
+    },
+    {
+      "name": "CardIP06",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_06"
+    },
+    {
+      "name": "CardIP07",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_07"
+    },
+    {
+      "name": "CardIP08",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_08"
+    },
+    {
+      "name": "CardIP09",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_09"
+    },
+    {
+      "name": "CardIP10",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_10"
+    },
+    {
+      "name": "CardIP11",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_11"
+    },
+    {
+      "name": "CardIP12",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_12"
+    },
+    {
+      "name": "CardIP13",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_13"
+    },
+    {
+      "name": "LucydpatchBox",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_box"
+    },
+    {
+      "name": "LucydpatchOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lucydpatch_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BakhaDoll",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakha_doll"
+    },
+    {
+      "name": "GuiAbhPhotoCard",
+      "type": "gui",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5
+      },
+      "registry_name": "gui_abh_photo_card"
+    },
+    {
+      "name": "GuiAbhPracticeNote",
+      "type": "gui",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 6
+      },
+      "registry_name": "gui_abh_practice_note"
+    },
+    {
+      "name": "GuiSalProfile",
+      "type": "gui",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 7
+      },
+      "registry_name": "gui_sal_profile"
+    },
+    {
+      "name": "AbhPhotoCardRightClickedInAir",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_photo_card_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AbhPhotoCard",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_photo_card"
+    },
+    {
+      "name": "AbhPracticeNoteRightClickedInAir",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_practice_note_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AbhPracticeNote",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_practice_note"
+    },
+    {
+      "name": "SalProfileRightClickedInAir",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sal_profile_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SalProfile",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sal_profile"
+    },
+    {
+      "name": "GuiDlcAbhPoster",
+      "type": "gui",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 8
+      },
+      "registry_name": "gui_dlc_abh_poster"
+    },
+    {
+      "name": "DlcAbhPosterRightClickedInAir",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_abh_poster_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DlcAbhPoster",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_abh_poster"
+    },
+    {
+      "name": "GuiDlcGardenscape",
+      "type": "gui",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 10
+      },
+      "registry_name": "gui_dlc_gardenscape"
+    },
+    {
+      "name": "DlcGardenscapesRightClickedInAir",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_gardenscapes_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DlcGardenscapes",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_gardenscapes"
+    },
+    {
+      "name": "GuiGloDrawing",
+      "type": "gui",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 11
+      },
+      "registry_name": "gui_glo_drawing"
+    },
+    {
+      "name": "GloDrawingRightClickedInAir",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glo_drawing_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GloDrawing",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glo_drawing"
+    },
+    {
+      "name": "GuiPgeTravelPhoto01",
+      "type": "gui",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 12
+      },
+      "registry_name": "gui_pge_travel_photo_01"
+    },
+    {
+      "name": "PgeTravelPhoto01RightClickedInAir",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_travel_photo_01_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeTravelPhoto01",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_travel_photo_01"
+    },
+    {
+      "name": "GuiPgeTravelPhoto02",
+      "type": "gui",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 13
+      },
+      "registry_name": "gui_pge_travel_photo_02"
+    },
+    {
+      "name": "GuiPgeFourcut",
+      "type": "gui",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 14
+      },
+      "registry_name": "gui_pge_fourcut"
+    },
+    {
+      "name": "PgeFourcutRightClickedInAir",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_fourcut_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeFourcut",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_fourcut"
+    },
+    {
+      "name": "GuiKjpProfile",
+      "type": "gui",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 15
+      },
+      "registry_name": "gui_kjp_profile"
+    },
+    {
+      "name": "KjpProfileRightClickedInAir",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kjp_profile_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KjpProfile",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kjp_profile"
+    },
+    {
+      "name": "GuiPgeProfile",
+      "type": "gui",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 16
+      },
+      "registry_name": "gui_pge_profile"
+    },
+    {
+      "name": "PgeProfileRightClickedInAir",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_profile_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeProfile",
+      "type": "item",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_profile"
+    },
+    {
+      "name": "GuiGsdMypad",
+      "type": "gui",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 18
+      },
+      "registry_name": "gui_gsd_mypad"
+    },
+    {
+      "name": "GsdMypadRightClickedInAir",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gsd_mypad_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GsdMypad",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gsd_mypad"
+    },
+    {
+      "name": "GuiKjpDriveLicense",
+      "type": "gui",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 19
+      },
+      "registry_name": "gui_kjp_drive_license"
+    },
+    {
+      "name": "KjpDrivelicesneRightClickedInAir",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kjp_drivelicesne_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KjpDrivelicesne",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kjp_drivelicesne"
+    },
+    {
+      "name": "GuiIOgrBucketlistPoster",
+      "type": "gui",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 20
+      },
+      "registry_name": "gui_i_ogr_bucketlist_poster"
+    },
+    {
+      "name": "OgrBucketlistPosterRightClickedInAir",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ogr_bucketlist_poster_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OgrBucketlistPoster",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ogr_bucketlist_poster"
+    },
+    {
+      "name": "EspressoFoodEaten",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espresso_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Espresso",
+      "type": "food",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espresso"
+    },
+    {
+      "name": "FanMypad",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fan_mypad"
+    },
+    {
+      "name": "Ssul",
+      "type": "item",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ssul"
+    },
+    {
+      "name": "GuiXSsul",
+      "type": "gui",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 25
+      },
+      "registry_name": "gui_x_ssul"
+    },
+    {
+      "name": "SsulRightClickedInAir",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ssul_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiYSsul",
+      "type": "gui",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 26
+      },
+      "registry_name": "gui_y_ssul"
+    },
+    {
+      "name": "XSsulNextButtonClicked",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "x_ssul_next_button_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiFanMypad",
+      "type": "gui",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 27
+      },
+      "registry_name": "gui_fan_mypad"
+    },
+    {
+      "name": "FanMypadOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fan_mypad_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiAbHApplication",
+      "type": "gui",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 28
+      },
+      "registry_name": "gui_ab_h_application"
+    },
+    {
+      "name": "GuiGloApplication",
+      "type": "gui",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 29
+      },
+      "registry_name": "gui_glo_application"
+    },
+    {
+      "name": "GuiHsdApplication",
+      "type": "gui",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 30
+      },
+      "registry_name": "gui_hsd_application"
+    },
+    {
+      "name": "GuiMsgApplication",
+      "type": "gui",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 31
+      },
+      "registry_name": "gui_msg_application"
+    },
+    {
+      "name": "GuiOgrApplication",
+      "type": "gui",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 32
+      },
+      "registry_name": "gui_ogr_application"
+    },
+    {
+      "name": "AbhApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AbhApplication",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_application"
+    },
+    {
+      "name": "GloApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glo_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GloApplication",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glo_application"
+    },
+    {
+      "name": "HsdApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hsd_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HsdApplication",
+      "type": "item",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hsd_application"
+    },
+    {
+      "name": "MsgApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "msg_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MsgApplication",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "msg_application"
+    },
+    {
+      "name": "OgrApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ogr_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OgrApplication",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ogr_application"
+    },
+    {
+      "name": "BakhaRecorderRightClickedInAir",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakha_recorder_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BakhaRecorder",
+      "type": "item",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakha_recorder"
+    },
+    {
+      "name": "RevolverBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "revolver_bullet_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiAbhSisterPhoto",
+      "type": "gui",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 33
+      },
+      "registry_name": "gui_abh_sister_photo"
+    },
+    {
+      "name": "AbhSisterPhotoOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_sister_photo_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AbhSisterPhoto",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_sister_photo"
+    },
+    {
+      "name": "GuiMineManual01",
+      "type": "gui",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 34
+      },
+      "registry_name": "gui_mine_manual_01"
+    },
+    {
+      "name": "GuiMineManual02",
+      "type": "gui",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 35
+      },
+      "registry_name": "gui_mine_manual_02"
+    },
+    {
+      "name": "MineManualRightClickedInAir",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine_manual_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MineManual",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine_manual"
+    },
+    {
+      "name": "MineManual02page",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mine_manual_02page",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiFanMypad02",
+      "type": "gui",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 36
+      },
+      "registry_name": "gui_fan_mypad_02"
+    },
+    {
+      "name": "GuiFanMypad03",
+      "type": "gui",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 37
+      },
+      "registry_name": "gui_fan_mypad_03"
+    },
+    {
+      "name": "OpenGuiFanMypad02",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_gui_fan_mypad_02",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenGuiFanMypad03",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_gui_fan_mypad_03",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiMap",
+      "type": "gui",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 38
+      },
+      "registry_name": "gui_map"
+    },
+    {
+      "name": "MapRightClickedInAir",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "map_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Map",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "map"
+    },
+    {
+      "name": "GuiHotelPaper",
+      "type": "gui",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 39
+      },
+      "registry_name": "gui_hotel_paper"
+    },
+    {
+      "name": "HotelPaperRightClickedInAir",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_paper_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotelPaper",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_paper"
+    },
+    {
+      "name": "GuiNbpApplication",
+      "type": "gui",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 40
+      },
+      "registry_name": "gui_nbp_application"
+    },
+    {
+      "name": "NbpApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbp_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NbpApplication",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbp_application"
+    },
+    {
+      "name": "GuiLucidDreamHall",
+      "type": "gui",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 41
+      },
+      "registry_name": "gui_lucid_dream_hall"
+    },
+    {
+      "name": "DreamHallHintRightClickedInAir",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_hall_hint_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamHallHint",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_hall_hint"
+    },
+    {
+      "name": "GuiRemTourPaper01",
+      "type": "gui",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 42
+      },
+      "registry_name": "gui_rem_tour_paper_01"
+    },
+    {
+      "name": "GuiRemTourPaper02",
+      "type": "gui",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 44
+      },
+      "registry_name": "gui_rem_tour_paper_02"
+    },
+    {
+      "name": "GuiRemTourPaper03",
+      "type": "gui",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 45
+      },
+      "registry_name": "gui_rem_tour_paper_03"
+    },
+    {
+      "name": "RemtourPaper01",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "remtour_paper_01",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RemtourPaper",
+      "type": "item",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "remtour_paper"
+    },
+    {
+      "name": "RemtourPaper02",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "remtour_paper_02",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RemtourPaper03",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "remtour_paper_03",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiBucketList",
+      "type": "gui",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 46
+      },
+      "registry_name": "gui_bucket_list"
+    },
+    {
+      "name": "BucketListRightClickedInAir",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucket_list_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BucketList",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucket_list"
+    },
+    {
+      "name": "GuiPenguinPaper",
+      "type": "gui",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 47
+      },
+      "registry_name": "gui_penguin_paper"
+    },
+    {
+      "name": "PenguinPaperRightClickedInAir",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin_paper_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PenguinPaper",
+      "type": "item",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin_paper"
+    },
+    {
+      "name": "GuiTreasureFinalMap",
+      "type": "gui",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 48
+      },
+      "registry_name": "gui_treasure_final_map"
+    },
+    {
+      "name": "TreasureFinalMapRightClickedInAir",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treasure_final_map_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TreasureFinalMap",
+      "type": "item",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treasure_final_map"
+    },
+    {
+      "name": "Mirror01OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_01_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirror01",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_01"
+    },
+    {
+      "name": "Mirror02OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_02_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirror02",
+      "type": "block",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_02"
+    },
+    {
+      "name": "GuiTreasureSecond",
+      "type": "gui",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 49
+      },
+      "registry_name": "gui_treasure_second"
+    },
+    {
+      "name": "TreasureSecondRightClickedInAir",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treasure_second_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TreasureSecond",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "treasure_second"
+    },
+    {
+      "name": "LucydpatchCanUse",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_can_use"
+    },
+    {
+      "name": "LucydpatchCanUseOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_can_use_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamDragonFlyEntityDies",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_dragon_fly_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiPgeDiary",
+      "type": "gui",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 50
+      },
+      "registry_name": "gui_pge_diary"
+    },
+    {
+      "name": "PgeDiaryRightClickedInAir",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_diary_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeDiary",
+      "type": "item",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_diary"
+    },
+    {
+      "name": "Mirror01UpdateTick",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_01_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirror02UpdateTick",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_02_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotelLight",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_light"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "bakha_demo_song",
+      "file": "bakha_demo_song",
+      "category": "master"
+    },
+    {
+      "name": "voice_alak01",
+      "file": "alak_voice",
+      "category": "master"
+    },
+    {
+      "name": "voice_ppap01",
+      "file": "ppap_voice",
+      "category": "master"
+    },
+    {
+      "name": "revolver_shot",
+      "file": "revolver_shot",
+      "category": "master"
+    },
+    {
+      "name": "dream_dragonfly",
+      "file": "dream_dragonfly",
+      "category": "master"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.dlc_abh_poster.name": "Dlc Abh Poster",
+      "item.card_ip_11.name": "Indian Poker Card",
+      "entity.dream_dragon_fly.name": "Dream DragonFly",
+      "tile.dream_vine_bottom.name": "Dream Vine Bottom",
+      "item.abh_photo_card.name": "Abh Photo Card",
+      "tile.dream_flowers_pink_bottom.name": "Dream Flower Pink Bottom",
+      "item.pge_travel_photo_01.name": "Pge Travel Photo 0 1",
+      "item.card_ip_03.name": "Indian Poker Card",
+      "tile.dream_flower_2.name": "Dream Flower 2",
+      "item.card_ip_08.name": "Indian Poker Card",
+      "item.abh_application.name": "Abh Application",
+      "item.hsd_application.name": "Hsd Application",
+      "item.revolver.name": "Revolver",
+      "tile.dream_vine_middle.name": "Dream Vine Middle",
+      "item.hotel_paper.name": "Hotel Paper",
+      "item.abh_practice_note.name": "Abh Practice Note",
+      "item.card_ip_10.name": "Indian Poker Card",
+      "item.card_ip_02.name": "Indian Poker Card",
+      "tile.dream_moss_1.name": "Dream Moss 1",
+      "item.pge_profile.name": "Pge Profile",
+      "tile.transperant_light_full.name": "Transperant Light Full",
+      "item.card_ip_09.name": "Indian Poker Card",
+      "tile.abh_sister_photo.name": "Abh Sister Photo",
+      "item.kjp_profile.name": "Kjp Profile",
+      "tile.dream_outer_leaves.name": "Dream Outer Leaves",
+      "item.bucket_list.name": "Bucket List",
+      "entity.dream_fish_green.name": "Dream Fish Green",
+      "item.card_ip_07.name": "Indian Poker Card",
+      "item.ssul.name": "Ssul",
+      "item.card_ip_01.name": "Indian Poker Card",
+      "item.map.name": "Map",
+      "tile.mirror_01.name": "Mirror 0 1",
+      "item.pge_diary.name": "Pge Diary",
+      "item.dlc_gardenscapes.name": "Dlc Gardenscapes",
+      "item.bakha_recorder.name": "Bakha Recorder",
+      "item.pge_fourcut.name": "Pge Fourcut",
+      "tile.bakha_doll.name": "Bakha Doll",
+      "item.gsd_mypad.name": "Gsd Mypad",
+      "tile.dream_flowers_pink_middle.name": "Dream Flower Pink Middle",
+      "tile.dream_flowers_white_bottom.name": "Dream Flowers White Bottom",
+      "tile.fan_mypad.name": "Fan Mypad",
+      "item.kjp_drivelicesne.name": "Kjp Drivelicesne",
+      "item.card_ip_04.name": "Indian Poker Card",
+      "item.card_ip_12.name": "Indian Poker Card",
+      "item.espresso.name": "Espresso",
+      "item.treasure_final_map.name": "Treasure Final Map",
+      "tile.lucydpatch_box.name": "Lucydpatch Box",
+      "itemGroup.tabdream": "Dream",
+      "tile.dream_flowers_purple_bottom.name": "Dream Flower Purple Bottom",
+      "item.lucydpatch_patch.name": "Lucydpatch Patch",
+      "tile.dream_grass_1.name": "Dream Grass",
+      "tile.heartmonitor.name": "Heartmonitor",
+      "tile.dream_flower_0.name": "Dream Flower 0",
+      "item.penguin_paper.name": "Penguin Paper",
+      "tile.lucydpatch.name": "Lucydpatch",
+      "item.remtour_paper.name": "Remtour Paper",
+      "tile.mirror_02.name": "Mirror 0 2",
+      "item.card_ip_05.name": "Indian Poker Card",
+      "tile.dream_grass_2.name": "Dream Grass",
+      "item.glo_drawing.name": "Glo Drawing",
+      "tile.dream_flowers_purple_middle.name": "Dream Flower Purple Middle",
+      "item.card_ip_06.name": "Indian Poker Card",
+      "item.treasure_second.name": "Treasure Second",
+      "item.msg_application.name": "Msg Application",
+      "item.sal_profile.name": "Sal Profile",
+      "tile.hotel_light.name": "Hotel Light",
+      "item.card_ip_13.name": "Indian Poker Card",
+      "item.ogr_bucketlist_poster.name": "Ogr Bucketlist Poster",
+      "tile.lucydpatch_can_use.name": "Lucydpatch",
+      "tile.transperant_light_half.name": "Transperant Light Full",
+      "tile.dream_vine_top.name": "Dream Vine Top",
+      "entity.dream_fish_pink.name": "Dream Fish Pink",
+      "tile.penguin.name": "Penguin",
+      "item.glo_application.name": "Glo Application",
+      "item.mine_manual.name": "Mine Manual",
+      "item.ogr_application.name": "Ogr Application",
+      "item.dream_hall_hint.name": "Dream Hall Hint",
+      "tile.dream_flowers_white_middle.name": "Dream Flowers White Middle",
+      "tile.dream_flower_1.name": "Dream Flower 1",
+      "item.nbp_application.name": "Nbp Application"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "ppapdream",
+    "modName": "Ppap-Dream-1.12.2",
+    "version": "1.0.0",
+    "author": "yeon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "modElementsPackage": "jptv.seomoodi.ppapdream",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

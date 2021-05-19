@@ -30,6 +30,8 @@ import net.minecraft.block.Block;
 import jptv.seomoodi.ppapdream.creativetab.TabDream;
 import jptv.seomoodi.ppapdream.ElementsPpapdreamMod;
 
+import java.util.Random;
+
 @ElementsPpapdreamMod.ModElement.Tag
 public class BlockDreamVineTop extends ElementsPpapdreamMod.ModElement {
 	@GameRegistry.ObjectHolder("ppapdream:dream_vine_top")
@@ -137,6 +139,11 @@ public class BlockDreamVineTop extends ElementsPpapdreamMod.ModElement {
 		@Override
 		public boolean isOpaqueCube(IBlockState state) {
 			return false;
+		}
+
+		@Override
+		public int quantityDropped(Random random) {
+			return 0;
 		}
 	}
 }

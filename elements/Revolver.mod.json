@@ -31,6 +31,9 @@
       "value": "Blocks.WOODEN_BUTTON"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": ""
+    "customBulletModelTexture": "",
+    "onBulletHitsEntity": {
+      "name": "RevolverBulletHitsPlayer"
+    }
   }
 }

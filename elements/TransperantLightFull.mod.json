@@ -14,7 +14,7 @@
     "emissiveRendering": false,
     "itemTexture": "lightfull",
     "hasTransparency": true,
-    "connectedSides": false,
+    "connectedSides": true,
     "transparencyType": "TRANSLUCENT",
     "mx": 0.0,
     "my": 0.0,
@@ -34,7 +34,7 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -45,7 +45,7 @@
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""
@@ -62,7 +62,7 @@
       "value": "STONE"
     },
     "luminance": 1.0,
-    "unbreakable": false,
+    "unbreakable": true,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {

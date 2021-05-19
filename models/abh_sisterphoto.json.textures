@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "abh_sisterphoto",
+        "1": "planks_brown"
+      },
+      "name": "default"
+    }
+  }
+}

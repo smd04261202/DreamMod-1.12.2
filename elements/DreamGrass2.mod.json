@@ -32,9 +32,9 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.NETHER_STAR"
+      "value": "Items.NETHER_WART"
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -45,7 +45,7 @@
     },
     "tickRate": 10,
     "tickRandomly": false,
-    "isReplaceable": false,
+    "isReplaceable": true,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
       "value": ""

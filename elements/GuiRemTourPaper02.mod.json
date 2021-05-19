@@ -1,0 +1,50 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "next",
+          "onClick": {
+            "name": "RemtourPaper03"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "next",
+          "x": 624,
+          "y": 384
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "prev",
+          "onClick": {
+            "name": "RemtourPaper02"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "prev",
+          "x": 138,
+          "y": 384
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "remtour_paper02.png",
+          "name": "remtour_paper02.png",
+          "x": 174,
+          "y": -12
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:penguin"
+    },
+    "facing=north": {
+      "model": "ppapdream:penguin"
+    },
+    "facing=east": {
+      "model": "ppapdream:penguin",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:penguin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:penguin",
+      "y": 270
+    }
+  }
+}

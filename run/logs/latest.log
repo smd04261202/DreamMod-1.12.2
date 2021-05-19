@@ -1,337 +1,197 @@
-[04:26:11] [main/INFO] [GradleStart]: Extra: []
-[04:26:11] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/yeon/.mcreator/gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[04:26:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[04:26:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[04:26:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[04:26:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[04:26:11] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
-[04:26:11] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_252, running on Windows 10:amd64:10.0, installed at D:\Program Files\Pylo\MCreator\jdk\jre
-[04:26:11] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[04:26:11] [main/ERROR] [FML]: Full: C:\Users\yeon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[04:26:11] [main/ERROR] [FML]: Trimmed: c:/users/yeon/.mcreator/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[04:26:11] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[04:26:11] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[04:26:11] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[04:26:11] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[04:26:11] [main/INFO] [FML]: Searching D:\teamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\run\.\mods for mods
-[04:26:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[04:26:11] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[04:26:11] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[04:26:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[04:26:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[04:26:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[04:26:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[04:26:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[04:26:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[04:26:12] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[04:26:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[04:26:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[04:26:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[04:26:12] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[04:26:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[04:26:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[04:26:12] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[04:26:12] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player234
-[04:26:13] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[04:26:14] [main/INFO] [FML]: -- System Details --
+[20:17:21] [main/INFO] [GradleStart]: Extra: []
+[20:17:21] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/yeon/.mcreator/gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[20:17:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:17:21] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:17:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[20:17:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:17:21] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[20:17:21] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_252, running on Windows 10:amd64:10.0, installed at D:\Program Files\Pylo\MCreator2020.4\jdk\jre
+[20:17:21] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[20:17:21] [main/ERROR] [FML]: Full: C:\Users\yeon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[20:17:21] [main/ERROR] [FML]: Trimmed: c:/users/yeon/.mcreator/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[20:17:21] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[20:17:21] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[20:17:22] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[20:17:22] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[20:17:22] [main/INFO] [FML]: Searching D:\TeamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\run\.\mods for mods
+[20:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[20:17:22] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[20:17:22] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[20:17:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:17:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:17:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[20:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:17:22] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[20:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[20:17:22] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[20:17:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:17:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:17:22] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[20:17:23] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player968
+[20:17:24] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[20:17:24] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_252, BellSoft
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), 
-	Memory: 644863920 bytes (614 MB) / 763887616 bytes (728 MB) up to 7622623232 bytes (7269 MB)
+	Memory: 649741728 bytes (619 MB) / 764936192 bytes (729 MB) up to 7622623232 bytes (7269 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 461.92' Renderer: 'GeForce RTX 2060 SUPER/PCIe/SSE2'
-[04:26:14] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
-[04:26:14] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[04:26:14] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[04:26:14] [main/INFO] [FML]: Searching D:\teamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\run\.\mods for mods
-[04:26:15] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[04:26:15] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ppapdream, worldedit] at CLIENT
-[04:26:15] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ppapdream, worldedit] at SERVER
-[04:26:15] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ppap-Dream-1.12.2, FMLFileResourcePack:WorldEdit, Dream-210404.zip
-[04:26:15] [main/INFO] [FML]: Processing ObjectHolder annotations
-[04:26:16] [main/INFO] [FML]: Found 1189 ObjectHolder annotations
-[04:26:16] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[04:26:16] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[04:26:16] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[04:26:16] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[04:26:16] [main/INFO] [FML]: OBJLoader: Domain ppapdream has been added.
-[04:26:16] [main/INFO] [FML]: Applying holder lookups
-[04:26:16] [main/INFO] [FML]: Holder lookups applied
-[04:26:16] [main/INFO] [FML]: Applying holder lookups
-[04:26:16] [main/INFO] [FML]: Holder lookups applied
-[04:26:16] [main/INFO] [FML]: Applying holder lookups
-[04:26:16] [main/INFO] [FML]: Holder lookups applied
-[04:26:16] [main/INFO] [FML]: Applying holder lookups
-[04:26:16] [main/INFO] [FML]: Holder lookups applied
-[04:26:16] [main/INFO] [FML]: Injecting itemstacks
-[04:26:16] [main/INFO] [FML]: Itemstack injection complete
-[04:26:16] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854
-[04:26:16] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 72631795 nanos
-[04:26:17] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[04:26:18] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[04:26:18] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[04:26:18] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[04:26:18] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[04:26:20] [main/INFO] [FML]: Max texture size: 16384
-[04:26:20] [main/WARN] [net.minecraft.client.renderer.texture.TextureMap]: Texture minecraft:textures/blocks/diamond_ore.png with size 614x614 will have visual artifacts at mip level 2, it can only support level 1. Please report to the mod author that the texture should be some multiple of 16x16.
-[04:26:20] [main/WARN] [net.minecraft.client.renderer.texture.TextureMap]: Texture minecraft:textures/blocks/concrete_powder_yellow.png with size 255x255 will have visual artifacts at mip level 2, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
-[04:26:20] [main/WARN] [net.minecraft.client.renderer.texture.TextureMap]: Texture minecraft:textures/blocks/concrete_powder_red.png with size 215x215 will have visual artifacts at mip level 2, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
-[04:26:22] [main/WARN] [net.minecraft.client.renderer.texture.TextureMap]: Texture minecraft:textures/blocks/concrete_powder_pink.png with size 215x215 will have visual artifacts at mip level 2, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
-[04:26:22] [main/WARN] [net.minecraft.client.renderer.texture.TextureMap]: Texture minecraft:textures/blocks/door_iron_lower.png with size 62x62 will have visual artifacts at mip level 2, it can only support level 1. Please report to the mod author that the texture should be some multiple of 16x16.
-[04:26:22] [main/WARN] [net.minecraft.client.renderer.texture.TextureMap]: Texture minecraft:textures/blocks/glass_purple.png with size 118x118 will have visual artifacts at mip level 2, it can only support level 1. Please report to the mod author that the texture should be some multiple of 16x16.
-[04:26:22] [main/WARN] [net.minecraft.client.renderer.texture.TextureMap]: Texture minecraft:textures/blocks/door_iron_upper.png with size 62x62 will have visual artifacts at mip level 2, it can only support level 1. Please report to the mod author that the texture should be some multiple of 16x16.
-[04:26:22] [main/WARN] [net.minecraft.client.renderer.texture.TextureMap]: Texture minecraft:textures/blocks/rail_normal_turned.png with size 215x215 will have visual artifacts at mip level 2, it can only support level 0. Please report to the mod author that the texture should be some multiple of 16x16.
-[04:26:22] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 4096x4096 textures-atlas
-[04:26:23] [main/ERROR] [FML]: Exception loading model for variant minecraft:brewing_stand#has_bottle_0=true,has_bottle_1=true,has_bottle_2=false for blockstate "minecraft:brewing_stand[has_bottle_0=true,has_bottle_1=true,has_bottle_2=false]"
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model minecraft:brewing_stand#has_bottle_0=true,has_bottle_1=true,has_bottle_2=false with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_252]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_252]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_252]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_252]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model minecraft:block/brewing_stand_bottles_12 with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:658) ~[ModelLoader$WeightedRandomModel.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1176) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 21 more
-Caused by: java.io.FileNotFoundException: minecraft:models/block/brewing_stand_bottles_12.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:658) ~[ModelLoader$WeightedRandomModel.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1176) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 21 more
-[04:26:23] [main/ERROR] [FML]: Exception loading model for variant minecraft:brewing_stand#has_bottle_0=true,has_bottle_1=false,has_bottle_2=true for blockstate "minecraft:brewing_stand[has_bottle_0=true,has_bottle_1=false,has_bottle_2=true]"
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model minecraft:brewing_stand#has_bottle_0=true,has_bottle_1=false,has_bottle_2=true with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_252]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_252]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_252]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_252]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model minecraft:block/brewing_stand_bottles_13 with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:658) ~[ModelLoader$WeightedRandomModel.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1176) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 21 more
-Caused by: java.io.FileNotFoundException: minecraft:models/block/brewing_stand_bottles_13.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:658) ~[ModelLoader$WeightedRandomModel.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1176) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 21 more
-[04:26:23] [main/ERROR] [FML]: Exception loading model for variant minecraft:brewing_stand#has_bottle_0=true,has_bottle_1=true,has_bottle_2=true for blockstate "minecraft:brewing_stand[has_bottle_0=true,has_bottle_1=true,has_bottle_2=true]"
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model minecraft:brewing_stand#has_bottle_0=true,has_bottle_1=true,has_bottle_2=true with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_252]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_252]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_252]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_252]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model minecraft:block/brewing_stand_bottles_123 with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:658) ~[ModelLoader$WeightedRandomModel.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1176) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 21 more
-Caused by: java.io.FileNotFoundException: minecraft:models/block/brewing_stand_bottles_123.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:658) ~[ModelLoader$WeightedRandomModel.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1176) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 21 more
-[04:26:23] [main/ERROR] [FML]: Exception loading model for variant minecraft:brewing_stand#has_bottle_0=false,has_bottle_1=true,has_bottle_2=false for blockstate "minecraft:brewing_stand[has_bottle_0=false,has_bottle_1=true,has_bottle_2=false]"
-net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model minecraft:brewing_stand#has_bottle_0=false,has_bottle_1=true,has_bottle_2=false with loader VariantLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:235) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:223) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:150) ~[ModelLoader.class:?]
-	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_252]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_252]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_252]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_252]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_252]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_252]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStart.main(GradleStart.java:25) [start/:?]
-Caused by: net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model minecraft:block/brewing_stand_bottles_2 with loader VanillaLoader.INSTANCE, skipping
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:658) ~[ModelLoader$WeightedRandomModel.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1176) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 21 more
-Caused by: java.io.FileNotFoundException: minecraft:models/block/brewing_stand_bottles_2.json
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
-	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	at net.minecraftforge.client.model.ModelLoader$WeightedRandomModel.<init>(ModelLoader.java:658) ~[ModelLoader$WeightedRandomModel.class:?]
-	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1176) ~[ModelLoader$VariantLoader.class:?]
-	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
-	... 21 more
-[04:26:23] [main/FATAL] [FML]: Suppressed additional 2 model loading errors for domain minecraft
-[04:26:23] [main/INFO] [FML]: Applying holder lookups
-[04:26:23] [main/INFO] [FML]: Holder lookups applied
-[04:26:23] [main/INFO] [FML]: Injecting itemstacks
-[04:26:23] [main/INFO] [FML]: Itemstack injection complete
-[04:26:23] [main/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10-SNAPSHOT) is loaded
-[04:26:23] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[04:26:23] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]: The following texture errors were found.
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]:   DOMAIN minecraft
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]: --------------------------------------------------
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]:   domain minecraft is missing 1 texture
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]:     domain minecraft has 4 locations:
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.DefaultResourcePack : Default
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:Forge Mod Loader
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]:       unknown resourcepack type net.minecraft.client.resources.LegacyV2Adapter : FMLFileResourcePack:Minecraft Forge
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]:       resource pack at path .\resourcepacks\Dream-210404.zip
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]:     The missing resources for domain minecraft are:
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]:       textures/blocks/particles_oak.png
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]: -------------------------
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]:     No other errors exist for domain minecraft
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]: ==================================================
-[04:26:23] [main/ERROR] [FML.TEXTURE_ERRORS]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[04:26:24] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[04:26:27] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[04:26:27] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[04:26:27] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white_botom
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:crystal
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_grass
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:fan
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flowers_white
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:plant_test
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_pink
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_pink_middle
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white_middle
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_moss_2
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_purple
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:test
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_middle
-[04:26:27] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_purple_middle
-[04:26:28] [Server thread/INFO] [FML]: Applying holder lookups
-[04:26:28] [Server thread/INFO] [FML]: Holder lookups applied
-[04:26:28] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@7de6900b)
-[04:26:28] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[04:26:28] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@7de6900b)
-[04:26:28] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@7de6900b)
-[04:26:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[04:26:28] [Server thread/INFO] [FML]: Unloading dimension -1
-[04:26:28] [Server thread/INFO] [FML]: Unloading dimension 1
-[04:26:28] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 5, from 10
-[04:26:30] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[04:26:30] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[04:26:30] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,ppapdream@1.0.0,FML@8.0.99.99,forge@14.23.5.2768,worldedit@6.1.10-SNAPSHOT,mcp@9.42
-[04:26:30] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[04:26:30] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[04:26:30] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player234[local:E:45fde3d7] logged in with entity id 647 at (1173.699999988079, 5.720288962508578, -1084.3612146748637)
-[04:26:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player234 joined the game
-[04:26:31] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[04:26:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[04:26:32] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 2 advancements
-[04:26:36] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 8 advancements
-[04:26:57] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 17 advancements
-[04:28:55] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [Debug]: Hitboxes: shown
-[04:28:55] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [Debug]: Hitboxes: hidden
-[04:30:06] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[04:30:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[04:30:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[04:30:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[04:30:06] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player234 lost connection: Disconnected
-[04:30:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player234 left the game
-[04:30:06] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[04:30:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[04:30:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[04:30:06] [Server thread/INFO] [FML]: Unloading dimension 0
-[04:30:06] [Server thread/INFO] [FML]: Applying holder lookups
-[04:30:06] [Server thread/INFO] [FML]: Holder lookups applied
-[04:30:07] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[04:30:07] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[04:30:07] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 466.47' Renderer: 'NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2'
+[20:17:24] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[20:17:24] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:17:25] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[20:17:25] [main/INFO] [FML]: Searching D:\TeamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\run\.\mods for mods
+[20:17:25] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[20:17:26] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ppapdream, worldedit] at CLIENT
+[20:17:26] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ppapdream, worldedit] at SERVER
+[20:17:26] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ppap-Dream-1.12.2, FMLFileResourcePack:WorldEdit
+[20:17:26] [main/INFO] [FML]: Processing ObjectHolder annotations
+[20:17:26] [main/INFO] [FML]: Found 1245 ObjectHolder annotations
+[20:17:26] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[20:17:26] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[20:17:26] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[20:17:26] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[20:17:27] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 17916300 nanos
+[20:17:27] [main/INFO] [FML]: OBJLoader: Domain ppapdream has been added.
+[20:17:27] [main/INFO] [FML]: Applying holder lookups
+[20:17:27] [main/INFO] [FML]: Holder lookups applied
+[20:17:27] [main/INFO] [FML]: Applying holder lookups
+[20:17:27] [main/INFO] [FML]: Holder lookups applied
+[20:17:27] [main/INFO] [FML]: Applying holder lookups
+[20:17:27] [main/INFO] [FML]: Holder lookups applied
+[20:17:27] [main/INFO] [FML]: Applying holder lookups
+[20:17:27] [main/INFO] [FML]: Holder lookups applied
+[20:17:27] [main/INFO] [FML]: Injecting itemstacks
+[20:17:27] [main/INFO] [FML]: Itemstack injection complete
+[20:17:28] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[20:17:28] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
+[20:17:29] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[20:17:29] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:17:29] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[20:17:29] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[20:17:31] [main/INFO] [FML]: Max texture size: 16384
+[20:17:31] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x1024 textures-atlas
+[20:17:31] [main/INFO] [FML]: Applying holder lookups
+[20:17:31] [main/INFO] [FML]: Holder lookups applied
+[20:17:32] [main/INFO] [FML]: Injecting itemstacks
+[20:17:32] [main/INFO] [FML]: Itemstack injection complete
+[20:17:32] [main/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10-SNAPSHOT) is loaded
+[20:17:32] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[20:17:32] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[20:17:32] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[20:17:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[20:17:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[20:17:36] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white_botom
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:crystal
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:leaves_cherryblossom_pink
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_grass
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:fan
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flowers_white
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:plant_test
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_crystal
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_pink
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_pink_middle
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white_middle
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_moss_2
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_purple
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:test
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:my_pad
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_middle
+[20:17:36] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_purple_middle
+[20:17:37] [Server thread/INFO] [FML]: Applying holder lookups
+[20:17:37] [Server thread/INFO] [FML]: Holder lookups applied
+[20:17:37] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@223d181c)
+[20:17:37] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[20:17:37] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@223d181c)
+[20:17:37] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@223d181c)
+[20:17:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[20:17:37] [Server thread/INFO] [FML]: Unloading dimension -1
+[20:17:37] [Server thread/INFO] [FML]: Unloading dimension 1
+[20:17:37] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 5, from 10
+[20:17:40] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[20:17:40] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[20:17:40] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,ppapdream@1.0.0,FML@8.0.99.99,forge@14.23.5.2768,worldedit@6.1.10-SNAPSHOT,mcp@9.42
+[20:17:40] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[20:17:40] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:17:40] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player968[local:E:0712ccf5] logged in with entity id 249 at (1191.1958564703689, 4.0, -1054.5000974203817)
+[20:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player968 joined the game
+[20:17:40] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:17:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:17:41] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 16 advancements
+[20:18:16] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:18:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:18:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:18:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[20:18:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player968 lost connection: Disconnected
+[20:18:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player968 left the game
+[20:18:17] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[20:18:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:18:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:18:17] [Server thread/INFO] [FML]: Unloading dimension 0
+[20:18:17] [Server thread/INFO] [FML]: Applying holder lookups
+[20:18:17] [Server thread/INFO] [FML]: Holder lookups applied
+[20:19:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[20:19:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[20:19:39] [Server thread/WARN] [worldedit]: FMLServerStartingEvent occurred when FMLServerStoppingEvent hasn't
+[20:19:39] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white_botom
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:crystal
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:leaves_cherryblossom_pink
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_grass
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:fan
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flowers_white
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:plant_test
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_crystal
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_pink
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_pink_middle
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white_middle
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_moss_2
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_purple
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:test
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:my_pad
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_middle
+[20:19:39] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_purple_middle
+[20:19:39] [Server thread/INFO] [FML]: Applying holder lookups
+[20:19:39] [Server thread/INFO] [FML]: Holder lookups applied
+[20:19:39] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@4817e452)
+[20:19:39] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[20:19:39] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@4817e452)
+[20:19:39] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@4817e452)
+[20:19:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[20:19:39] [Server thread/INFO] [FML]: Unloading dimension -1
+[20:19:40] [Server thread/INFO] [FML]: Unloading dimension 1
+[20:19:40] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 5, from 10
+[20:19:40] [Netty Local Client IO #1/INFO] [FML]: Server protocol version 2
+[20:19:40] [Netty Server IO #3/INFO] [FML]: Client protocol version 2
+[20:19:40] [Netty Server IO #3/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,ppapdream@1.0.0,FML@8.0.99.99,forge@14.23.5.2768,worldedit@6.1.10-SNAPSHOT,mcp@9.42
+[20:19:40] [Netty Local Client IO #1/INFO] [FML]: [Netty Local Client IO #1] Client side modded connection established
+[20:19:40] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:19:40] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player968[local:E:fc932321] logged in with entity id 77416 at (1191.9378746999523, 4.0, -1053.9801083861935)
+[20:19:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player968 joined the game
+[20:19:40] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 16 advancements
+[20:19:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:19:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:19:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:19:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[20:19:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player968 lost connection: Disconnected
+[20:19:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player968 left the game
+[20:19:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[20:19:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:19:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:19:49] [Server thread/INFO] [FML]: Unloading dimension 0
+[20:19:49] [Server thread/INFO] [FML]: Applying holder lookups
+[20:19:49] [Server thread/INFO] [FML]: Holder lookups applied
+[20:19:50] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[20:19:50] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[20:19:50] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
