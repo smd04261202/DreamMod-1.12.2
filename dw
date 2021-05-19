@@ -1,0 +1,23 @@
+[33mcommit e6794de08d6bc2127e60a93586de3a82561716a3[m[33m ([m[1;36mHEAD -> [m[1;32m210522-Second[m[33m)[m
+Author: Jappap <seomoodi@gmail.com>
+Date:   Wed May 19 22:23:01 2021 +0900
+
+    v1.0.5 for 210515 First Live
+
+[33mcommit ca21e3825c11ab2932d6d87f3e316bb8a691b707[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m, [m[1;32m210515-First[m[33m)[m
+Author: Jappap <seomoodi@gmail.com>
+Date:   Wed May 19 22:14:00 2021 +0900
+
+    v1.0.5 for 210515 First Live
+
+[33mcommit 28acbd9b08cbe2f437e950d94f7b8f14d21a0871[m
+Author: Jappap <seomoodi@gmail.com>
+Date:   Wed Apr 7 04:32:27 2021 +0900
+
+    Implement DreamDragonFly Entity
+
+[33mcommit 71281f283eba8bf86d77e6bec98c38b1128a9966[m
+Author: Jappap <seomoodi@gmail.com>
+Date:   Tue Apr 6 20:29:51 2021 +0900
+
+    Implement Dream things and Revolver

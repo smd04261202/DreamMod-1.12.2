@@ -65,7 +65,7 @@ public class BlockMirror01 extends ElementsPpapdreamMod.ModElement {
 			setSoundType(SoundType.GLASS);
 			setHardness(1F);
 			setResistance(10F);
-			setLightLevel(0.9F);
+			setLightLevel(0F);
 			setLightOpacity(0);
 			setCreativeTab(TabDream.tab);
 			setBlockUnbreakable();

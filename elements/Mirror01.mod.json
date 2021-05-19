@@ -61,7 +61,7 @@
     "soundOnStep": {
       "value": "GLASS"
     },
-    "luminance": 0.9,
+    "luminance": 0.0,
     "unbreakable": true,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
