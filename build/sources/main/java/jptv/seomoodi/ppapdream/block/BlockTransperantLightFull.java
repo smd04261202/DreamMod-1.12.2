@@ -9,6 +9,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.AxisAlignedBB;
 import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
@@ -60,6 +61,27 @@ public class BlockTransperantLightFull extends ElementsPpapdreamMod.ModElement {
 		@Override
 		public BlockRenderLayer getBlockLayer() {
 			return BlockRenderLayer.TRANSLUCENT;
+		}
+
+		@Override
+		@javax.annotation.Nullable
+		public AxisAlignedBB getCollisionBoundingBox(IBlockState blockState, IBlockAccess worldIn, BlockPos pos) {
+			return NULL_AABB;
+		}
+
+		@Override
+		public boolean isPassable(IBlockAccess worldIn, BlockPos pos) {
+			return true;
+		}
+
+		@Override
+		public boolean isFullCube(IBlockState state) {
+			return false;
+		}
+
+		@Override
+		public AxisAlignedBB getBoundingBox(IBlockState state, IBlockAccess source, BlockPos pos) {
+			return new AxisAlignedBB(0D, 0D, 0D, 1D, 0.001D, 1D);
 		}
 
 		@Override

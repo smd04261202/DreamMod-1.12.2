@@ -15,6 +15,7 @@ import net.minecraft.util.Rotation;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.BlockRenderLayer;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
@@ -69,6 +70,12 @@ public class BlockMirror02 extends ElementsPpapdreamMod.ModElement {
 			setCreativeTab(TabDream.tab);
 			setBlockUnbreakable();
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
+		}
+
+		@SideOnly(Side.CLIENT)
+		@Override
+		public BlockRenderLayer getBlockLayer() {
+			return BlockRenderLayer.TRANSLUCENT;
 		}
 
 		@Override

@@ -91,7 +91,7 @@ public class BlockDreamFlowersPinkMiddle extends ElementsPpapdreamMod.ModElement
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(Items.FERMENTED_SPIDER_EYE, (int) (1)));
+			drops.add(new ItemStack(Items.RABBIT_FOOT, (int) (1)));
 		}
 	}
 }

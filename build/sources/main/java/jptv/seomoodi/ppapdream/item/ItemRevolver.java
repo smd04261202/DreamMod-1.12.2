@@ -82,13 +82,13 @@ public class ItemRevolver extends ElementsPpapdreamMod.ModElement {
 		public void onPlayerStoppedUsing(ItemStack itemstack, World world, EntityLivingBase entityLivingBase, int timeLeft) {
 			if (!world.isRemote && entityLivingBase instanceof EntityPlayerMP) {
 				EntityPlayerMP entity = (EntityPlayerMP) entityLivingBase;
-				float power = 10f;
+				float power = 6f;
 				EntityArrowCustom entityarrow = new EntityArrowCustom(world, entity);
 				entityarrow.shoot(entity.getLookVec().x, entity.getLookVec().y, entity.getLookVec().z, power * 2, 0);
 				entityarrow.setSilent(true);
 				entityarrow.setIsCritical(false);
-				entityarrow.setDamage(50);
-				entityarrow.setKnockbackStrength(5);
+				entityarrow.setDamage(1);
+				entityarrow.setKnockbackStrength(1);
 				itemstack.damageItem(1, entity);
 				int x = (int) entity.posX;
 				int y = (int) entity.posY;
@@ -99,6 +99,15 @@ public class ItemRevolver extends ElementsPpapdreamMod.ModElement {
 				entityarrow.pickupStatus = EntityArrow.PickupStatus.DISALLOWED;
 				if (!world.isRemote)
 					world.spawnEntity(entityarrow);
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					$_dependencies.put("x", x);
+					$_dependencies.put("y", y);
+					$_dependencies.put("z", z);
+					$_dependencies.put("world", world);
+					ProcedureRevolverBulletHitsPlayer.executeProcedure($_dependencies);
+				}
 			}
 		}
 

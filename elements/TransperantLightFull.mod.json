@@ -20,7 +20,7 @@
     "my": 0.0,
     "mz": 0.0,
     "Mx": 1.0,
-    "My": 1.0,
+    "My": 0.001,
     "Mz": 1.0,
     "name": "Transperant Light Full",
     "specialInfo": [],
@@ -57,7 +57,7 @@
     "isLadder": false,
     "slipperiness": 0.6,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
+    "isNotColidable": true,
     "soundOnStep": {
       "value": "STONE"
     },

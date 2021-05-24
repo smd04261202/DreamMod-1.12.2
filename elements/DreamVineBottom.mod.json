@@ -32,7 +32,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.RABBIT_FOOT"
+      "value": "Items.GLOWSTONE_DUST"
     },
     "dropAmount": 1,
     "isBeaconBase": false,

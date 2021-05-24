@@ -63,7 +63,6 @@ public class BlockDreamFlower0 extends ElementsPpapdreamMod.ModElement {
 			setLightLevel(0F);
 			setLightOpacity(0);
 			setCreativeTab(TabDream.tab);
-			setBlockUnbreakable();
 			this.setDefaultState(this.blockState.getBaseState().withProperty(FACING, EnumFacing.NORTH));
 		}
 

@@ -144,7 +144,7 @@ public class BlockDreamVineBottom extends ElementsPpapdreamMod.ModElement {
 
 		@Override
 		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(Items.RABBIT_FOOT, (int) (1)));
+			drops.add(new ItemStack(Items.GLOWSTONE_DUST, (int) (1)));
 		}
 	}
 }

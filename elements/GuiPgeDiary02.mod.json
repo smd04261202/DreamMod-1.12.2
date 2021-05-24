@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "pge_diary02.png",
+          "name": "pge_diary02.png",
+          "x": 174,
+          "y": -12
+        }
+      }
+    ]
+  }
+}

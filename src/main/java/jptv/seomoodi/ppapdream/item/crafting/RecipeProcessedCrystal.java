@@ -17,6 +17,6 @@ public class RecipeProcessedCrystal extends ElementsPpapdreamMod.ModElement {
 
 	@Override
 	public void init(FMLInitializationEvent event) {
-		GameRegistry.addSmelting(new ItemStack(Items.BLAZE_POWDER, (int) (1)), new ItemStack(Items.BLAZE_ROD, (int) (1)), 0F);
+		GameRegistry.addSmelting(new ItemStack(Items.COAL, (int) (1), 0), new ItemStack(Items.BLAZE_ROD, (int) (1)), 0F);
 	}
 }

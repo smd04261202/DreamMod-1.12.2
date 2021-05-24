@@ -18,8 +18,7 @@ import net.minecraft.pathfinding.PathNavigateFlying;
 import net.minecraft.item.Item;
 import net.minecraft.entity.ai.EntityFlyHelper;
 import net.minecraft.entity.ai.EntityAIWander;
-import net.minecraft.entity.ai.EntityAILookIdle;
-import net.minecraft.entity.ai.EntityAILeapAtTarget;
+import net.minecraft.entity.ai.EntityAIMoveIndoors;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EnumCreatureAttribute;
 import net.minecraft.entity.EntityCreature;
@@ -88,8 +87,7 @@ public class EntityDreamDragonFly extends ElementsPpapdreamMod.ModElement {
 		@Override
 		protected void initEntityAI() {
 			super.initEntityAI();
-			this.tasks.addTask(1, new EntityAILookIdle(this));
-			this.tasks.addTask(2, new EntityAIWander(this, 0.8, 20) {
+			this.tasks.addTask(1, new EntityAIWander(this, 0.9, 20) {
 				@Override
 				protected Vec3d getPosition() {
 					Random random = EntityCustom.this.getRNG();
@@ -99,7 +97,7 @@ public class EntityDreamDragonFly extends ElementsPpapdreamMod.ModElement {
 					return new Vec3d(dir_x, dir_y, dir_z);
 				}
 			});
-			this.tasks.addTask(3, new EntityAILeapAtTarget(this, (float) 0.8));
+			this.tasks.addTask(2, new EntityAIMoveIndoors(this));
 		}
 
 		@Override

@@ -62,7 +62,7 @@
       "value": "PLANT"
     },
     "luminance": 0.0,
-    "unbreakable": true,
+    "unbreakable": false,
     "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {

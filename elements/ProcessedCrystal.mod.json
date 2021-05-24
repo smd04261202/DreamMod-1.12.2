@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "Items.BLAZE_POWDER"
+      "value": "Items.COAL#0"
     },
     "smeltingReturnStack": {
       "value": "Items.BLAZE_ROD"

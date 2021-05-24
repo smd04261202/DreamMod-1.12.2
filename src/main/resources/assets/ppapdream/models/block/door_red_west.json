@@ -1,0 +1,8 @@
+{
+  "parent": "ppapdream:custom/door_hotel_red_west",
+  "textures": {
+    "all": "ppapdream:blocks/door_hotel_red",
+    "particle": "ppapdream:blocks/door_hotel_red",
+    "0": "ppapdream:blocks/door_hotel_red"
+  }
+}

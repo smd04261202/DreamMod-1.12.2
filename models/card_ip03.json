@@ -1,9 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "playingCard:card_spade_13",
-		"2": "playingCard:card_back",
-		"particle": "playingCard:card_back"
+		"1": "playingCard:card01",
+		"2": "playingCard:card00"
 	},
 	"elements": [
 		{
@@ -55,8 +54,8 @@
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"fixed": {
-			"rotation": [90, 0, 0],
-			"translation": [0, 0, 7.5]
+			"rotation": [90, 0, -180],
+			"translation": [0, 0, -7.5]
 		}
 	}
 }

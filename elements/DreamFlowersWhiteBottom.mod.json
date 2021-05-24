@@ -32,7 +32,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "Items.FERMENTED_SPIDER_EYE"
+      "value": "Items.RABBIT_FOOT"
     },
     "dropAmount": 1,
     "isBeaconBase": false,

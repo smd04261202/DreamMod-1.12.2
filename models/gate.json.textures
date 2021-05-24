@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hardened_clay_stained_purple",
+        "1": "concrete_purple",
+        "2": "glass_blue"
+      },
+      "name": "default"
+    }
+  }
+}
