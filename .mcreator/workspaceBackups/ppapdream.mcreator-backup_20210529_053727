@@ -1,0 +1,4422 @@
+{
+  "id_map": {
+    "ENTITY": 15,
+    "GUI": 85
+  },
+  "mod_elements": [
+    {
+      "name": "Dream",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream"
+    },
+    {
+      "name": "TransperantLightFull",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "transperant_light_full"
+    },
+    {
+      "name": "TransperantLightHalf",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "transperant_light_half"
+    },
+    {
+      "name": "DreamGrass1",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_grass_1"
+    },
+    {
+      "name": "DreamGrass2",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_grass_2"
+    },
+    {
+      "name": "DreamMoss1",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_moss_1"
+    },
+    {
+      "name": "DreamFlower0",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flower_0"
+    },
+    {
+      "name": "DreamFlower1",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flower_1"
+    },
+    {
+      "name": "DreamFlower2",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flower_2"
+    },
+    {
+      "name": "DreamOuterLeaves",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_outer_leaves"
+    },
+    {
+      "name": "DreamVineMiddle",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_vine_middle"
+    },
+    {
+      "name": "DreamVineTop",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_vine_top"
+    },
+    {
+      "name": "DreamVineBottom",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_vine_bottom"
+    },
+    {
+      "name": "DreamFlowersWhiteBottom",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_white_bottom"
+    },
+    {
+      "name": "DreamFlowersPurpleBottom",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_purple_bottom"
+    },
+    {
+      "name": "DreamFlowersPinkBottom",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_pink_bottom"
+    },
+    {
+      "name": "DreamFlowersWhiteMiddle",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_white_middle"
+    },
+    {
+      "name": "DreamFlowersPurpleMiddle",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_purple_middle"
+    },
+    {
+      "name": "DreamFlowersPinkMiddle",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_flowers_pink_middle"
+    },
+    {
+      "name": "Revolver",
+      "type": "gun",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 13
+      },
+      "registry_name": "revolver"
+    },
+    {
+      "name": "DreamDragonFly",
+      "type": "mob",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 14,
+        "1": 15
+      },
+      "registry_name": "dream_dragon_fly"
+    },
+    {
+      "name": "Lucydpatch",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch"
+    },
+    {
+      "name": "LucydpatchPatch",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_patch"
+    },
+    {
+      "name": "Penguin",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin"
+    },
+    {
+      "name": "Heartmonitor",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "heartmonitor"
+    },
+    {
+      "name": "PenguinOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "penguin_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamWood",
+      "type": "fuel",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_wood"
+    },
+    {
+      "name": "ProcessedCrystal",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "processed_crystal"
+    },
+    {
+      "name": "CardIP01",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_01"
+    },
+    {
+      "name": "CardIP02",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_02"
+    },
+    {
+      "name": "CardIP03",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_03"
+    },
+    {
+      "name": "CardIP04",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_04"
+    },
+    {
+      "name": "CardIP05",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_05"
+    },
+    {
+      "name": "CardIP06",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_06"
+    },
+    {
+      "name": "CardIP07",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_07"
+    },
+    {
+      "name": "CardIP08",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_08"
+    },
+    {
+      "name": "CardIP09",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_09"
+    },
+    {
+      "name": "CardIP10",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "card_ip_10"
+    },
+    {
+      "name": "LucydpatchBox",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_box"
+    },
+    {
+      "name": "LucydpatchOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "lucydpatch_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BakhaDoll",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakha_doll"
+    },
+    {
+      "name": "GuiAbhPracticeNote",
+      "type": "gui",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 6
+      },
+      "registry_name": "gui_abh_practice_note"
+    },
+    {
+      "name": "AbhPracticeNoteRightClickedInAir",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_practice_note_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AbhPracticeNote",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_practice_note"
+    },
+    {
+      "name": "GuiDlcAbhPoster",
+      "type": "gui",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 8
+      },
+      "registry_name": "gui_dlc_abh_poster"
+    },
+    {
+      "name": "DlcAbhPosterRightClickedInAir",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_abh_poster_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DlcAbhPoster",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_abh_poster"
+    },
+    {
+      "name": "GuiDlcGardenscape",
+      "type": "gui",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 10
+      },
+      "registry_name": "gui_dlc_gardenscape"
+    },
+    {
+      "name": "DlcGardenscapesRightClickedInAir",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_gardenscapes_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DlcGardenscapes",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_gardenscapes"
+    },
+    {
+      "name": "GuiGloDrawing",
+      "type": "gui",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 11
+      },
+      "registry_name": "gui_glo_drawing"
+    },
+    {
+      "name": "GloDrawingRightClickedInAir",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glo_drawing_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GloDrawing",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glo_drawing"
+    },
+    {
+      "name": "GuiPgeTravelPhoto01",
+      "type": "gui",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 12
+      },
+      "registry_name": "gui_pge_travel_photo_01"
+    },
+    {
+      "name": "PgeTravelPhoto01RightClickedInAir",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_travel_photo_01_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeTravelPhoto01",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_travel_photo_01"
+    },
+    {
+      "name": "GuiPgeTravelPhoto02",
+      "type": "gui",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 13
+      },
+      "registry_name": "gui_pge_travel_photo_02"
+    },
+    {
+      "name": "GuiPgeFourcut",
+      "type": "gui",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 14
+      },
+      "registry_name": "gui_pge_fourcut"
+    },
+    {
+      "name": "PgeFourcutRightClickedInAir",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_fourcut_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeFourcut",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_fourcut"
+    },
+    {
+      "name": "GuiGsdMypad",
+      "type": "gui",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 18
+      },
+      "registry_name": "gui_gsd_mypad"
+    },
+    {
+      "name": "GsdMypadRightClickedInAir",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gsd_mypad_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GsdMypad",
+      "type": "item",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gsd_mypad"
+    },
+    {
+      "name": "GuiKjpDriveLicense",
+      "type": "gui",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 19
+      },
+      "registry_name": "gui_kjp_drive_license"
+    },
+    {
+      "name": "KjpDrivelicesneRightClickedInAir",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kjp_drivelicesne_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KjpDrivelicesne",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kjp_drivelicesne"
+    },
+    {
+      "name": "GuiIOgrBucketlistPoster",
+      "type": "gui",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 20
+      },
+      "registry_name": "gui_i_ogr_bucketlist_poster"
+    },
+    {
+      "name": "OgrBucketlistPosterRightClickedInAir",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ogr_bucketlist_poster_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OgrBucketlistPoster",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ogr_bucketlist_poster"
+    },
+    {
+      "name": "EspressoFoodEaten",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espresso_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Espresso",
+      "type": "food",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espresso"
+    },
+    {
+      "name": "GuiAbHApplication",
+      "type": "gui",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 28
+      },
+      "registry_name": "gui_ab_h_application"
+    },
+    {
+      "name": "GuiGloApplication",
+      "type": "gui",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 29
+      },
+      "registry_name": "gui_glo_application"
+    },
+    {
+      "name": "GuiHsdApplication",
+      "type": "gui",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 30
+      },
+      "registry_name": "gui_hsd_application"
+    },
+    {
+      "name": "GuiMsgApplication",
+      "type": "gui",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 31
+      },
+      "registry_name": "gui_msg_application"
+    },
+    {
+      "name": "GuiOgrApplication",
+      "type": "gui",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 32
+      },
+      "registry_name": "gui_ogr_application"
+    },
+    {
+      "name": "AbhApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AbhApplication",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_application"
+    },
+    {
+      "name": "GloApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glo_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GloApplication",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "glo_application"
+    },
+    {
+      "name": "HsdApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hsd_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HsdApplication",
+      "type": "item",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hsd_application"
+    },
+    {
+      "name": "MsgApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "msg_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MsgApplication",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "msg_application"
+    },
+    {
+      "name": "OgrApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ogr_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OgrApplication",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ogr_application"
+    },
+    {
+      "name": "BakhaRecorderRightClickedInAir",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakha_recorder_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BakhaRecorder",
+      "type": "item",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bakha_recorder"
+    },
+    {
+      "name": "RevolverBulletHitsPlayer",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "revolver_bullet_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiAbhSisterPhoto",
+      "type": "gui",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 33
+      },
+      "registry_name": "gui_abh_sister_photo"
+    },
+    {
+      "name": "AbhSisterPhotoOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_sister_photo_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AbhSisterPhoto",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "abh_sister_photo"
+    },
+    {
+      "name": "GuiHotelPaper",
+      "type": "gui",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 39
+      },
+      "registry_name": "gui_hotel_paper"
+    },
+    {
+      "name": "HotelPaperRightClickedInAir",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_paper_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotelPaper",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_paper"
+    },
+    {
+      "name": "GuiNbpApplication",
+      "type": "gui",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 40
+      },
+      "registry_name": "gui_nbp_application"
+    },
+    {
+      "name": "NbpApplicationRightClickedInAir",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbp_application_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NbpApplication",
+      "type": "item",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbp_application"
+    },
+    {
+      "name": "GuiLucidDreamHall",
+      "type": "gui",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 41
+      },
+      "registry_name": "gui_lucid_dream_hall"
+    },
+    {
+      "name": "DreamHallHintRightClickedInAir",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_hall_hint_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DreamHallHint",
+      "type": "item",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_hall_hint"
+    },
+    {
+      "name": "GuiBucketList",
+      "type": "gui",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 46
+      },
+      "registry_name": "gui_bucket_list"
+    },
+    {
+      "name": "BucketListRightClickedInAir",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucket_list_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BucketList",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bucket_list"
+    },
+    {
+      "name": "Mirror01OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_01_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirror01",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_01"
+    },
+    {
+      "name": "Mirror02OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_02_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirror02",
+      "type": "block",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_02"
+    },
+    {
+      "name": "LucydpatchCanUse",
+      "type": "block",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_can_use"
+    },
+    {
+      "name": "DreamDragonFlyEntityDies",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dream_dragon_fly_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiPgeDiary",
+      "type": "gui",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 50
+      },
+      "registry_name": "gui_pge_diary"
+    },
+    {
+      "name": "PgeDiaryRightClickedInAir",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_diary_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeDiary",
+      "type": "item",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_diary"
+    },
+    {
+      "name": "Mirror01UpdateTick",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_01_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mirror02UpdateTick",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mirror_02_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotelLight",
+      "type": "block",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_light"
+    },
+    {
+      "name": "GuiHotelLight",
+      "type": "gui",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 51
+      },
+      "registry_name": "gui_hotel_light"
+    },
+    {
+      "name": "HotelFloor",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_floor"
+    },
+    {
+      "name": "KeyRed",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_red"
+    },
+    {
+      "name": "KeyGray",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_gray"
+    },
+    {
+      "name": "DoorRedNorth",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_red_north"
+    },
+    {
+      "name": "DoorRedWest",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_red_west"
+    },
+    {
+      "name": "DoorRedNorthOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_red_north_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorRedWestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_red_west_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorGrayNorth",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_gray_north"
+    },
+    {
+      "name": "DoorGrayNorthOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_gray_north_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorGrayWest",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_gray_west"
+    },
+    {
+      "name": "DoorGrayWestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_gray_west_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiHsdDiary",
+      "type": "gui",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 52
+      },
+      "registry_name": "gui_hsd_diary"
+    },
+    {
+      "name": "GuiHsdTest",
+      "type": "gui",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 53
+      },
+      "registry_name": "gui_hsd_test"
+    },
+    {
+      "name": "GuiLucidUpdate",
+      "type": "gui",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 54
+      },
+      "registry_name": "gui_lucid_update"
+    },
+    {
+      "name": "HsdDiaryRightClickedInAir",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hsd_diary_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HsdDiary",
+      "type": "item",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hsd_diary"
+    },
+    {
+      "name": "HsdTestRightClickedInAir",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hsd_test_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HsdTest",
+      "type": "item",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hsd_test"
+    },
+    {
+      "name": "LucidUpdateRightClickedInAir",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_update_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LucidUpdate",
+      "type": "item",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_update"
+    },
+    {
+      "name": "VocalCordRightClickedInAir",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vocal_cord_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VocalCord",
+      "type": "item",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vocal_cord"
+    },
+    {
+      "name": "KeyRedRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_red_recipe"
+    },
+    {
+      "name": "KeyGrayRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_gray_recipe"
+    },
+    {
+      "name": "DoorRedHotelNorth",
+      "type": "block",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_red_hotel_north"
+    },
+    {
+      "name": "DoorRedHotelNorthOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_red_hotel_north_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorRedHotelWest",
+      "type": "block",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_red_hotel_west"
+    },
+    {
+      "name": "DoorRedHotelWestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_red_hotel_west_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorGrayHotelNorth",
+      "type": "block",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_gray_hotel_north"
+    },
+    {
+      "name": "DoorGrayHotelWest",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_gray_hotel_west"
+    },
+    {
+      "name": "DoorGrayHotelWestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_gray_hotel_west_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorGrayHotelNorthOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_gray_hotel_north_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiNewspaper",
+      "type": "gui",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 55
+      },
+      "registry_name": "gui_newspaper"
+    },
+    {
+      "name": "GuiOgrSocks",
+      "type": "gui",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 56
+      },
+      "registry_name": "gui_ogr_socks"
+    },
+    {
+      "name": "GuiPgeNecktie",
+      "type": "gui",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 57
+      },
+      "registry_name": "gui_pge_necktie"
+    },
+    {
+      "name": "GuiPgeDiary02",
+      "type": "gui",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 58
+      },
+      "registry_name": "gui_pge_diary_02"
+    },
+    {
+      "name": "GuiPgeMemo01",
+      "type": "gui",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 59
+      },
+      "registry_name": "gui_pge_memo_01"
+    },
+    {
+      "name": "GuiLucidMap02",
+      "type": "gui",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 60
+      },
+      "registry_name": "gui_lucid_map_02"
+    },
+    {
+      "name": "GuiHotelReceipt01",
+      "type": "gui",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 61
+      },
+      "registry_name": "gui_hotel_receipt_01"
+    },
+    {
+      "name": "HotelReciept01RightClickedInAir",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_reciept_01_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotelReciept01",
+      "type": "item",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_reciept_01"
+    },
+    {
+      "name": "LucidMap2RightClickedInAir",
+      "type": "procedure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_map_2_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LucidMap2",
+      "type": "item",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_map_2"
+    },
+    {
+      "name": "NewspaperRightClickedInAir",
+      "type": "procedure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "newspaper_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Newspaper",
+      "type": "item",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "newspaper"
+    },
+    {
+      "name": "OgrSocksRightClickedInAir",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ogr_socks_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OgrSocks",
+      "type": "item",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ogr_socks"
+    },
+    {
+      "name": "PgeNecktieRightClickedInAir",
+      "type": "procedure",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_necktie_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeNecktie",
+      "type": "item",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_necktie"
+    },
+    {
+      "name": "PgeDiary02RightClickedInAir",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_diary_02_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeDiary02",
+      "type": "item",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_diary_02"
+    },
+    {
+      "name": "PgeMemo01RightClickedInAir",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_memo_01_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeMemo01",
+      "type": "item",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_memo_01"
+    },
+    {
+      "name": "GuiPgePhoto02",
+      "type": "gui",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 64
+      },
+      "registry_name": "gui_pge_photo_02"
+    },
+    {
+      "name": "PgeTrevelPhoto02RightClickedInAir",
+      "type": "procedure",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_trevel_photo_02_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeTrevelPhoto02",
+      "type": "item",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_trevel_photo_02"
+    },
+    {
+      "name": "GuiDlcAdvertising",
+      "type": "gui",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 65
+      },
+      "registry_name": "gui_dlc_advertising"
+    },
+    {
+      "name": "DlcAdvertisingRightClickedInAir",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_advertising_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DlcAdvertising",
+      "type": "item",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_advertising"
+    },
+    {
+      "name": "SmartEyepatch",
+      "type": "block",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smart_eyepatch"
+    },
+    {
+      "name": "HotelWallCrackedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_wall_cracked_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HotelWallCracked",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hotel_wall_cracked"
+    },
+    {
+      "name": "DoorWhiteNorth",
+      "type": "block",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_white_north"
+    },
+    {
+      "name": "DoorWhiteWest",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_white_west"
+    },
+    {
+      "name": "DoorWhiteWestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_white_west_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorWhiteNorthOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_white_north_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorWhiteHotelNorth",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_white_hotel_north"
+    },
+    {
+      "name": "DoorWhiteHotelWest",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_white_hotel_west"
+    },
+    {
+      "name": "DoorWhiteHotelWestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_white_hotel_west_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorWhiteHotelNorthOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_white_hotel_north_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeyWhite",
+      "type": "item",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_white"
+    },
+    {
+      "name": "KeyBlue",
+      "type": "item",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_blue"
+    },
+    {
+      "name": "DoorBlueHotelNorth",
+      "type": "block",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_blue_hotel_north"
+    },
+    {
+      "name": "DoorBlueHotelWest",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_blue_hotel_west"
+    },
+    {
+      "name": "DoorBlueHotelWestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_blue_hotel_west_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorBlueNorth",
+      "type": "block",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_blue_north"
+    },
+    {
+      "name": "DoorBlueHotelNorthOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_blue_hotel_north_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorBlueWest",
+      "type": "block",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_blue_west"
+    },
+    {
+      "name": "DoorBlueWestOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_blue_west_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DoorBlueNorthOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "door_blue_north_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KeyWhiteRecipe",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_white_recipe"
+    },
+    {
+      "name": "KeyBlueRecipe",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_blue_recipe"
+    },
+    {
+      "name": "GuiMsgGlove",
+      "type": "gui",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 66
+      },
+      "registry_name": "gui_msg_glove"
+    },
+    {
+      "name": "GuiNbpUmbrella",
+      "type": "gui",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 67
+      },
+      "registry_name": "gui_nbp_umbrella"
+    },
+    {
+      "name": "GuiGroCertificate",
+      "type": "gui",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 68
+      },
+      "registry_name": "gui_gro_certificate"
+    },
+    {
+      "name": "MsgGloveRightClickedInAir",
+      "type": "procedure",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "msg_glove_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MsgGlove",
+      "type": "item",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "msg_glove"
+    },
+    {
+      "name": "NbpUmbrellaRightClickedInAir",
+      "type": "procedure",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbp_umbrella_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NbpUmbrella",
+      "type": "item",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbp_umbrella"
+    },
+    {
+      "name": "GroCertificateRightClickedInAir",
+      "type": "procedure",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gro_certificate_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GroCertificate",
+      "type": "item",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gro_certificate"
+    },
+    {
+      "name": "GuiLucidModel",
+      "type": "gui",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 69
+      },
+      "registry_name": "gui_lucid_model"
+    },
+    {
+      "name": "GuiLucidModel2",
+      "type": "gui",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {
+        "0": 70
+      },
+      "registry_name": "gui_lucid_model_2"
+    },
+    {
+      "name": "OpenGuiLucidModel1",
+      "type": "procedure",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_gui_lucid_model_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OpenGuiLucidModel2",
+      "type": "procedure",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "open_gui_lucid_model_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LucidModel",
+      "type": "item",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_model"
+    },
+    {
+      "name": "GuiGroLucidProfile",
+      "type": "gui",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 71
+      },
+      "registry_name": "gui_gro_lucid_profile"
+    },
+    {
+      "name": "GroLucidProfileRightClickedInAir",
+      "type": "procedure",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gro_lucid_profile_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GroLucidProfile",
+      "type": "item",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gro_lucid_profile"
+    },
+    {
+      "name": "GuiLucidReport",
+      "type": "gui",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 72
+      },
+      "registry_name": "gui_lucid_report"
+    },
+    {
+      "name": "LucidReportRightClickedInAir",
+      "type": "procedure",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_report_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LucidReport",
+      "type": "item",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_report"
+    },
+    {
+      "name": "GuiLucidError",
+      "type": "gui",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 73
+      },
+      "registry_name": "gui_lucid_error"
+    },
+    {
+      "name": "LucidErrorRightClickedInAir",
+      "type": "procedure",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_error_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LucidError",
+      "type": "item",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_error"
+    },
+    {
+      "name": "GuiTfTeam",
+      "type": "gui",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 75
+      },
+      "registry_name": "gui_tf_team"
+    },
+    {
+      "name": "TeamTfTeamRightClickedInAir",
+      "type": "procedure",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "team_tf_team_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeamTfTeam",
+      "type": "item",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "team_tf_team"
+    },
+    {
+      "name": "GuiNbpLetter",
+      "type": "gui",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 76
+      },
+      "registry_name": "gui_nbp_letter"
+    },
+    {
+      "name": "NbpLetterRightClickedInAir",
+      "type": "procedure",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbp_letter_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NbpLetter",
+      "type": "item",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbp_letter"
+    },
+    {
+      "name": "GuiAddlc1",
+      "type": "gui",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 77
+      },
+      "registry_name": "gui_addlc_1"
+    },
+    {
+      "name": "GuiAddlc2",
+      "type": "gui",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 78
+      },
+      "registry_name": "gui_addlc_2"
+    },
+    {
+      "name": "GuiAddlc3",
+      "type": "gui",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 79
+      },
+      "registry_name": "gui_addlc_3"
+    },
+    {
+      "name": "Addlc1RightClickedInAir",
+      "type": "procedure",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "addlc_1_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Addlc1",
+      "type": "item",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "addlc_1"
+    },
+    {
+      "name": "Addlc2RightClickedInAir",
+      "type": "procedure",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "addlc_2_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Addlc2",
+      "type": "item",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "addlc_2"
+    },
+    {
+      "name": "Addlc3RightClickedInAir",
+      "type": "procedure",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "addlc_3_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Addlc3",
+      "type": "item",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "addlc_3"
+    },
+    {
+      "name": "GuiNbpComplaint",
+      "type": "gui",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 80
+      },
+      "registry_name": "gui_nbp_complaint"
+    },
+    {
+      "name": "NbpComplaint",
+      "type": "item",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbp_complaint"
+    },
+    {
+      "name": "GuiLucidDreamHallDram",
+      "type": "gui",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 81
+      },
+      "registry_name": "gui_lucid_dream_hall_dram"
+    },
+    {
+      "name": "LucidDreamHallDreamRightClickedInAir",
+      "type": "procedure",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_dream_hall_dream_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LucidDreamHallDream",
+      "type": "item",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_dream_hall_dream"
+    },
+    {
+      "name": "GuiPgeDiary03",
+      "type": "gui",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 82
+      },
+      "registry_name": "gui_pge_diary_03"
+    },
+    {
+      "name": "PgeDiary03RightClickedInAir",
+      "type": "procedure",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_diary_03_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeDiary03",
+      "type": "item",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_diary_03"
+    },
+    {
+      "name": "DlcNoAd",
+      "type": "item",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_no_ad"
+    },
+    {
+      "name": "DlcMemory",
+      "type": "item",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_memory"
+    },
+    {
+      "name": "GuiDlcMemory",
+      "type": "gui",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 83
+      },
+      "registry_name": "gui_dlc_memory"
+    },
+    {
+      "name": "DlcMemoryExplainRightClickedInAir",
+      "type": "procedure",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_memory_explain_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DlcMemoryExplain",
+      "type": "item",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dlc_memory_explain"
+    },
+    {
+      "name": "GuiLucidPge",
+      "type": "gui",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 84
+      },
+      "registry_name": "gui_lucid_pge"
+    },
+    {
+      "name": "LucidPgeRightClickedInAir",
+      "type": "procedure",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_pge_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LucidPge",
+      "type": "item",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucid_pge"
+    },
+    {
+      "name": "NbpComplaintRightClickedInAir",
+      "type": "procedure",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nbp_complaint_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ALucydpatchCanUseOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_lucydpatch_can_use_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiPgeDiary04",
+      "type": "gui",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 85
+      },
+      "registry_name": "gui_pge_diary_04"
+    },
+    {
+      "name": "PgeDiary04RightClickedInAir",
+      "type": "procedure",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_diary_04_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PgeDiary04",
+      "type": "item",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pge_diary_04"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "bakha_demo_song",
+      "file": "bakha_demo_song",
+      "category": "master"
+    },
+    {
+      "name": "voice_alak01",
+      "file": "alak_voice",
+      "category": "master"
+    },
+    {
+      "name": "voice_ppap01",
+      "file": "ppap_voice",
+      "category": "master"
+    },
+    {
+      "name": "revolver_shot",
+      "file": "revolver_shot",
+      "category": "master"
+    },
+    {
+      "name": "dream_dragonfly",
+      "file": "dream_dragonfly",
+      "category": "master"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.dlc_abh_poster.name": "Dlc Abh Poster",
+      "item.pge_diary_02.name": "Pge Diary 02",
+      "item.vocal_cord.name": "Vocal Cord",
+      "tile.door_blue_hotel_north.name": "Door Blue Hotel North",
+      "item.pge_travel_photo_01.name": "Pge Travel Photo 0 1",
+      "tile.dream_flower_2.name": "Dream Flower 2",
+      "item.addlc_1.name": "Addlc 1",
+      "item.card_ip_08.name": "Indian Poker Card",
+      "item.hsd_application.name": "Hsd Application",
+      "item.revolver.name": "Revolver",
+      "tile.dream_vine_middle.name": "Dream Vine Middle",
+      "item.abh_practice_note.name": "Abh Practice Note",
+      "tile.door_blue_hotel_west.name": "Door Blue Hotel West",
+      "item.pge_memo_01.name": "Pge Memo 0 1",
+      "item.pge_necktie.name": "Pge Necktie",
+      "item.card_ip_10.name": "Indian Poker Card",
+      "item.card_ip_09.name": "Indian Poker Card",
+      "tile.door_white_hotel_north.name": "Door White Hotel North",
+      "item.nbp_umbrella.name": "Nbp Umbrella",
+      "tile.abh_sister_photo.name": "Abh Sister Photo",
+      "item.lucid_pge.name": "Lucid Pge",
+      "item.addlc_2.name": "Addlc 2",
+      "item.card_ip_07.name": "Indian Poker Card",
+      "tile.mirror_01.name": "Mirror 0 1",
+      "item.pge_diary_03.name": "Pge Diary 0 3",
+      "item.dlc_gardenscapes.name": "Dlc Gardenscapes",
+      "item.bakha_recorder.name": "Bakha Recorder",
+      "item.key_white.name": "Key White",
+      "item.gsd_mypad.name": "Gsd Mypad",
+      "tile.bakha_doll.name": "Bakha Doll",
+      "tile.dream_flowers_pink_middle.name": "Dream Flower Pink Middle",
+      "item.espresso.name": "Espresso",
+      "tile.hotel_floor.name": "Hotel Light",
+      "item.dlc_memory_explain.name": "Dlc Memory Explain",
+      "tile.lucydpatch_box.name": "Lucydpatch Box",
+      "tile.door_white_north.name": "Door White North",
+      "item.nbp_letter.name": "Nbp Letter",
+      "item.lucid_error.name": "Lucid Error",
+      "tile.dream_flowers_purple_bottom.name": "Dream Flower Purple Bottom",
+      "tile.door_gray_west.name": "Door Gray West",
+      "item.lucydpatch_patch.name": "Lucydpatch Patch",
+      "tile.dream_grass_1.name": "Dream Grass",
+      "item.gro_certificate.name": "Gro Certificate",
+      "item.lucid_dream_hall_dream.name": "Lucid Dream Hall Dream",
+      "tile.dream_flower_0.name": "Dream Flower 0",
+      "tile.lucydpatch.name": "Lucydpatch",
+      "tile.mirror_02.name": "Mirror 0 2",
+      "item.gro_lucid_profile.name": "Gro Lucid Profile",
+      "item.card_ip_05.name": "Indian Poker Card",
+      "tile.dream_grass_2.name": "Dream Grass",
+      "item.glo_drawing.name": "Glo Drawing",
+      "tile.door_red_west.name": "Door Yellow West",
+      "tile.dream_flowers_purple_middle.name": "Dream Flower Purple Middle",
+      "item.team_tf_team.name": "Team Tf Team",
+      "tile.door_blue_west.name": "Door Blue Hotel West",
+      "item.addlc_3.name": "Addlc 3",
+      "item.msg_application.name": "Msg Application",
+      "item.ogr_bucketlist_poster.name": "Ogr Bucketlist Poster",
+      "tile.lucydpatch_can_use.name": "Lucydpatch",
+      "item.key_blue.name": "Key Blue",
+      "item.hotel_reciept_01.name": "Hotel Reciept 01",
+      "tile.penguin.name": "Penguin",
+      "item.pge_trevel_photo_02.name": "Pge Trevel Photo 0 2",
+      "item.dlc_no_ad.name": "Dlc No Ad",
+      "tile.dream_flowers_white_middle.name": "Dream Flowers White Middle",
+      "item.dlc_memory.name": "Dlc Memory",
+      "item.nbp_application.name": "Nbp Application",
+      "item.newspaper.name": "Newspaper",
+      "tile.door_gray_north.name": "Door Gray North",
+      "entity.dream_dragon_fly.name": "Dream DragonFly",
+      "tile.dream_vine_bottom.name": "Dream Vine Bottom",
+      "tile.door_white_hotel_west.name": "Door White Hotel West",
+      "tile.dream_flowers_pink_bottom.name": "Dream Flower Pink Bottom",
+      "tile.door_red_hotel_north.name": "Door Yellow Hotel North",
+      "item.card_ip_03.name": "Indian Poker Card",
+      "item.abh_application.name": "Abh Application",
+      "item.hotel_paper.name": "Hotel Paper",
+      "item.card_ip_02.name": "Indian Poker Card",
+      "tile.dream_moss_1.name": "Dream Moss 1",
+      "tile.transperant_light_full.name": "Transperant Light Full",
+      "tile.dream_outer_leaves.name": "Dream Outer Leaves",
+      "item.bucket_list.name": "Bucket List",
+      "item.dlc_advertising.name": "Dlc Advertising",
+      "item.card_ip_01.name": "Indian Poker Card",
+      "item.pge_diary.name": "Pge Diary",
+      "item.key_gray.name": "Key Gray",
+      "item.pge_fourcut.name": "Pge Fourcut",
+      "tile.door_blue_north.name": "Door Blue North",
+      "tile.dream_flowers_white_bottom.name": "Dream Flowers White Bottom",
+      "tile.hotel_wall_cracked.name": "Hotel Wall Cracked",
+      "item.kjp_drivelicesne.name": "Kjp Drivelicesne",
+      "item.ogr_socks.name": "Ogr Socks",
+      "item.card_ip_04.name": "Indian Poker Card",
+      "item.key_red.name": "Key Yellow",
+      "itemGroup.tabdream": "Dream",
+      "item.hsd_diary.name": "Hsd Diary",
+      "tile.door_red_north.name": "Door Yellow North",
+      "tile.heartmonitor.name": "Heartmonitor",
+      "item.lucid_model.name": "Lucid Model",
+      "tile.door_gray_hotel_north.name": "Door Gray Hotel North",
+      "item.lucid_map_2.name": "Lucid Map 2",
+      "item.card_ip_06.name": "Indian Poker Card",
+      "item.msg_glove.name": "Msg Glove",
+      "tile.door_red_hotel_west.name": "Door Yellow Hotel West",
+      "item.lucid_report.name": "Lucid Report",
+      "tile.door_white_west.name": "Door White West",
+      "tile.smart_eyepatch.name": "Smart Eyepatch",
+      "item.nbp_complaint.name": "Nbp Complaint",
+      "tile.hotel_light.name": "Hotel Light",
+      "item.lucid_update.name": "Lucid Update",
+      "tile.door_gray_hotel_west.name": "Door Gray Hotel West",
+      "tile.transperant_light_half.name": "Transperant Light Full",
+      "tile.dream_vine_top.name": "Dream Vine Top",
+      "item.hsd_test.name": "Hsd Test",
+      "item.glo_application.name": "Glo Application",
+      "item.pge_diary_04.name": "Pge Diary 0 4",
+      "item.ogr_application.name": "Ogr Application",
+      "item.dream_hall_hint.name": "Dream Hall Hint",
+      "tile.dream_flower_1.name": "Dream Flower 1"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "ppapdream",
+    "modName": "Ppap-Dream-1.12.2",
+    "version": "1.0.0",
+    "author": "yeon, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "modElementsPackage": "jptv.seomoodi.ppapdream",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}

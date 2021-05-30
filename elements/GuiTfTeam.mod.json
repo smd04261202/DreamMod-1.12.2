@@ -1,0 +1,22 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "lucid_tfteam.png",
+          "name": "lucid_tfteam.png",
+          "x": 174,
+          "y": -12
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "dispenser_side_horizontal",
+        "1": "hopper_outside"
+      },
+      "name": "default"
+    }
+  }
+}

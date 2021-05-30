@@ -1,13 +1,31 @@
 {
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2021-04-07 04:26:36 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2021-04-07 04:26:36 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2021-05-29 04:31:32 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
       "entered_water": "2021-04-07 04:26:36 +0900"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/dark_oak_boat": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "entered_water": "2021-04-07 04:26:36 +0900"
+      "blaze_rod": "2021-05-29 04:31:32 +0900"
     },
     "done": true
   },
@@ -17,9 +35,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
+  "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
-      "entered_water": "2021-04-07 04:26:36 +0900"
+      "has_at_least_9_coal": "2021-05-29 04:31:32 +0900"
     },
     "done": true
   },
@@ -47,10 +65,22 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2021-05-29 04:31:32 +0900"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "plains": "2021-03-31 01:04:18 +0900"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2021-05-29 04:31:32 +0900"
+    },
+    "done": true
   }
 }

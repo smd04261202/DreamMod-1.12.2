@@ -5,6 +5,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-05-29 04:01:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2021-05-29 04:01:30 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
+    "criteria": {
+      "has_black_dye": "2021-04-06 19:09:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
+    "criteria": {
+      "has_black_dye": "2021-04-06 19:09:52 +0900"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2021-05-29 04:01:30 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/arrow": {
     "criteria": {
       "has_flint": "2021-05-15 07:27:15 +0900"
@@ -14,6 +44,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2021-05-15 07:27:15 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2021-05-29 04:01:30 +0900"
     },
     "done": true
   },
@@ -29,9 +65,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
+  "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
-      "has_black_dye": "2021-04-06 19:09:52 +0900"
+      "has_blaze_rod": "2021-05-29 04:01:30 +0900"
     },
     "done": true
   },
@@ -41,9 +77,9 @@
     },
     "done": false
   },
-  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
+  "minecraft:recipes/building_blocks/birch_planks": {
     "criteria": {
-      "has_black_dye": "2021-04-06 19:09:52 +0900"
+      "has_log": "2021-05-29 04:01:30 +0900"
     },
     "done": true
   }

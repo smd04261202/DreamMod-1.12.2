@@ -21,6 +21,15 @@
           "x": 408,
           "y": 132
         }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gui_hotel_light.png",
+          "name": "gui_hotel_light.png",
+          "x": 250,
+          "y": 64
+        }
       }
     ]
   }

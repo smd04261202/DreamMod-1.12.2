@@ -29,7 +29,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.Block;
 
-import jptv.seomoodi.ppapdream.procedure.ProcedureLucydpatchCanUseOnBlockRightClicked;
+import jptv.seomoodi.ppapdream.procedure.ProcedureALucydpatchCanUseOnBlockRightClicked;
 import jptv.seomoodi.ppapdream.creativetab.TabDream;
 import jptv.seomoodi.ppapdream.ElementsPpapdreamMod;
 
@@ -151,7 +151,7 @@ public class BlockLucydpatchCanUse extends ElementsPpapdreamMod.ModElement {
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
-				ProcedureLucydpatchCanUseOnBlockRightClicked.executeProcedure($_dependencies);
+				ProcedureALucydpatchCanUseOnBlockRightClicked.executeProcedure($_dependencies);
 			}
 			return true;
 		}

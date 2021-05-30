@@ -33,10 +33,10 @@ import java.io.IOException;
 
 @ElementsPpapdreamMod.ModElement.Tag
 public class GuiGuiAbhSisterPhoto extends ElementsPpapdreamMod.ModElement {
-	public static int GUIID = 33;
+	public static int GUIID = 86;
 	public static HashMap guistate = new HashMap();
 	public GuiGuiAbhSisterPhoto(ElementsPpapdreamMod instance) {
-		super(instance, 147);
+		super(instance, 309);
 	}
 
 	@Override
