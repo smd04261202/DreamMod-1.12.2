@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:ppap_mypad"
+    },
+    "facing=north": {
+      "model": "ppapdream:ppap_mypad"
+    },
+    "facing=east": {
+      "model": "ppapdream:ppap_mypad",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:ppap_mypad",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:ppap_mypad",
+      "y": 270
+    }
+  }
+}

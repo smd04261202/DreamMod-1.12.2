@@ -34,47 +34,49 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.block.Block;
 
-import jptv.seomoodi.ppapdream.gui.GuiGuiTfTeam;
 import jptv.seomoodi.ppapdream.gui.GuiGuiPgeTravelPhoto02;
 import jptv.seomoodi.ppapdream.gui.GuiGuiPgeTravelPhoto01;
 import jptv.seomoodi.ppapdream.gui.GuiGuiPgePhoto02;
 import jptv.seomoodi.ppapdream.gui.GuiGuiPgeNecktie;
+import jptv.seomoodi.ppapdream.gui.GuiGuiPgeMemo1;
+import jptv.seomoodi.ppapdream.gui.GuiGuiPgeMemo04;
+import jptv.seomoodi.ppapdream.gui.GuiGuiPgeMemo03;
+import jptv.seomoodi.ppapdream.gui.GuiGuiPgeMemo02;
 import jptv.seomoodi.ppapdream.gui.GuiGuiPgeMemo01;
 import jptv.seomoodi.ppapdream.gui.GuiGuiPgeFourcut;
+import jptv.seomoodi.ppapdream.gui.GuiGuiPgeDreamhall;
 import jptv.seomoodi.ppapdream.gui.GuiGuiPgeDiary04;
 import jptv.seomoodi.ppapdream.gui.GuiGuiPgeDiary03;
 import jptv.seomoodi.ppapdream.gui.GuiGuiPgeDiary02;
 import jptv.seomoodi.ppapdream.gui.GuiGuiPgeDiary;
 import jptv.seomoodi.ppapdream.gui.GuiGuiOgrSocks;
+import jptv.seomoodi.ppapdream.gui.GuiGuiOgrMessage;
+import jptv.seomoodi.ppapdream.gui.GuiGuiNightmareManual;
 import jptv.seomoodi.ppapdream.gui.GuiGuiNewspaper;
 import jptv.seomoodi.ppapdream.gui.GuiGuiNbpUmbrella;
 import jptv.seomoodi.ppapdream.gui.GuiGuiNbpLetter;
 import jptv.seomoodi.ppapdream.gui.GuiGuiNbpComplaint;
 import jptv.seomoodi.ppapdream.gui.GuiGuiMsgGlove;
+import jptv.seomoodi.ppapdream.gui.GuiGuiLucidWebtoon;
 import jptv.seomoodi.ppapdream.gui.GuiGuiLucidUpdate;
-import jptv.seomoodi.ppapdream.gui.GuiGuiLucidReport;
-import jptv.seomoodi.ppapdream.gui.GuiGuiLucidPge;
-import jptv.seomoodi.ppapdream.gui.GuiGuiLucidModel2;
-import jptv.seomoodi.ppapdream.gui.GuiGuiLucidModel;
 import jptv.seomoodi.ppapdream.gui.GuiGuiLucidMap02;
-import jptv.seomoodi.ppapdream.gui.GuiGuiLucidError;
 import jptv.seomoodi.ppapdream.gui.GuiGuiLucidDreamHallDram;
 import jptv.seomoodi.ppapdream.gui.GuiGuiLucidDreamHall;
+import jptv.seomoodi.ppapdream.gui.GuiGuiKjpXmas;
 import jptv.seomoodi.ppapdream.gui.GuiGuiKjpDriveLicense;
 import jptv.seomoodi.ppapdream.gui.GuiGuiIOgrBucketlistPoster;
-import jptv.seomoodi.ppapdream.gui.GuiGuiHsdTest;
+import jptv.seomoodi.ppapdream.gui.GuiGuiHsdDriveLicense;
 import jptv.seomoodi.ppapdream.gui.GuiGuiHsdDiary;
 import jptv.seomoodi.ppapdream.gui.GuiGuiHotelReceipt01;
 import jptv.seomoodi.ppapdream.gui.GuiGuiHotelPaper;
 import jptv.seomoodi.ppapdream.gui.GuiGuiHotelLight;
 import jptv.seomoodi.ppapdream.gui.GuiGuiGsdMypad;
-import jptv.seomoodi.ppapdream.gui.GuiGuiGroLucidProfile;
+import jptv.seomoodi.ppapdream.gui.GuiGuiGroComic03;
+import jptv.seomoodi.ppapdream.gui.GuiGuiGroComic02;
+import jptv.seomoodi.ppapdream.gui.GuiGuiGroComic01;
 import jptv.seomoodi.ppapdream.gui.GuiGuiGroCertificate;
 import jptv.seomoodi.ppapdream.gui.GuiGuiGloDrawing;
-import jptv.seomoodi.ppapdream.gui.GuiGuiDlcMemory;
-import jptv.seomoodi.ppapdream.gui.GuiGuiDlcGardenscape;
-import jptv.seomoodi.ppapdream.gui.GuiGuiDlcAdvertising;
-import jptv.seomoodi.ppapdream.gui.GuiGuiDlcAbhPoster;
+import jptv.seomoodi.ppapdream.gui.GuiGuiDoctorNote;
 import jptv.seomoodi.ppapdream.gui.GuiGuiBucketList;
 import jptv.seomoodi.ppapdream.gui.GuiGuiAddlc3;
 import jptv.seomoodi.ppapdream.gui.GuiGuiAddlc2;
@@ -182,10 +184,6 @@ public class ElementsPpapdreamMod implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiGuiAbhPracticeNote.GUIID)
 				return new GuiGuiAbhPracticeNote.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiDlcAbhPoster.GUIID)
-				return new GuiGuiDlcAbhPoster.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiDlcGardenscape.GUIID)
-				return new GuiGuiDlcGardenscape.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiGloDrawing.GUIID)
 				return new GuiGuiGloDrawing.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiPgeTravelPhoto01.GUIID)
@@ -210,8 +208,6 @@ public class ElementsPpapdreamMod implements IFuelHandler, IWorldGenerator {
 				return new GuiGuiHotelLight.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiHsdDiary.GUIID)
 				return new GuiGuiHsdDiary.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiHsdTest.GUIID)
-				return new GuiGuiHsdTest.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiLucidUpdate.GUIID)
 				return new GuiGuiLucidUpdate.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiNewspaper.GUIID)
@@ -230,26 +226,12 @@ public class ElementsPpapdreamMod implements IFuelHandler, IWorldGenerator {
 				return new GuiGuiHotelReceipt01.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiPgePhoto02.GUIID)
 				return new GuiGuiPgePhoto02.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiDlcAdvertising.GUIID)
-				return new GuiGuiDlcAdvertising.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiMsgGlove.GUIID)
 				return new GuiGuiMsgGlove.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiNbpUmbrella.GUIID)
 				return new GuiGuiNbpUmbrella.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiGroCertificate.GUIID)
 				return new GuiGuiGroCertificate.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiLucidModel.GUIID)
-				return new GuiGuiLucidModel.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiLucidModel2.GUIID)
-				return new GuiGuiLucidModel2.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiGroLucidProfile.GUIID)
-				return new GuiGuiGroLucidProfile.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiLucidReport.GUIID)
-				return new GuiGuiLucidReport.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiLucidError.GUIID)
-				return new GuiGuiLucidError.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiTfTeam.GUIID)
-				return new GuiGuiTfTeam.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiNbpLetter.GUIID)
 				return new GuiGuiNbpLetter.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiAddlc1.GUIID)
@@ -264,16 +246,40 @@ public class ElementsPpapdreamMod implements IFuelHandler, IWorldGenerator {
 				return new GuiGuiLucidDreamHallDram.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiPgeDiary03.GUIID)
 				return new GuiGuiPgeDiary03.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiDlcMemory.GUIID)
-				return new GuiGuiDlcMemory.GuiContainerMod(world, x, y, z, player);
-			if (id == GuiGuiLucidPge.GUIID)
-				return new GuiGuiLucidPge.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiPgeDiary04.GUIID)
 				return new GuiGuiPgeDiary04.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiAbhSisterPhoto.GUIID)
 				return new GuiGuiAbhSisterPhoto.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiGuiHotelPaper.GUIID)
 				return new GuiGuiHotelPaper.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiDoctorNote.GUIID)
+				return new GuiGuiDoctorNote.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiPgeMemo02.GUIID)
+				return new GuiGuiPgeMemo02.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiPgeMemo04.GUIID)
+				return new GuiGuiPgeMemo04.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiOgrMessage.GUIID)
+				return new GuiGuiOgrMessage.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiLucidWebtoon.GUIID)
+				return new GuiGuiLucidWebtoon.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiHsdDriveLicense.GUIID)
+				return new GuiGuiHsdDriveLicense.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiNightmareManual.GUIID)
+				return new GuiGuiNightmareManual.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiPgeDreamhall.GUIID)
+				return new GuiGuiPgeDreamhall.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiPgeMemo1.GUIID)
+				return new GuiGuiPgeMemo1.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiPgeMemo03.GUIID)
+				return new GuiGuiPgeMemo03.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiGroComic01.GUIID)
+				return new GuiGuiGroComic01.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiGroComic02.GUIID)
+				return new GuiGuiGroComic02.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiGroComic03.GUIID)
+				return new GuiGuiGroComic03.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiGuiKjpXmas.GUIID)
+				return new GuiGuiKjpXmas.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -281,10 +287,6 @@ public class ElementsPpapdreamMod implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == GuiGuiAbhPracticeNote.GUIID)
 				return new GuiGuiAbhPracticeNote.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiDlcAbhPoster.GUIID)
-				return new GuiGuiDlcAbhPoster.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiDlcGardenscape.GUIID)
-				return new GuiGuiDlcGardenscape.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiGloDrawing.GUIID)
 				return new GuiGuiGloDrawing.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiPgeTravelPhoto01.GUIID)
@@ -309,8 +311,6 @@ public class ElementsPpapdreamMod implements IFuelHandler, IWorldGenerator {
 				return new GuiGuiHotelLight.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiHsdDiary.GUIID)
 				return new GuiGuiHsdDiary.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiHsdTest.GUIID)
-				return new GuiGuiHsdTest.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiLucidUpdate.GUIID)
 				return new GuiGuiLucidUpdate.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiNewspaper.GUIID)
@@ -329,26 +329,12 @@ public class ElementsPpapdreamMod implements IFuelHandler, IWorldGenerator {
 				return new GuiGuiHotelReceipt01.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiPgePhoto02.GUIID)
 				return new GuiGuiPgePhoto02.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiDlcAdvertising.GUIID)
-				return new GuiGuiDlcAdvertising.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiMsgGlove.GUIID)
 				return new GuiGuiMsgGlove.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiNbpUmbrella.GUIID)
 				return new GuiGuiNbpUmbrella.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiGroCertificate.GUIID)
 				return new GuiGuiGroCertificate.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiLucidModel.GUIID)
-				return new GuiGuiLucidModel.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiLucidModel2.GUIID)
-				return new GuiGuiLucidModel2.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiGroLucidProfile.GUIID)
-				return new GuiGuiGroLucidProfile.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiLucidReport.GUIID)
-				return new GuiGuiLucidReport.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiLucidError.GUIID)
-				return new GuiGuiLucidError.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiTfTeam.GUIID)
-				return new GuiGuiTfTeam.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiNbpLetter.GUIID)
 				return new GuiGuiNbpLetter.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiAddlc1.GUIID)
@@ -363,16 +349,40 @@ public class ElementsPpapdreamMod implements IFuelHandler, IWorldGenerator {
 				return new GuiGuiLucidDreamHallDram.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiPgeDiary03.GUIID)
 				return new GuiGuiPgeDiary03.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiDlcMemory.GUIID)
-				return new GuiGuiDlcMemory.GuiWindow(world, x, y, z, player);
-			if (id == GuiGuiLucidPge.GUIID)
-				return new GuiGuiLucidPge.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiPgeDiary04.GUIID)
 				return new GuiGuiPgeDiary04.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiAbhSisterPhoto.GUIID)
 				return new GuiGuiAbhSisterPhoto.GuiWindow(world, x, y, z, player);
 			if (id == GuiGuiHotelPaper.GUIID)
 				return new GuiGuiHotelPaper.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiDoctorNote.GUIID)
+				return new GuiGuiDoctorNote.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiPgeMemo02.GUIID)
+				return new GuiGuiPgeMemo02.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiPgeMemo04.GUIID)
+				return new GuiGuiPgeMemo04.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiOgrMessage.GUIID)
+				return new GuiGuiOgrMessage.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiLucidWebtoon.GUIID)
+				return new GuiGuiLucidWebtoon.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiHsdDriveLicense.GUIID)
+				return new GuiGuiHsdDriveLicense.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiNightmareManual.GUIID)
+				return new GuiGuiNightmareManual.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiPgeDreamhall.GUIID)
+				return new GuiGuiPgeDreamhall.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiPgeMemo1.GUIID)
+				return new GuiGuiPgeMemo1.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiPgeMemo03.GUIID)
+				return new GuiGuiPgeMemo03.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiGroComic01.GUIID)
+				return new GuiGuiGroComic01.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiGroComic02.GUIID)
+				return new GuiGuiGroComic02.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiGroComic03.GUIID)
+				return new GuiGuiGroComic03.GuiWindow(world, x, y, z, player);
+			if (id == GuiGuiKjpXmas.GUIID)
+				return new GuiGuiKjpXmas.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:bench_left"
+    },
+    "facing=north": {
+      "model": "ppapdream:bench_left"
+    },
+    "facing=east": {
+      "model": "ppapdream:bench_left",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:bench_left",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:bench_left",
+      "y": 270
+    }
+  }
+}

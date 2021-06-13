@@ -95,8 +95,8 @@ public class GuiGuiHotelPaper extends ElementsPpapdreamMod.ModElement {
 			this.y = y;
 			this.z = z;
 			this.entity = entity;
-			this.xSize = 250;
-			this.ySize = 250;
+			this.xSize = 1000;
+			this.ySize = 1000;
 		}
 
 		@Override

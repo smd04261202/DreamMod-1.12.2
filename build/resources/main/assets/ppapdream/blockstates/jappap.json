@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:jappap"
+    },
+    "facing=north": {
+      "model": "ppapdream:jappap"
+    },
+    "facing=east": {
+      "model": "ppapdream:jappap",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:jappap",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:jappap",
+      "y": 270
+    }
+  }
+}

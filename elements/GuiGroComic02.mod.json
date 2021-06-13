@@ -1,0 +1,50 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 500,
+    "height": 500,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "gro_comic2.png",
+          "name": "gro_comic2.png",
+          "x": 174,
+          "y": -12
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "prev",
+          "onClick": {
+            "name": "OpenGuiGroComic01"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "prev",
+          "x": 174,
+          "y": 348
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "next",
+          "onClick": {
+            "name": "OpenGuiGroComic03"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "next",
+          "x": 606,
+          "y": 348
+        }
+      }
+    ]
+  }
+}

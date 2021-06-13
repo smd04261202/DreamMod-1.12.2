@@ -1,0 +1,8 @@
+{
+  "parent": "ppapdream:custom/bench_left",
+  "textures": {
+    "all": "ppapdream:blocks/bench_wood",
+    "particle": "ppapdream:blocks/bench_wood",
+    "1_0": "ppapdream:blocks/bench_wood"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "hopper_outside",
+        "1": "gro_computer",
+        "missing": "hopper_outside"
+      },
+      "name": "default"
+    }
+  }
+}

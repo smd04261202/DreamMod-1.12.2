@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "emerald_block": "emerald_ore",
+        "missing": "purpur_block",
+        "purpur_block": "purpur_block"
+      },
+      "name": "default"
+    }
+  }
+}

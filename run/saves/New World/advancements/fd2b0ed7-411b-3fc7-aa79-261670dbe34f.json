@@ -1,7 +1,25 @@
 {
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2021-06-02 07:49:55 +0900"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/redstone_lamp": {
     "criteria": {
       "has_glowstone": "2021-05-19 04:45:38 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2021-06-02 07:49:55 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2021-06-02 07:49:55 +0900"
     },
     "done": true
   },
@@ -10,5 +28,11 @@
       "plains": "2021-04-01 02:34:23 +0900"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_log": "2021-06-02 07:49:55 +0900"
+    },
+    "done": true
   }
 }
