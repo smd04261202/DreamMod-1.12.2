@@ -1,0 +1,8 @@
+{
+  "parent": "ppapdream:custom/gloves_gray",
+  "textures": {
+    "all": "ppapdream:blocks/glove_gray",
+    "particle": "ppapdream:blocks/glove_gray",
+    "2": "ppapdream:blocks/glove_gray"
+  }
+}

@@ -1,9 +1,0 @@
-{
-  "parent": "ppapdream:custom/abh_sisterphoto",
-  "textures": {
-    "all": "ppapdream:blocks/abh_sisterphoto",
-    "particle": "ppapdream:blocks/abh_sisterphoto",
-    "0": "ppapdream:blocks/abh_sisterphoto",
-    "1": "ppapdream:blocks/planks_brown"
-  }
-}

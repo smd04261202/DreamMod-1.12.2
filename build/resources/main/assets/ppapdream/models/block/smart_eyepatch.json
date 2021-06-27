@@ -1,9 +1,0 @@
-{
-  "parent": "ppapdream:custom/smart_eyepatch",
-  "textures": {
-    "all": "ppapdream:blocks/dispenser_side_horizontal",
-    "particle": "ppapdream:blocks/dispenser_side_horizontal",
-    "0": "ppapdream:blocks/dispenser_side_horizontal",
-    "1": "ppapdream:blocks/hopper_outside"
-  }
-}

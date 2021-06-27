@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "ppap/door_ppap",
+		"particle": "ppap/door_ppap"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 14.5],
+			"to": [16, 32, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [17, 8, 15]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.5, 16], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [7.75, 0, 8.25, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 8, 0.5], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [0, 15.5, 8, 16], "rotation": 180, "texture": "#0"}
+			}
+		}
+	]
+}

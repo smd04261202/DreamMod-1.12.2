@@ -1,9 +1,0 @@
-{
-  "parent": "ppapdream:custom/jappap",
-  "textures": {
-    "all": "ppapdream:blocks/jappap",
-    "particle": "ppapdream:blocks/jappap",
-    "0": "ppapdream:blocks/jappap_lucydpatch",
-    "1": "ppapdream:blocks/jappap"
-  }
-}

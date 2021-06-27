@@ -1,0 +1,8 @@
+{
+  "parent": "ppapdream:custom/door_purple_closed",
+  "textures": {
+    "all": "ppapdream:blocks/door_purple",
+    "particle": "ppapdream:blocks/door_purple",
+    "0": "ppapdream:blocks/door_purple"
+  }
+}

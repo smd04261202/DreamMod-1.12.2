@@ -1,0 +1,8 @@
+{
+  "parent": "ppapdream:custom/mp_trapdoor_opened",
+  "textures": {
+    "all": "ppapdream:blocks/trapdoor",
+    "particle": "ppapdream:blocks/trapdoor",
+    "0": "ppapdream:blocks/trapdoor"
+  }
+}

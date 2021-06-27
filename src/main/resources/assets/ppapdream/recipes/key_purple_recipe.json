@@ -1,0 +1,17 @@
+{
+  "group": "ppapdream",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wool",
+      "data": 10
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "ppapdream:key_purple",
+    "count": 1
+  }
+}

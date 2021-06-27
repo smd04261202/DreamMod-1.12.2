@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:glove_gray"
+    },
+    "facing=north": {
+      "model": "ppapdream:glove_gray"
+    },
+    "facing=east": {
+      "model": "ppapdream:glove_gray",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:glove_gray",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:glove_gray",
+      "y": 270
+    }
+  }
+}

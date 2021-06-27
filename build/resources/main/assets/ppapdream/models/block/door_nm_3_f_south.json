@@ -1,8 +1,0 @@
-{
-  "parent": "ppapdream:custom/door_nm_301_south",
-  "textures": {
-    "all": "ppapdream:blocks/door_nm_301",
-    "particle": "ppapdream:blocks/door_nm_301",
-    "0": "ppapdream:blocks/door_nm_301"
-  }
-}

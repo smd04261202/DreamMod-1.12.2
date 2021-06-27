@@ -1,8 +1,0 @@
-{
-  "parent": "ppapdream:custom/door_nm_204_opened",
-  "textures": {
-    "all": "ppapdream:blocks/iron_trapdoor",
-    "particle": "ppapdream:blocks/iron_trapdoor",
-    "0": "ppapdream:blocks/iron_trapdoor"
-  }
-}

@@ -2,14 +2,14 @@
   "_fv": 10,
   "_type": "block",
   "definition": {
-    "texture": "lucydpatch",
+    "texture": "lucydpatch_broken",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "lucydpatch:default",
+    "customModelName": "lucydpatch_broken:default",
     "rotationMode": 1,
     "emissiveRendering": false,
     "itemTexture": "",
@@ -88,6 +88,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "LucydpatchOnBlockRightClicked"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

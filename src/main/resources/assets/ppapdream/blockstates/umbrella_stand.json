@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:umbrella_stand"
+    },
+    "facing=north": {
+      "model": "ppapdream:umbrella_stand"
+    },
+    "facing=east": {
+      "model": "ppapdream:umbrella_stand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:umbrella_stand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:umbrella_stand",
+      "y": 270
+    }
+  }
+}
