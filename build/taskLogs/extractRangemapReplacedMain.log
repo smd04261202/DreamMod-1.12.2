@@ -1,7 +1,7 @@
 Unsupposrted library path: D:\TeamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\build\classes\java\api
 Unsupposrted library path: D:\TeamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\build\resources\api
 Symbol range map extraction starting
-Processing 266 files
+Processing 268 files
 startProcessing "jptv/seomoodi/ppapdream/ClientProxyPpapdreamMod.java" md5: 13a7d11b20f78b5209dc84e875353eee
 endProcessing "jptv/seomoodi/ppapdream/ClientProxyPpapdreamMod.java"
 
@@ -185,6 +185,9 @@ endProcessing "jptv/seomoodi/ppapdream/block/BlockLucydpatch.java"
 startProcessing "jptv/seomoodi/ppapdream/block/BlockLucydpatchBox.java" md5: 940cef6ac20daffc27aaa04ea63fc13f
 endProcessing "jptv/seomoodi/ppapdream/block/BlockLucydpatchBox.java"
 
+startProcessing "jptv/seomoodi/ppapdream/block/BlockLucydpatchOriginal.java" md5: 7d17c0f10c1ff5c2d5855582cc679746
+endProcessing "jptv/seomoodi/ppapdream/block/BlockLucydpatchOriginal.java"
+
 startProcessing "jptv/seomoodi/ppapdream/block/BlockMirror01.java" md5: dcd204f1430ebdce1b198b432c174a0d
 endProcessing "jptv/seomoodi/ppapdream/block/BlockMirror01.java"
 
@@ -199,6 +202,9 @@ endProcessing "jptv/seomoodi/ppapdream/block/BlockMpTrapdoorOpened.java"
 
 startProcessing "jptv/seomoodi/ppapdream/block/BlockPpapMypad.java" md5: 82919016c68b08ce928590b9bc947850
 endProcessing "jptv/seomoodi/ppapdream/block/BlockPpapMypad.java"
+
+startProcessing "jptv/seomoodi/ppapdream/block/BlockSmartEyepatch.java" md5: bbfc32f40cedaf6c0790cc652c9fb4a4
+endProcessing "jptv/seomoodi/ppapdream/block/BlockSmartEyepatch.java"
 
 startProcessing "jptv/seomoodi/ppapdream/block/BlockTransperantLightFull.java" md5: 3f7d38e8561497e698eebc362b7beee5
 endProcessing "jptv/seomoodi/ppapdream/block/BlockTransperantLightFull.java"

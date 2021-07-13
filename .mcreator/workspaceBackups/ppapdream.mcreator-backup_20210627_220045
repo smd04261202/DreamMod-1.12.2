@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "GUI": 110,
+    "GUI": 111,
     "ENTITY": 15
   },
   "mod_elements": [
@@ -4449,6 +4449,85 @@
           }
         ]
       }
+    },
+    {
+      "name": "GuiLastLetter",
+      "type": "gui",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 111
+      },
+      "registry_name": "gui_last_letter"
+    },
+    {
+      "name": "LastLetterRightClickedInAir",
+      "type": "procedure",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "last_letter_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LastLetter",
+      "type": "item",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "last_letter"
+    },
+    {
+      "name": "LucydpatchOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LucydpatchOriginal",
+      "type": "block",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_original"
     }
   ],
   "variable_elements": [],
@@ -4532,6 +4611,7 @@
       "item.kjp_drawing.name": "Kjp Drawing",
       "item.ogr_bucketlist_poster.name": "Ogr Bucketlist Poster",
       "item.key_blue.name": "Key Blue",
+      "tile.lucydpatch_original.name": "Lucydpatch Original",
       "item.pge_trevel_photo_02.name": "Pge Trevel Photo 0 2",
       "tile.dream_flowers_white_middle.name": "Dream Flowers White Middle",
       "item.newspaper.name": "Newspaper",
@@ -4539,6 +4619,7 @@
       "tile.door_gray_north.name": "Door Gray North",
       "item.hidden_memo_02.name": "Hidden Memo 0 2",
       "entity.dream_dragon_fly.name": "Dream DragonFly",
+      "item.last_letter.name": "Last Letter",
       "tile.dream_vine_bottom.name": "Dream Vine Bottom",
       "tile.door_white_hotel_west.name": "Door White Hotel West",
       "tile.door_black_west.name": "Door Black West",

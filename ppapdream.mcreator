@@ -1,7 +1,7 @@
 {
   "id_map": {
-    "GUI": 111,
-    "ENTITY": 15
+    "ENTITY": 15,
+    "GUI": 111
   },
   "mod_elements": [
     {
@@ -4519,6 +4519,24 @@
           }
         ]
       }
+    },
+    {
+      "name": "LucydpatchOriginal",
+      "type": "block",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_original"
+    },
+    {
+      "name": "SmartEyepatch",
+      "type": "block",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smart_eyepatch"
     }
   ],
   "variable_elements": [],
@@ -4575,9 +4593,9 @@
       "tile.dream_flowers_pink_middle.name": "Dream Flower Pink Middle",
       "tile.hotel_floor.name": "Hotel Light",
       "item.espresso.name": "Espresso",
-      "tile.lucydpatch_box.name": "Lucydpatch Box",
-      "tile.door_white_north.name": "Door White North",
       "item.nbp_letter.name": "Nbp Letter",
+      "tile.door_white_north.name": "Door White North",
+      "tile.lucydpatch_box.name": "Lucydpatch Box",
       "tile.dream_flowers_purple_bottom.name": "Dream Flower Purple Bottom",
       "tile.door_gray_west.name": "Door Gray West",
       "item.key_mp_4_f.name": "Key Mp 4F",
@@ -4602,6 +4620,7 @@
       "item.kjp_drawing.name": "Kjp Drawing",
       "item.ogr_bucketlist_poster.name": "Ogr Bucketlist Poster",
       "item.key_blue.name": "Key Blue",
+      "tile.lucydpatch_original.name": "Lucydpatch Original",
       "item.pge_trevel_photo_02.name": "Pge Trevel Photo 0 2",
       "tile.dream_flowers_white_middle.name": "Dream Flowers White Middle",
       "item.newspaper.name": "Newspaper",
@@ -4658,6 +4677,7 @@
       "tile.door_black_north.name": "Door Black North",
       "tile.door_red_hotel_west.name": "Door Yellow Hotel West",
       "tile.door_white_west.name": "Door White West",
+      "tile.smart_eyepatch.name": "Smart Eyepatch",
       "item.nbp_complaint.name": "Nbp Complaint",
       "tile.hotel_light.name": "Hotel Light",
       "tile.mp_trapdoor_closed.name": "Mp Trapdoor Closed",

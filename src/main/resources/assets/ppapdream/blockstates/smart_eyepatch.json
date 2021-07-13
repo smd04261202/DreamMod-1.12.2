@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "ppapdream:smart_eyepatch"
+    },
+    "facing=north": {
+      "model": "ppapdream:smart_eyepatch"
+    },
+    "facing=east": {
+      "model": "ppapdream:smart_eyepatch",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "ppapdream:smart_eyepatch",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "ppapdream:smart_eyepatch",
+      "y": 270
+    }
+  }
+}

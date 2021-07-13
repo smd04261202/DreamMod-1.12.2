@@ -1,163 +1,164 @@
-[04:23:07] [main/INFO] [GradleStart]: Extra: []
-[04:23:07] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/yeon/.mcreator/gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[04:23:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[04:23:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[04:23:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[04:23:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[04:23:07] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
-[04:23:07] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_252, running on Windows 10:amd64:10.0, installed at D:\Program Files\Pylo\MCreator2020.4\jdk\jre
-[04:23:07] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[04:23:07] [main/ERROR] [FML]: Full: C:\Users\yeon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[04:23:07] [main/ERROR] [FML]: Trimmed: c:/users/yeon/.mcreator/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[04:23:07] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[04:23:07] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[04:23:07] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[04:23:07] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[04:23:07] [main/INFO] [FML]: Searching D:\TeamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\run\.\mods for mods
-[04:23:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[04:23:07] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[04:23:07] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[04:23:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[04:23:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[04:23:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[04:23:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[04:23:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[04:23:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[04:23:08] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[04:23:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[04:23:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[04:23:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[04:23:08] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[04:23:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[04:23:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[04:23:08] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[04:23:08] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player296
-[04:23:09] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[04:23:10] [main/INFO] [FML]: -- System Details --
+[22:01:13] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/yeon/.mcreator/gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[22:01:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:01:13] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:01:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:01:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:01:13] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[22:01:13] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_252, running on Windows 10:amd64:10.0, installed at D:\Program Files\Pylo\MCreator2020.4\jdk\jre
+[22:01:13] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[22:01:13] [main/ERROR] [FML]: Full: C:\Users\yeon\.mcreator\gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[22:01:13] [main/ERROR] [FML]: Trimmed: c:/users/yeon/.mcreator/gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[22:01:13] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[22:01:13] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[22:01:14] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[22:01:14] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[22:01:14] [main/INFO] [FML]: Searching D:\TeamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\run\.\mods for mods
+[22:01:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:01:14] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[22:01:14] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[22:01:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:01:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:01:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:01:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:01:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:01:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:01:14] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[22:01:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:01:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:01:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:01:14] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[22:01:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:01:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:01:14] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:01:15] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player281
+[22:01:16] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[22:01:17] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_252, BellSoft
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), 
-	Memory: 642507960 bytes (612 MB) / 767557632 bytes (732 MB) up to 7622623232 bytes (7269 MB)
+	Memory: 653789112 bytes (623 MB) / 762314752 bytes (727 MB) up to 7622623232 bytes (7269 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 466.77' Renderer: 'NVIDIA GeForce RTX 2060 SUPER/PCIe/SSE2'
-[04:23:10] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
-[04:23:10] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[04:23:10] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[04:23:10] [main/INFO] [FML]: Searching D:\TeamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\run\.\mods for mods
-[04:23:11] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[04:23:11] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ppapdream, worldedit] at CLIENT
-[04:23:11] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ppapdream, worldedit] at SERVER
-[04:23:11] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ppap-Dream-1.12.2, FMLFileResourcePack:WorldEdit
-[04:23:11] [main/INFO] [FML]: Processing ObjectHolder annotations
-[04:23:12] [main/INFO] [FML]: Found 1287 ObjectHolder annotations
-[04:23:12] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[04:23:12] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[04:23:12] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[04:23:12] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[04:23:12] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 76693700 nanos
-[04:23:12] [main/INFO] [FML]: OBJLoader: Domain ppapdream has been added.
-[04:23:12] [main/INFO] [FML]: Applying holder lookups
-[04:23:12] [main/INFO] [FML]: Holder lookups applied
-[04:23:12] [main/INFO] [FML]: Applying holder lookups
-[04:23:12] [main/INFO] [FML]: Holder lookups applied
-[04:23:12] [main/INFO] [FML]: Applying holder lookups
-[04:23:12] [main/INFO] [FML]: Holder lookups applied
-[04:23:12] [main/INFO] [FML]: Applying holder lookups
-[04:23:12] [main/INFO] [FML]: Holder lookups applied
-[04:23:12] [main/INFO] [FML]: Injecting itemstacks
-[04:23:12] [main/INFO] [FML]: Itemstack injection complete
-[04:23:14] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
-[04:23:14] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[04:23:14] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[04:23:14] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[04:23:14] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[04:23:15] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[04:23:16] [main/INFO] [FML]: Max texture size: 16384
-[04:23:17] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
-[04:23:17] [main/INFO] [FML]: Applying holder lookups
-[04:23:17] [main/INFO] [FML]: Holder lookups applied
-[04:23:17] [main/INFO] [FML]: Injecting itemstacks
-[04:23:17] [main/INFO] [FML]: Itemstack injection complete
-[04:23:17] [main/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10-SNAPSHOT) is loaded
-[04:23:17] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[04:23:18] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[04:23:18] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[04:23:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[04:23:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[04:23:37] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:bench_left
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:hotel_door_red
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white_botom
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:crystal
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:door_nm_2_f_closed
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:revolver_block
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:leaves_cherryblossom_pink
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_grass
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:door_nm_2_f_opened
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:fan
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:lucydpatch_can_use
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flowers_white
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:lucid_company_gate_opened
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:lucid_company_gate_closed
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:bench_right
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:abh_sister_photo
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:plant_test
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_crystal
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_pink
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_pink_middle
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white_middle
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_moss_2
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:smart_eyepatch
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:lucydpatch_ppap
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:gro_computer
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:door_nm_3_f_south
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:fan_mypad
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:jappap
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_purple
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:door_nm_3_f_west
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:test
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:my_pad
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_middle
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_purple_middle
-[04:23:37] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:penguin
-[04:23:38] [Server thread/INFO] [FML]: Applying holder lookups
-[04:23:38] [Server thread/INFO] [FML]: Holder lookups applied
-[04:23:38] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@7ddc7f0e)
-[04:23:38] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[04:23:38] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@7ddc7f0e)
-[04:23:38] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@7ddc7f0e)
-[04:23:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[04:23:38] [Server thread/INFO] [FML]: Unloading dimension -1
-[04:23:38] [Server thread/INFO] [FML]: Unloading dimension 1
-[04:23:38] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 5, from 10
-[04:23:41] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[04:23:41] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[04:23:41] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,ppapdream@1.0.0,FML@8.0.99.99,forge@14.23.5.2768,worldedit@6.1.10-SNAPSHOT,mcp@9.42
-[04:23:41] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[04:23:41] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[04:23:41] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player296[local:E:b5e66791] logged in with entity id 57 at (1302.6728708271546, 5.0, -1135.5674964374641)
-[04:23:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player296 joined the game
-[04:23:41] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[04:23:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[04:23:41] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 16 advancements
-[04:25:22] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[04:25:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[04:25:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[04:25:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[04:25:23] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player296 lost connection: Disconnected
-[04:25:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player296 left the game
-[04:25:23] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[04:25:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[04:25:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[04:25:23] [Server thread/INFO] [FML]: Unloading dimension 0
-[04:25:23] [Server thread/INFO] [FML]: Applying holder lookups
-[04:25:23] [Server thread/INFO] [FML]: Holder lookups applied
-[04:25:23] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[04:25:23] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[04:25:24] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[22:01:17] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[22:01:17] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:01:17] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[22:01:17] [main/INFO] [FML]: Searching D:\TeamJappap\07_Dream\customMod\Ppap-Dream-1.12.2\run\.\mods for mods
+[22:01:18] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[22:01:18] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ppapdream, worldedit] at CLIENT
+[22:01:18] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, ppapdream, worldedit] at SERVER
+[22:01:19] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Ppap-Dream-1.12.2, FMLFileResourcePack:WorldEdit
+[22:01:19] [main/INFO] [FML]: Processing ObjectHolder annotations
+[22:01:19] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 28566900 nanos
+[22:01:19] [main/INFO] [FML]: Found 1289 ObjectHolder annotations
+[22:01:19] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:01:19] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[22:01:19] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:01:19] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:01:20] [main/INFO] [FML]: OBJLoader: Domain ppapdream has been added.
+[22:01:20] [main/INFO] [FML]: Applying holder lookups
+[22:01:20] [main/INFO] [FML]: Holder lookups applied
+[22:01:20] [main/INFO] [FML]: Applying holder lookups
+[22:01:20] [main/INFO] [FML]: Holder lookups applied
+[22:01:20] [main/INFO] [FML]: Applying holder lookups
+[22:01:20] [main/INFO] [FML]: Holder lookups applied
+[22:01:20] [main/INFO] [FML]: Applying holder lookups
+[22:01:20] [main/INFO] [FML]: Holder lookups applied
+[22:01:20] [main/INFO] [FML]: Injecting itemstacks
+[22:01:20] [main/INFO] [FML]: Itemstack injection complete
+[22:01:21] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
+[22:01:22] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[22:01:22] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[22:01:22] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:01:22] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[22:01:22] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[22:01:25] [main/INFO] [FML]: Max texture size: 16384
+[22:01:25] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[22:01:26] [main/INFO] [FML]: Applying holder lookups
+[22:01:26] [main/INFO] [FML]: Holder lookups applied
+[22:01:26] [main/INFO] [FML]: Injecting itemstacks
+[22:01:26] [main/INFO] [FML]: Itemstack injection complete
+[22:01:26] [main/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10-SNAPSHOT) is loaded
+[22:01:26] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[22:01:26] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[22:01:27] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[22:01:28] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[22:01:28] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[22:01:28] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:bench_left
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:hotel_door_red
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white_botom
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:crystal
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:door_nm_2_f_closed
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:revolver_block
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:leaves_cherryblossom_pink
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_grass
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:door_nm_2_f_opened
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:fan
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:lucydpatch_can_use
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flowers_white
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:lucid_company_gate_opened
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:lucid_company_gate_closed
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:bench_right
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:abh_sister_photo
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:plant_test
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_crystal
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_pink
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_pink_middle
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_white_middle
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_moss_2
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:lucydpatch_ppap
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:gro_computer
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:door_nm_3_f_south
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:fan_mypad
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:jappap
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_purple
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:door_nm_3_f_west
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:test
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:my_pad
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_middle
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:dream_flower_purple_middle
+[22:01:29] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world ppapdream:penguin
+[22:01:29] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: ppapdream:lucydpatch_original Expected: 317 Got: 353
+[22:01:29] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ppapdream:lucydpatch_original Expected: 4216 Got: 4135
+[22:01:29] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: ppapdream:smart_eyepatch Expected: 4217 Got: 4136
+[22:01:29] [Server thread/INFO] [FML]: Applying holder lookups
+[22:01:29] [Server thread/INFO] [FML]: Holder lookups applied
+[22:01:29] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@508d0429)
+[22:01:29] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[22:01:29] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@508d0429)
+[22:01:29] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@508d0429)
+[22:01:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[22:01:29] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:01:29] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:01:29] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 5, from 10
+[22:01:31] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[22:01:31] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[22:01:31] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,ppapdream@1.0.0,FML@8.0.99.99,forge@14.23.5.2768,worldedit@6.1.10-SNAPSHOT,mcp@9.42
+[22:01:31] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[22:01:31] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:01:31] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player281[local:E:d627b466] logged in with entity id 56 at (1298.4858539765128, 4.0, -1133.8808283814774)
+[22:01:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player281 joined the game
+[22:01:32] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:01:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:01:32] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 31 advancements
+[22:01:55] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:01:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:01:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:01:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[22:01:56] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player281 lost connection: Disconnected
+[22:01:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player281 left the game
+[22:01:56] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[22:01:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[22:01:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:01:56] [Server thread/INFO] [FML]: Unloading dimension 0
+[22:01:56] [Server thread/INFO] [FML]: Applying holder lookups
+[22:01:56] [Server thread/INFO] [FML]: Holder lookups applied
+[22:01:57] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[22:01:57] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[22:01:57] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

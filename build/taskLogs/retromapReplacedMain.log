@@ -1,4 +1,4 @@
-Processing 266 files
+Processing 268 files
 Start Processing: jptv/seomoodi/ppapdream/ClientProxyPpapdreamMod.java
 Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
 Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
@@ -3840,6 +3840,82 @@ Import: jptv.seomoodi.ppapdream.ElementsPpapdreamMod
 Import: java.util.Random
 End  Processing: jptv/seomoodi/ppapdream/block/BlockLucydpatchBox.java
 
+Start Processing: jptv/seomoodi/ppapdream/block/BlockLucydpatchOriginal.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockLucydpatchOriginal/BlockLucydpatchOriginal (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockLucydpatchOriginal
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1958,1974]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockHorizontal/FACING[2182,2188]::FACING->field_185512_D
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockLucydpatchOriginal/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockLucydpatchOriginal/BlockCustom
+Rename field net/minecraft/block/material/Material/IRON[2243,2247]::IRON->field_151573_f
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2264,2282]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2306,2318]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[2330,2335]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2351,2362]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2374,2387]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2398,2411]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2421,2436]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2443,2457]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2481,2496]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2500,2510]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2515,2527]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2531,2543]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2646,2659]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2743,2753]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2840,2854]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2941,2949]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockHorizontal/FACING[2971,2977]::FACING->field_185512_D
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3424,3440]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3577,3589]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3643,3655]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[3669,3675]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3702,3710]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[3769,3779]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3838,3850]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[3861,3871]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3894,3902]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[3961,3977]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4003,4018]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4019,4031]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[4052,4060]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4107,4123]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4173,4181]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[4196,4204]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[4255,4275]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4411,4426]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4427,4439]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[4456,4475]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[4473,4484]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4529,4541]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.math.AxisAlignedBB
+Import: net.minecraft.util.Rotation
+Import: net.minecraft.util.Mirror
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.util.BlockRenderLayer
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.properties.PropertyDirection
+Import: net.minecraft.block.properties.IProperty
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.BlockHorizontal
+Import: net.minecraft.block.Block
+Import: jptv.seomoodi.ppapdream.creativetab.TabDream
+Import: jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+End  Processing: jptv/seomoodi/ppapdream/block/BlockLucydpatchOriginal.java
+
 Start Processing: jptv/seomoodi/ppapdream/block/BlockMirror01.java
 New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
 New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
@@ -4221,6 +4297,82 @@ Import: net.minecraft.block.Block
 Import: jptv.seomoodi.ppapdream.creativetab.TabDream
 Import: jptv.seomoodi.ppapdream.ElementsPpapdreamMod
 End  Processing: jptv/seomoodi/ppapdream/block/BlockPpapMypad.java
+
+Start Processing: jptv/seomoodi/ppapdream/block/BlockSmartEyepatch.java
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockSmartEyepatch/BlockSmartEyepatch (Ljptv/seomoodi/ppapdream/ElementsPpapdreamMod;)V jptv/seomoodi/ppapdream/block/BlockSmartEyepatch
+Rename method net/minecraft/item/Item/getItemFromBlock (Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;[1938,1954]::getItemFromBlock->func_150898_a
+Rename field net/minecraft/block/BlockHorizontal/FACING[2157,2163]::FACING->field_185512_D
+FOUND CONSTR method jptv/seomoodi/ppapdream/block/BlockSmartEyepatch/BlockCustom/BlockCustom ()V jptv/seomoodi/ppapdream/block/BlockSmartEyepatch/BlockCustom
+Rename field net/minecraft/block/material/Material/IRON[2218,2222]::IRON->field_151573_f
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2239,2257]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/block/Block/setSoundType (Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;[2276,2288]::setSoundType->func_149672_a
+Rename field net/minecraft/block/SoundType/METAL[2300,2305]::METAL->field_185852_e
+Rename method net/minecraft/block/Block/setHardness (F)Lnet/minecraft/block/Block;[2321,2332]::setHardness->func_149711_c
+Rename method net/minecraft/block/Block/setResistance (F)Lnet/minecraft/block/Block;[2344,2357]::setResistance->func_149752_b
+Rename method net/minecraft/block/Block/setLightLevel (F)Lnet/minecraft/block/Block;[2368,2381]::setLightLevel->func_149715_a
+Rename method net/minecraft/block/Block/setLightOpacity (I)Lnet/minecraft/block/Block;[2391,2406]::setLightOpacity->func_149713_g
+Rename method net/minecraft/block/Block/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;[2413,2427]::setCreativeTab->func_149647_a
+Rename method net/minecraft/block/Block/setDefaultState (Lnet/minecraft/block/state/IBlockState;)V[2451,2466]::setDefaultState->func_180632_j
+Rename field net/minecraft/block/Block/blockState[2470,2480]::blockState->field_176227_L
+Rename method net/minecraft/block/state/BlockStateContainer/getBaseState ()Lnet/minecraft/block/state/IBlockState;[2485,2497]::getBaseState->func_177621_b
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[2501,2513]::withProperty->func_177226_a
+Rename method net/minecraft/block/Block/getBlockLayer ()Lnet/minecraft/util/BlockRenderLayer;[2616,2629]::getBlockLayer->func_180664_k
+Rename method net/minecraft/block/Block/isFullCube (Lnet/minecraft/block/state/IBlockState;)Z[2713,2723]::isFullCube->func_149686_d
+Rename method net/minecraft/block/Block/getBoundingBox (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/util/math/AxisAlignedBB;[2810,2824]::getBoundingBox->func_185496_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[2911,2919]::getValue->func_177229_b
+Rename field net/minecraft/block/BlockHorizontal/FACING[2941,2947]::FACING->field_185512_D
+Rename method net/minecraft/block/Block/createBlockState ()Lnet/minecraft/block/state/BlockStateContainer;[3394,3410]::createBlockState->func_180661_e
+Rename method net/minecraft/block/Block/withRotation (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3547,3559]::withRotation->func_185499_a
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3613,3625]::withProperty->func_177226_a
+Rename method net/minecraft/util/Rotation/rotate (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/EnumFacing;[3639,3645]::rotate->func_185831_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3672,3680]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/withMirror (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/Mirror;)Lnet/minecraft/block/state/IBlockState;[3739,3749]::withMirror->func_185471_a
+Rename method net/minecraft/block/state/IBlockProperties/withRotation (Lnet/minecraft/util/Rotation;)Lnet/minecraft/block/state/IBlockState;[3808,3820]::withRotation->func_185907_a
+Rename method net/minecraft/util/Mirror/toRotation (Lnet/minecraft/util/EnumFacing;)Lnet/minecraft/util/Rotation;[3831,3841]::toRotation->func_185800_a
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[3864,3872]::getValue->func_177229_b
+Rename method net/minecraft/block/Block/getStateFromMeta (I)Lnet/minecraft/block/state/IBlockState;[3931,3947]::getStateFromMeta->func_176203_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[3973,3988]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[3989,4001]::withProperty->func_177226_a
+Rename method net/minecraft/util/EnumFacing/getFront (I)Lnet/minecraft/util/EnumFacing;[4022,4030]::getFront->func_82600_a
+Rename method net/minecraft/block/Block/getMetaFromState (Lnet/minecraft/block/state/IBlockState;)I[4077,4093]::getMetaFromState->func_176201_c
+Rename method net/minecraft/block/state/IBlockState/getValue (Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;[4143,4151]::getValue->func_177229_b
+Rename method net/minecraft/util/EnumFacing/getIndex ()I[4166,4174]::getIndex->func_176745_a
+Rename method net/minecraft/block/Block/getStateForPlacement (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;FFFILnet/minecraft/entity/EntityLivingBase;)Lnet/minecraft/block/state/IBlockState;[4225,4245]::getStateForPlacement->func_180642_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[4381,4396]::getDefaultState->func_176223_P
+Rename method net/minecraft/block/state/IBlockState/withProperty (Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;[4397,4409]::withProperty->func_177226_a
+Rename method net/minecraft/entity/Entity/getHorizontalFacing ()Lnet/minecraft/util/EnumFacing;[4426,4445]::getHorizontalFacing->func_174811_aO
+Rename method net/minecraft/util/EnumFacing/getOpposite ()Lnet/minecraft/util/EnumFacing;[4443,4454]::getOpposite->func_176734_d
+Rename method net/minecraft/block/Block/isOpaqueCube (Lnet/minecraft/block/state/IBlockState;)Z[4499,4511]::isOpaqueCube->func_149662_c
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Import: net.minecraft.world.World
+Import: net.minecraft.world.IBlockAccess
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.util.math.AxisAlignedBB
+Import: net.minecraft.util.Rotation
+Import: net.minecraft.util.Mirror
+Import: net.minecraft.util.EnumFacing
+Import: net.minecraft.util.BlockRenderLayer
+Import: net.minecraft.item.ItemBlock
+Import: net.minecraft.item.Item
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.client.renderer.block.model.ModelResourceLocation
+Import: net.minecraft.block.state.IBlockState
+Import: net.minecraft.block.properties.PropertyDirection
+Import: net.minecraft.block.properties.IProperty
+Import: net.minecraft.block.material.Material
+Import: net.minecraft.block.SoundType
+Import: net.minecraft.block.BlockHorizontal
+Import: net.minecraft.block.Block
+Import: jptv.seomoodi.ppapdream.creativetab.TabDream
+Import: jptv.seomoodi.ppapdream.ElementsPpapdreamMod
+End  Processing: jptv/seomoodi/ppapdream/block/BlockSmartEyepatch.java
 
 Start Processing: jptv/seomoodi/ppapdream/block/BlockTransperantLightFull.java
 New Key: class jptv/seomoodi/ppapdream/ElementsPpapdreamMod

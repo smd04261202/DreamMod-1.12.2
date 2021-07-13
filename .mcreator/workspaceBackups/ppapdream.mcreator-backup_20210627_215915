@@ -1,6 +1,6 @@
 {
   "id_map": {
-    "GUI": 110,
+    "GUI": 111,
     "ENTITY": 15
   },
   "mod_elements": [
@@ -4416,6 +4416,109 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "mp_trapdoor_opened"
+    },
+    {
+      "name": "MpTrapdoorClosedOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mp_trapdoor_closed_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GuiLastLetter",
+      "type": "gui",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 111
+      },
+      "registry_name": "gui_last_letter"
+    },
+    {
+      "name": "LastLetterRightClickedInAir",
+      "type": "procedure",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "last_letter_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LastLetter",
+      "type": "item",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "last_letter"
+    },
+    {
+      "name": "LucydpatchOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucydpatch_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4448,17 +4551,17 @@
       "item.vocal_cord.name": "Vocal Cord",
       "tile.door_blue_hotel_north.name": "Door Blue Hotel North",
       "item.key_real_red.name": "Key Real Red",
-      "tile.door_ppap_closed.name": "Door Ppap Closed",
       "item.pge_travel_photo_01.name": "Pge Travel Photo 0 1",
+      "tile.door_ppap_closed.name": "Door Ppap Closed",
       "tile.dream_flower_2.name": "Dream Flower 2",
       "item.revolver.name": "Revolver",
       "tile.dream_vine_middle.name": "Dream Vine Middle",
       "tile.door_purple_opened.name": "Door Purple Opened",
       "tile.mp_trapdoor_opened.name": "Mp Trapdoor Opened",
       "tile.door_blue_hotel_west.name": "Door Blue Hotel West",
-      "item.pge_memo_01.name": "Pge Memo",
-      "item.pge_necktie.name": "Pge Necktie",
       "item.ppap_picture_02.name": "Ppap Picture 0 2",
+      "item.pge_necktie.name": "Pge Necktie",
+      "item.pge_memo_01.name": "Pge Memo",
       "tile.door_white_hotel_north.name": "Door White Hotel North",
       "item.nbp_umbrella.name": "Nbp Umbrella",
       "item.addlc_2.name": "Addlc 2",
@@ -4467,14 +4570,14 @@
       "item.pge_diary_03.name": "Pge Diary 0 3",
       "item.key_brown.name": "Key Brown",
       "tile.umbrella_stand.name": "Umbrella Stand",
-      "item.gsd_mypad.name": "Gsd Mypad",
       "tile.bakha_doll.name": "Bakha Doll",
+      "item.gsd_mypad.name": "Gsd Mypad",
       "tile.dream_flowers_pink_middle.name": "Dream Flower Pink Middle",
       "tile.hotel_floor.name": "Hotel Light",
       "item.espresso.name": "Espresso",
-      "item.nbp_letter.name": "Nbp Letter",
-      "tile.door_white_north.name": "Door White North",
       "tile.lucydpatch_box.name": "Lucydpatch Box",
+      "tile.door_white_north.name": "Door White North",
+      "item.nbp_letter.name": "Nbp Letter",
       "tile.dream_flowers_purple_bottom.name": "Dream Flower Purple Bottom",
       "tile.door_gray_west.name": "Door Gray West",
       "item.key_mp_4_f.name": "Key Mp 4F",
@@ -4506,6 +4609,7 @@
       "tile.door_gray_north.name": "Door Gray North",
       "item.hidden_memo_02.name": "Hidden Memo 0 2",
       "entity.dream_dragon_fly.name": "Dream DragonFly",
+      "item.last_letter.name": "Last Letter",
       "tile.dream_vine_bottom.name": "Dream Vine Bottom",
       "tile.door_white_hotel_west.name": "Door White Hotel West",
       "tile.door_black_west.name": "Door Black West",

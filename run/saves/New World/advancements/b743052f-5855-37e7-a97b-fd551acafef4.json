@@ -71,15 +71,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone_lamp": {
-    "criteria": {
-      "has_glowstone": "2021-05-25 07:51:18 +0900"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/boat": {
     "criteria": {
       "entered_water": "2021-05-25 07:50:33 +0900"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2021-05-25 07:51:18 +0900"
     },
     "done": true
   },
